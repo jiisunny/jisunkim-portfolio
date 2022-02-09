@@ -1,0 +1,128 @@
+/* header_style_pc.css */
+
+.swiper-slide > img{
+    width: 100%;
+}
+
+#main_header{
+	width: 980px; height: 120px;
+	margin: 0 auto;
+
+	position: relative;
+}
+
+	label.search{ display: none;}
+	#top_nav{
+		position: absolute;
+		right: 0; top: 5px;
+	}
+		#top_nav > ul{
+			overflow: hidden;
+            margin-right: -380px;
+            margin-top: 10px;
+		}
+			li#search_wrap{
+				float: left;
+				margin-right: 15px;
+			}
+				li#search_wrap > form{}
+					li#search_wrap fieldset{
+						overflow: hidden;
+					}
+					li#search_wrap fieldset > input{
+						float: left;
+					}
+					input.search_text{
+						width: 200px; height: 30px;
+						box-sizing: border-box;
+						border: 1px solid #000;
+						border-right: none;
+						line-height: 25px;
+						padding: 0 5px;
+					}
+					input.search_btn{}
+
+			li#language{
+                float: left;
+                height: 30px;
+                font-size: 21px;
+                line-height: 30px;
+                margin-left: 20px;
+            }
+	
+	#logo{
+		position: absolute;
+		left: 0; top: 35px;
+		z-index: 100;
+	}
+		#logo > a{
+			width: 100px; height: 57px;
+			background: url(../images/logo.png) no-repeat;
+
+			text-indent: -6000px; overflow: hidden;
+		}
+
+	label.menu{ display: none;}
+
+
+#main_nav{
+	width: 100%; height: 60px;
+	overflow: hidden;
+	background: #fff;
+	position: absolute;
+	top: 56px; left: 0;
+	z-index: 90;
+
+	transition-duration: 0.4s;
+}
+#main_nav.active{
+	height: 350px;
+}
+	#main_nav > ul{
+		width: 700px; height: 45px;
+		padding-bottom: 12px;
+
+		position: absolute;
+		top: 0; left: 50%;
+		margin-left: -210px;
+	}
+		#main_nav > ul > li{
+			float: left;
+			margin-right: 20px;
+			position: relative;
+			height: 45px;
+            padding-right: 75px;
+            margin-top: 5px;
+		}
+        #main_nav > ul > li:last-child{
+            padding-right: 0;
+        }
+		#main_nav > ul > li:last-child{
+			margin-right: 0;
+		}
+			#main_nav > ul > li > a{
+				height: 45px;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 45px;
+			}
+
+
+			#main_nav > ul > li > h3{ display: none;}
+			/** 세부메뉴 **/
+			#main_nav > ul > li > ul{
+				position: absolute;
+				left: 0; top: 70px;
+			}
+				#main_nav > ul > li > ul > li{
+					height: 40px;
+				}
+					#main_nav > ul > li > ul > li > a{
+						line-height: 40px;
+                        font-size: 21px;
+                        font-weight: 600;
+						white-space: nowrap;
+						color: #3e3e3e;
+						letter-spacing: -1px;
+						padding-left: 3px;
+					}

@@ -1,0 +1,350 @@
+/* master.css */
+
+@import url( common.css);
+
+#contentswrap {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  letter-spacing: 3px;
+}
+.wrap_align {
+  z-index: 400;
+}
+
+/**** GOMAIN ****/
+.myname {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 120px; height: 120px;
+  z-index: 300;
+}
+  .myname > a {
+    width: 120px; height: 120px;
+    background: url(../images/sunny_logo.png);
+    text-indent: -6000px;
+    overflow: hidden;
+    animation: rotate_image 15s linear infinite;
+    transform-origin: 50% 50%;
+  }
+    @keyframes rotate_image {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .myname:hover > a {
+      transform: rotate(-1440deg);
+    }
+
+/**** SECTION1 HOME ****/
+#home {
+  width: 100%;
+  height: 100%;
+}
+#home > img {
+    width: 100%;
+}
+  #home > .wrap_align {
+    width: 1600px;
+    margin: 0 auto;
+  }
+    #maintitle {
+      position: absolute;
+      top: 15%;
+      right: 15%;
+    }
+      #home > .wrap_align > #maintitle > .logo {
+        font-size: 70px;
+        height: 160px;
+        text-align: left;
+        border-bottom: 4px solid #fff;
+        letter-spacing: 5px;
+        min-width: 450px;
+      }
+      #home > .wrap_align > #maintitle > h2 {
+        font-size: 30px;
+        text-align: left;
+        letter-spacing: 20px;
+        padding-top: 20px;
+      }
+
+/***** 메뉴 제목 *****/
+.menu {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  text-align: left;
+}
+.title {
+  font-size: 55px;
+}
+.subtitle {
+  font-size: 25px;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 4px solid #fff;
+}
+
+/**** SECTION2 PORTFOLIO ****/
+#portfolio {
+  width: 100%;
+  height: 100%;
+}
+  #portfolio > .wrap_align {
+    width: 100%;
+  }
+      #portfolio > .wrap_align > .brandlist > ul {
+        width: 1400px;
+        margin: 0 auto;
+        margin-top: 400px;
+      }
+        #portfolio > .wrap_align > .brandlist > ul > li {
+          display: inline-block;
+          padding: 0 25px;
+        }
+          #portfolio > .wrap_align > .brandlist > ul > li > a {
+            width: 250px;
+            height: 250px;
+          }
+            .brandname {
+              margin-top: 45px;
+              font-size: 25px;
+            }
+
+            /***** 크리스피크림 *****/
+            #krispykreme > img {
+              opacity: 0;
+              transition-duration: 0.4s;
+            }
+            #krispykreme > img:hover {
+              opacity: 1;
+            }
+            #krispykreme > .krispykremebg {
+              width: 250px;
+              height: 250px;
+              border-radius: 50%;
+              background: url(../images/krispykreme.png);
+              margin-top: -250px;
+            }
+
+/***** 유리아쥬 *****/
+#uriage > img {
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+#uriage > img:hover {
+  opacity: 1;
+}
+#uriage > .uriagebg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../images/uriage.png);
+  margin-top: -250px;
+}
+
+/***** 유한양행 *****/
+#yuhan > img {
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+#yuhan > img:hover {
+  opacity: 1;
+}
+#yuhan > .yuhanbg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../images/yuhan.png);
+  margin-top: -250px;
+}
+
+/***** 작업중*****/
+#working > img {
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+#working > img:hover {
+  opacity: 1;
+}
+#working > .workingbg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../images/cafecha.png);
+  margin-top: -250px;
+}
+
+/**** SECTION3 ABOUT ME ****/
+#me {
+  width: 100%;
+  height: 100%;
+}
+  #me > .wrap_align {
+    width: 1600px;
+    margin: 0 auto;
+  }
+    #me > .wrap_align > .info {
+      position: absolute;
+      top: 370px;
+      left: 16%;
+      font-size: 23px;
+      width: 800px;
+    }
+      #me > .wrap_align > .info > ul.question {
+        position: absolute;
+        left: 0; top: 0;
+        text-align: right;
+      }
+        #me > .wrap_align > .info > ul.question > li {
+          padding: 20px 0;
+        }
+      #me > .wrap_align > .info > ul.answer {
+        position: absolute;
+        left: 200px; top: 0;
+        text-align: left;
+      }
+        #me > .wrap_align > .info > ul.answer > li {
+          padding: 20px 0;
+        }
+    #me > .wrap_align > #profile {
+      position: absolute;
+      top: 30%;
+      right: 25%;
+    }
+      #me > .wrap_align > #profile > a {
+        width: 280px;
+        height: 280px;
+      }
+       #me > .wrap_align > #profile > a > img {
+        transition-duration: 0.3s;
+        width: 280px; height: 280px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 #fff;
+       }
+       #me > .wrap_align > #profile > a > img:hover {
+        box-shadow: 50px 50px 0 #fff;
+        transform: translateX(8px) translateY(-8px);
+       }
+
+/**** SECTION4 ARTWORKS ****/
+#artwork {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+  #artwork  > .wrap_align {
+    width: 1600px;
+    margin: 0 auto;
+  }
+    #artwork > .wrap_align > ul.artlist {
+      margin-top: 370px;
+    }
+      #artwork > .wrap_align > ul.artlist > li {
+        display: inline-block;
+        padding: 0 20px;
+      }
+        #artwork > .wrap_align > ul.artlist > li > a > div {
+          transform: scale(1.0);
+        }
+        #artwork > .wrap_align > ul.artlist > li > a:hover > div {
+          transform: scale(1.05);
+          transition-duration: 0.4s
+        }
+        /* project */
+          #artwork > .wrap_align > ul.artlist > #project > a > div {
+            width: 300px; height: 300px;
+            background: url(../images/balimoon.png);
+          }
+          #project > a > h2,
+          #graphic > a > h2,
+          #drawing > a > h2,
+          #photography > a > h2 {
+            margin-top: 45px;
+            font-size: 25px;
+          }
+        /* graphic */
+        #artwork > .wrap_align > ul.artlist > #graphic > a > div {
+          width: 300px; height: 300px;
+          background: url(../images/cardnews.png);
+        }
+        /* drawing */
+        #artwork > .wrap_align > ul.artlist > #drawing > a > div {
+          width: 300px; height: 300px;
+          background: url(../images/drawing.png);
+        }
+        /* photography */
+        /*
+        #artwork > .wrap_align > ul.artlist > #photography > a > div {
+          width: 300px; height: 300px;
+          background: url(../images/photography.png);
+        }
+        */
+
+/**** SECTION5 CONTACT ****/
+#contact {
+  width: 100%;
+  height: 100%;
+}
+      #contact > .wrap_align > .address > h2 {
+        font-size: 60px;
+        margin-top: 150px;
+        letter-spacing: 3px;
+      }
+      #contact > .wrap_align > .address > p.first {
+        margin-top: 50px;
+        font-size: 23px;
+      }
+      #contact > .wrap_align > .address > p.second {
+        font-size: 23px;
+      }
+      .circle {
+        width: 350px; height: 350px;
+        margin: 0 auto;
+        background: url(../images/contact_bg.png) no-repeat center;
+        margin-top: 40px;
+      }
+      #contact > .wrap_align > .address > ul.contactme {
+        margin-top: -285px;
+        margin-bottom: 200px;
+      }
+        #contact > .wrap_align > .address > ul.contactme > li {
+          font-size: 20px;
+          padding: 5px 0;
+        }
+        #contact > .wrap_align > .address > ul.contactme > li:nth-of-type(3) {
+          margin-top: 40px;
+        }
+
+/**** FOOTER ****/
+#contact > .wrap_align > .footer {
+  width: 100%; height: 100px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+  #contact > .wrap_align > .footer > #btntop {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+  }
+    #contact > .wrap_align > .footer > #btntop > a {
+      width: 100px;
+      height: 100px;
+      background: url(../images/btn_top.png);
+    }
+    #contact > .wrap_align > .footer > #btntop > a:hover {
+      margin-top: -7px;
+      transition-duration: 0.3s;
+    }
+    #contact > .wrap_align > .footer > .copyright {
+      font-size: 18px;
+      color: #6e6e6e;
+      padding-top: 35px;
+      z-index: 10;
+    }

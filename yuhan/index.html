@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>유한양행</title>
+    
+    <link rel="shortcut icon" type="images/x-icon" href="images/yuhan_icon.png" />
+    
+	<link rel="stylesheet" href="CSS/master.css" />
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="CSS/swiper.css" />
+
+<style>
+/* BANNER SWIPER */
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide > a,
+.swiper-slide > a > img{
+	width: 100%
+}
+</style>
+</head>
+<body>
+
+
+<!---------- [s]HEADER ---------->
+<header id="main_header">
+	<div class="header_wrap">
+		<!-- [s]로고 -->
+		<div class="logo_wrap">
+			<h1 class="logo">
+				<a href="index.html">유한양행</a>
+			</h1>
+		</div>
+
+		<!-- [s]메인메뉴 -->
+		<nav id="main_nav">
+			<h2 class="blind">메인메뉴</h2>
+			<div class="mainnav_align">
+				<ul>
+					<li>
+						<a href="#">유한소개</a>
+						<ul class="sub_nav">
+							<li><a href="#">회사개요</a></li>
+							<li><a href="#">CEO 메세지</a></li>
+							<li><a href="#">회사 연혁</a></li>
+							<li><a href="#">기업 이념</a></li>
+							<li><a href="#">부패방지방침</a></li>
+							<li><a href="#">경영정보</a></li>
+							<li><a href="#">사업 분야</a></li>
+							<li><a href="#">홍보</a></li>
+							<li><a href="#">가족 회사</a></li>
+							<li><a href="#">오시는 길</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">제품정보</a>
+						<ul class="sub_nav">
+							<li><a href="#">제품정보</a></li>
+							<li><a href="#">제품소식</a></li>
+							<li><a href="#">제품 외형별 검색</a></li>
+							<li><a href="#">가정상비약</a></li>
+							<li><a href="#">브랜드 이야기</a></li>
+							<li><a href="#">약국찾기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">연구개발</a>
+						<ul class="sub_nav">
+							<li><a href="#">미션 & 비전</a></li>
+							<li><a href="#">연구 역량</a></li>
+							<li><a href="#">파이프라인</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">투자정보</a>
+						<ul class="sub_nav">
+							<li><a href="#">공시정보</a></li>
+							<li><a href="#">재무정보</a></li>
+							<li><a href="#">주식정보</a></li>
+							<li><a href="#">기업지배구조</a></li>
+							<li><a href="#">IR자료실</a></li>
+							<li><a href="#">ANNUAL REPORT</a></li>
+						</ul> 
+					</li>
+					<li>
+						<a href="#">CSR</a>
+						<ul class="sub_nav">
+							<li><a href="#">준법경영</a></li>
+							<li><a href="#">사회공헌</a></li>
+							<li><a href="#">환경·안전경영</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">창업자 유일한</a>
+						<ul class="sub_nav">
+							<li><a href="#">창업자 유일한</a></li>
+							<li><a href="#">온라인 기념관</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>
+
+<!---------- [s]배너슬라이더 ---------->
+<!-- 배너슬라이더 시작 -->
+<!-- Swiper -->
+<section id="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#"><img src="images/banner_01.png" alt="faith" /></a>
+            </div>
+
+            <div class="swiper-slide">
+                <a href="#"><img src="images/banner_02.png" alt="vision" /></a></div>
+
+            <div class="swiper-slide">
+                <a href="#"><img src="images/banner_03.png" alt="best partner" /></a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!--
+        <div class="swiper-button-next"><img src="images/btn_next.png" alt="next" /></div>
+        <div class="swiper-button-prev"><img src="images/btn_prev.png" alt="prev" /></div>
+        -->
+    </div>
+</section><!--// section id="banner" -->
+
+<!-- Swiper JS -->
+<script src="js/swiper.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 1,
+		spaceBetween: 0,
+		loop: true,
+		autoplay: {
+			delay: 2900,
+			disableOnInteraction: false,
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+</script>
+<!-- 배너슬라이더 끝 -->
+
+<!-- [s]SEARCH CONTENTS -->
+<section id="search">
+	<div class="search_wrap">
+		<h2 class="title">제품검색</h2>
+        
+        <div class="searchbar_wrap">
+			<form>
+				<fieldset>
+					<legend>SEARCH</legend>
+					<input id="search_text" type="text" placeholder="유한양행 제품을 제품명, 효능으로 검색해보세요." />
+					<input id="search_btn" type="image" src="images/search_icon.png" alt="검색" />
+				</fieldset>
+			</form>
+		</div>
+        
+        <!--
+		<div class="products">
+			<input type="text" maxlength="40" value="유한양행 제품을 제품명, 효능으로 검색해보세요."  />
+			<!-------------------------- 작업중 검색어 img 수정하기 // ----------------------------------->
+        <!--
+		</div>
+-->
+		<div class="keyword">
+            <div class="item_wrap">
+                <button type="button" class="item" onclick"#"><a href="#">#삐꼼씨</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#소화불량</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#고지혈증</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#고혈압</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#비타민</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#진통제</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#감기약</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#근육통</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#피로회복</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#칫솔</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#세제</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#동물약품</a></button>
+                <button type="button" class="item" onclick"#"><a href="#">#알레르기</a></button>
+            </div>
+		</div>
+		<div class="initial">
+            <div class="initial_wrap">
+                <a href="#">ㄱ</a>
+                <a href="#">ㄴ</a>
+                <a href="#">ㄷ</a>
+                <a href="#">ㄹ</a>
+                <a href="#">ㅁ</a>
+                <a href="#">ㅂ</a>
+                <a href="#">ㅅ</a>
+                <a href="#">ㅇ</a>
+                <a href="#">ㅈ</a>
+                <a href="#">ㅊ</a>
+                <a href="#">ㅋ</a>
+                <a href="#">ㅌ</a>
+                <a href="#">ㅍ</a>
+                <a href="#">ㅎ</a>
+            </div>
+		</div>
+	</div>
+</section>
+
+<!-- [s]BEST CONTENTS -->
+<section id="best">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <a href="#">
+                <img src="images/best_2.png" alt="안티푸라민" />
+            </a>
+        </div>
+        <div class="mySlides fade">
+            <a href="#">
+                <img src="images/best_1.png"  alt="삐콤씨" />
+            </a>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a class="next" onclick="plusSlides(1)"></a>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</section>
+    
+<script src="js/jquery-3.5.0.min.js"></script>
+    
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+    }
+
+</script>
+
+<!-- [s]FOOTER CONTENTS -->
+<footer id="main_footer">
+	<nav id="ft_nav">
+		<ul class="list">
+			<li><a href="#">CONTACT US</a></li>
+			<li><a href="#">SITEMAP</a></li>
+			<li><a href="#">ENGLISH</a></li>
+			<li><a href="#">CHINESE</a></li>
+		</ul>
+		<div class="fms_wrap">
+			<div class="fms">
+				<h2>Family Site</h2>
+				<ul>
+					<li><a href="#">삐꼼씨</a></li>
+					<li><a href="#">센스데이</a></li>
+					<li><a href="#">ARM&#38;HAMMER</a></li>
+					<li><a href="#">유한킴벌리</a></li>
+					<li><a href="#">유한크로락스</a></li>
+					<li><a href="#">주식회사 유한화학</a></li>
+					<li><a href="#">주식회사 한국얀센</a></li>
+					<li><a href="#">유한메디카</a></li>
+				</ul>
+			</div>
+		</div>
+        
+        <!-- 패밀리사이트 적용 -->
+        <script>
+			$(function(){
+				var bCheck=false;
+				$(".fms > h2").click(function(){
+					bCheck = !bCheck;
+
+					if(bCheck){
+						$(".fms > ul").addClass("active");
+					}else{
+						$(".fms > ul").removeClass("active");
+						$("#fms > ul > li").removeClass("active");
+					}
+				});
+
+				$(".fms > ul > li").click(function(){
+					$(".fms > ul > li").removeClass("active");
+					$(this).addClass("active");
+				});
+			});
+		</script>
+        
+		<div class="sns_wrap">
+			<ul>
+				<li><a href="#">facebook</a></li>
+				<li><a href="#">youtube</a></li>
+				<li><a class="gotop" href="#">top</a></li>
+			</ul>
+		</div>
+	</nav>
+    
+    <!-- GO TOP -->
+    <script>
+    $(function(){
+        $(".gotop").click(function(){
+            $('html, body').animate({
+                scrollTop: 0
+            }, 400);
+        });
+    });
+    </script>
+    
+    
+	<div id="util">
+		<h1 class="logo">유한양행</h1>
+		<ul class="policy">
+			<li><a href="#">사이트이용약관</a></li>
+			<li><a href="#">개인정보처리방침</a></li>
+			<li><a href="#">영상정보처리기기 운영관리방침</a></li>
+			<li><a href="#">이메일무단수집거부</a></li>
+			<li><a href="#">스팸정책</a></li>
+			<li><a href="#">법적고지</a></li>
+			<li><a href="#">사이트이용도움</a></li>
+		</ul>
+		<address>서울시 동작구 노량진로 74&nbsp;&nbsp;&nbsp;&nbsp;TEL 02-828-0181&nbsp;&nbsp;&nbsp;&nbsp;대표자 이정희&nbsp;&nbsp;&nbsp;&nbsp;사업자등록번호 118-81-00601</address>
+		<p class="copyright">COPYRIGHT 	&copy;2013 YUHAN.ALL RIGHTS RESERVED</p>
+	</div>
+</footer>
+
+</body>
+</html>
+

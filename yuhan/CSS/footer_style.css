@@ -1,0 +1,162 @@
+/* footer_style.css */
+
+#main_footer{
+    width: 100%;
+}
+
+/* ft_nav 푸터 상단 */
+#ft_nav{
+    width: 100%;
+    height: 60px;
+    background-color: #faf7f2;
+    
+    position: relative;
+}
+    #ft_nav > .list{
+        width: 400px;
+        position: absolute;
+        left: 250px;
+    }
+        #ft_nav > .list > li{
+            float: left;
+            line-height: 60px;
+            padding-right: 20px;
+        }
+            #ft_nav > .list > li > a{
+                color: #515151;
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+    /** 패밀리사이트 **/
+    #ft_nav > .fms_wrap{
+        position: absolute;
+        top: 12px; right: 500px;    
+    }
+        #ft_nav > .fms_wrap > .fms{
+            float: left;
+            width: 180px; height: 35px;
+            background: url(../images/fms.png) no-repeat 150px center;
+
+            font-size: 17px;
+            cursor: pointer;
+            color: #515151;
+        }
+            #ft_nav > .fms_wrap > .fms > h2{
+                width: 180px; height: 35px;
+                box-sizing: border-box;
+                border: 1px solid #515151;
+                line-height: 35px;
+                color: #515151;
+                padding-left: 10px;
+            }
+            #ft_nav > .fms_wrap > .fms > ul{
+                width: 180px; height: 0;
+                box-sizing: border-box;
+                border-left: 1px solid #515151;
+                border-right: 1px solid #515151;
+
+                position: absolute;
+                left: 0; bottom: 35px;
+
+                background: #faf7f2;
+                transition-duration: 0.3s;
+                overflow: hidden;
+            }
+            #ft_nav > .fms_wrap > .fms > ul.active{
+                height: 279px;
+                border-top: 1px solid #515151;
+            }
+                #ft_nav > .fms_wrap > .fms > ul > li{
+                    height: 35px;
+                    line-height: 35px;
+                    padding-left: 10px;
+                }
+                #ft_nav > .fms_wrap > .fms > ul > li:hover{
+                    background: #fff;
+                }
+                    #ft_nav > .fms_wrap > .fms > ul > li > a{}
+
+
+    /** SNS & GOTOP **/
+    .sns_wrap{
+        position: absolute;
+        top: 10px; right: 290px;
+
+    }
+        .sns_wrap > ul{}
+            .sns_wrap > ul > li{
+                display: inline-block;
+                padding: 0 7px;
+            }
+                .sns_wrap > ul > li > a{
+                    width: 40px; height: 40px;
+                    text-indent: -6000px; overflow: hidden;
+                }
+                .sns_wrap > ul > li:nth-of-type(1) > a{
+                    background: url(../images/facebook.png);
+                }
+                .sns_wrap > ul > li:nth-of-type(2) > a{
+                    background: url(../images/youtube.png);
+                }
+                .sns_wrap > ul > li:nth-of-type(3) > a{
+                    background: url(../images/gotop.png);
+                }
+
+/* util 푸터 하단 */
+#util{
+    height: 230px;
+    position: relative;
+    background: #f6f2e9;
+}
+    #util > .logo{
+        position: absolute;
+        top: 50px; left: 250px;
+        width: 198px; height: 47px;
+        background: url(../images/ft_logo.png);
+        text-indent: -6000px; overflow: hidden;
+    }
+
+    #util > .policy{
+        position: absolute;
+        top: 60px; left: 540px;
+    }
+        #util > .policy > li{
+            display: inline-block;
+            background: url(../images/dot.png) no-repeat right center;
+            padding-right: 22px;
+            padding-left: 16px;
+        }
+        #util > .policy > li:first-child{
+            padding-left: 0;
+        }
+        #util > .policy > li:last-child{
+            padding-right: 0;
+            background: none;
+        }
+            #util > .policy > li > a{
+                font-size: 18px;
+                font-weight: 600;
+                color: #515151;
+            }
+
+    #util > address{
+        position: absolute;
+        top: 130px; left: 540px;
+        font-size: 17px;
+        color: #a0a0a0;
+    }
+
+    .copyright{
+        position: absolute;
+        top: 160px; left: 540px;
+        font-size: 17px;
+        color: #a0a0a0;
+    }
+
+
+
+
+
+
+

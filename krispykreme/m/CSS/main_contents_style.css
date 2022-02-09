@@ -1,0 +1,165 @@
+/* main_contents_style.css */
+
+#container{
+	width: 100%;
+}
+
+	/*************** 메뉴 ***************/
+	#container > #menu{
+		width: 100%;
+	}
+		h2.title{
+			height: 100px;
+			line-height: 100px;
+			font-size: 23px;
+			font-weight: 700;
+			text-align: center;
+
+			margin-top: 40px;
+		}
+
+		#menu > .menu_list_wrap{
+			width: 100%;
+			overflow: auto;
+		}
+
+			#menu > .menu_list_wrap > .swiper-wrapper > .swiper-slide > ul > li > a > h3{
+				font-size: 20px;
+				font-weight: 700;
+
+				padding: 10px 0;
+				text-align: center;
+			}
+
+			#menu > .menu_list_wrap > .swiper-pagination{
+				display: none;
+			}
+
+		/* 테스트
+		#menu > div.menu_list_wrap{
+			width: 100%;
+			overflow: auto;
+		}
+			#menu > .menu_list_wrap > ul.menu_list{
+				width: 200%;
+			}
+				#menu > .menu_list_wrap > ul.menu_list > li{
+					float: left;
+					width: 20%;
+				}
+					#menu > .menu_list_wrap > ul.menu_list > li > a{
+						width: 100%;
+					}
+						#menu > .menu_list_wrap > ul.menu_list > li > a > img{
+							width: 100%;
+						}
+							#menu > .menu_list_wrap > ul.menu_list > li > a > h3{
+								width: 100%;
+								font-size: 20px;
+								font-weight: 700;
+
+								padding: 10px 0;
+								text-align: center;
+							}
+							*/
+
+	/*************** 이벤트 ***************/
+	section#event{
+		margin-top: 90px;
+	}
+
+	/*************** 주문배달 ***************/
+	#orders{
+		width: 100%;
+		margin-top: 20px;
+	}
+		#orders > .orders_list_wrap{
+			width: 100%;
+			overflow: auto;
+		}
+			#orders > .orders_list_wrap > .swiper-wrapper > .swiper-slide > ul > li > a > img{
+				width: 100%;
+			}
+			#orders > .orders_list_wrap > .swiper-wrapper > .swiper-slide > ul > li > a > h3{
+				width: 100%;
+				font-size: 20px;
+				font-weight: 700;
+
+				padding: 25px 0;
+				text-align: center;
+			}
+			
+			#orders > .orders_list_wrap > .swiper-pagination{
+				display: none;
+			}
+
+		/* 테스트
+			.orders_list_wrap > ul.orders_list{
+				width: 200%;
+			}
+				.orders_list_wrap > ul.orders_list > li{
+					float: left;
+					width: 25%;
+				}
+					.orders_list_wrap > ul.orders_list > li > a{}
+						.orders_list_wrap > ul.orders_list > li > a > img{
+							width: 100%;
+						}
+						.orders_list_wrap > ul.orders_list > li > a > h3{
+							width: 100%;
+							font-size: 20px;
+							font-weight: 700;
+
+							padding: 10px 0;
+							text-align: center;
+						}
+						*/
+
+	/*************** SNS ***************/
+	#follow{
+		width: 100%;
+		margin-top: 20px;
+
+		position: relative;
+	}
+		#follow > h3{
+			font-size: 15px;
+			text-align: center;
+			min-width: 300px;
+			margin-top: -25px;
+		}
+			#follow > ul.sns_link{
+				width: 100%;
+				margin-top: 20px;
+				min-width: 250px;
+
+				text-align: center;
+			}
+				#follow > ul.sns_link > li{
+					display: inline-block;
+					width: 70px; height: 70px;
+					padding: 0 3px;
+				}
+
+			.follow_wrap{
+				width: 100%;
+				overflow: auto;
+			}
+				.follow_wrap > ul.sns_list{
+					width: 300%;
+ 
+					margin-top: 40px;
+					overflow: hidden;
+				}
+					.follow_wrap > ul.sns_list > li{
+						float: left;
+						width: 14.28%;
+						box-sizing: border-box;
+						padding: 0 0.14%;
+					}
+						.follow_wrap > ul.sns_list > li > a{
+						
+						}
+						.follow_wrap > ul.sns_list > li > a > img{
+							width: 100%;
+						}

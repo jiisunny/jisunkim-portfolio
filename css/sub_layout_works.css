@@ -1,0 +1,534 @@
+/* sub_krispykreme.css */
+
+@import url( common.css);
+
+body{
+  letter-spacing: 1px;
+  background: #fff;
+}
+
+/**** GO HOME ****/
+.myname{
+  position: fixed;
+  top: 50px;
+  left: 40px;
+  width: 120px; height: 120px;
+  z-index: 300;
+}
+  .myname > a{
+    width: 120px; height: 120px;
+    background: url(../images/sunny_logo.png);
+    text-indent: -6000px;
+    overflow: hidden;
+    animation: rotate_image 15s linear infinite;
+    transform-origin: 50% 50%;
+  }
+  @keyframes rotate_image{
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .myname:hover > a{
+    transform: rotate(-1440deg);
+  }
+
+/**** MAIN ****/
+#main{
+  width: 100%; height: 750px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url(../images/main_balimoon.png) no-repeat;
+  z-index: -50;
+}
+  #main > .contentswrap{
+    width: 1500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+    #main > .contentswrap > .title{
+      width: 400px;
+    }
+      #main > .contentswrap > .title > .logo{
+        font-size: 50px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #fff;
+      }
+      #main > .contentswrap > .title > h2{
+        padding-top: 15px;
+        font-size: 29px;
+      }
+      #main > .contentswrap > .title > h2:nth-of-type(1){
+        margin-top: 5px;
+      }
+      #main > .contentswrap > .title > h3{
+          font-size: 20px;
+          margin-top: 85px;
+      }
+      #main > .contentswrap > .title > p{
+        width: 400px;
+        font-size: 20px;
+        line-height: 25px;
+      }
+    #main > .contentswrap > ul.period{
+      font-size: 20px;
+      margin-top: 90px;
+    }
+      #main > .contentswrap > ul.period > li{
+        padding: 8px 0;
+      }
+
+/***** 고정 메뉴 *****/
+div#menu{
+  width: 120px; height: 420px;
+  position: absolute;
+  right: 3%;
+  z-index: 200;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+  div#menu > ul > li{
+    width: 120px; height: 120px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  div#menu > ul > li:last-child{
+    margin-bottom: 0;
+  }
+    div#menu > ul > li > a{
+      width: 120px;
+      height: 120px;
+    }
+
+  /** 고정 메뉴 hover효과 **/
+  div#menu > ul > li > a > .front{
+    position: absolute;
+    left: 0; top: 0;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+  }
+  div#menu > ul > li:hover > a > .front{
+    transform: rotateY(180deg);
+  }
+  div#menu > ul > li > a > .back{
+    position: absolute;
+    left: 0; top: 0;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+  }
+  div#menu > ul > li:hover > a > .back{
+    transform: rotateY(360deg);
+  }
+
+/**** SECTION1 GUIDE ****/
+#guide{
+  width: 100%;
+  background: #fff;
+  margin-top: 750px;
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+#guide > .contentwrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+#guide > .contentwrap > h3{
+  font-size: 25px;
+  color: #077451;
+}
+  #guide > .contentwrap > ul{
+    padding: 50px 0;
+  }
+    #guide > .contentwrap > ul > li{
+      display: inline-block;
+      padding-top: 20px;
+    }
+    #guide > .contentwrap > ul > li:nth-of-type(1){
+      padding-right: 30px;
+    }
+
+/**** SECTION2 MOCKUP IMG ****/
+#mockup{
+  width: 100%;
+}
+#mockup > img{
+  width: 100%;
+}
+
+/**** SECTION3 ILLUSTRATION IMG ****/
+#illustration{
+    width: 100%;
+    padding: 140px 0;
+    background: #fff;
+}
+#illustration > img{
+    width: 100%;
+}
+
+
+/**** FOOTER ****/
+.footer{
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #e1c35b;
+  letter-spacing: 1px;
+}
+  .footer > #btntop{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+  }
+    .footer > #btntop > a{
+      width: 100px;
+      height: 100px;
+      background: url(../images/btn_top_balimoon.png);
+    }
+      .footer > #btntop > a:hover{
+        margin-top: -7px;
+        transition-duration: 0.3s;
+      }
+      .footer > .copyright{
+        font-size: 18px;
+        color: #fff;
+        padding-top: 50px;
+        margin-top: 0;
+      }
+
+
+
+/************ [s]BRAND URIAGE ************/
+#uriage_body > #main{
+  background: url(../images/main_uriage.png);
+}
+
+/**** SECTION1 INTRO ****/
+    #uriage_body > #intro > .contentswrap > h2{
+      color: #1da2dd;
+    }
+    #uriage_body > #intro > .contentswrap > h3{
+      color: #1da2dd;
+    }
+
+/**** SECTION2 MEDIA QUERY ****/
+  #uriage_body > #media > .contentswrap > h3{
+    color: #1da2dd;
+  }
+  #uriage_body > #media > .contentswrap > .go{
+    position: relative;
+    margin-top: -600px;
+
+  }
+    #uriage_body > #media > .contentswrap > .go > li{
+      padding: 5px 0;
+    }
+      #uriage_body > #media > .contentswrap > .go > .gosite > a,
+      #uriage_body > #media > .contentswrap > .go > .gomobile > a{
+        width: 210px;
+        height: 50px;
+        background: #1da2dd;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 25px;
+        border: 1px solid transparent;
+      }
+      #uriage_body > #media > .contentswrap > .go > .gosite > a:hover,
+      #uriage_body > #media > .contentswrap > .go > .gomobile > a:hover{
+        color: #1da2dd;
+        background: #fff;
+        transition-duration: 0.4s;
+        border: 1px solid #1da2dd;
+      }
+
+/**** SECTION3 DETAIL IMG ****/
+    #uriage_body > #guide > .contentswrap > h3{
+      color: #1da2dd;
+    }
+
+/**** SECTION4 DETAIL IMG ****/
+#uriage_body > #detail > .contentswrap > img:nth-of-type(2){
+  width: 1300px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding: 150px 0;
+}
+
+/**** FOOTER ****/
+#uriage_body > .footer{
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #1da2dd;
+  letter-spacing: 1px;
+}
+    #uriage_body > .footer > #btntop > a{
+      width: 100px;
+      height: 100px;
+      background: url(../images/btn_top_uriage.png);
+    }
+/************ [e]BRAND URIAGE ************/
+
+
+
+/************ [s]BRAND YUHAN ************/
+#yuhan_body > #main{
+  background: url(../images/main_yuhan.png);
+}
+
+/**** SECTION1 INTRO ****/
+    #yuhan_body > #intro > .contentswrap > h2{
+      color: #865828;
+    }
+    #yuhan_body > #intro > .contentswrap > h3{
+      color: #865828;
+    }
+
+/**** SECTION2 MEDIA QUERY ****/
+  #yuhan_body > #media > .contentswrap > h3{
+    color: #865828;
+  }
+  #yuhan_body > #media > .contentswrap > .go{
+    position: relative;
+    margin-top: -600px;
+
+  }
+    #yuhan_body > #media > .contentswrap > .go > li{
+      padding: 5px 0;
+    }
+      #yuhan_body > #media > .contentswrap > .go > .gosite > a,
+      #yuhan_body > #media > .contentswrap > .go > .gomobile > a{
+        width: 210px;
+        height: 50px;
+        background: #865828;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 25px;
+        border: 1px solid transparent;
+      }
+      #yuhan_body > #media > .contentswrap > .go > .gosite > a:hover,
+      #yuhan_body > #media > .contentswrap > .go > .gomobile > a:hover{
+        color: #865828;
+        background: #fff;
+        transition-duration: 0.4s;
+        border: 1px solid #865828;
+      }
+
+/**** SECTION3 DETAIL IMG ****/
+    #yuhan_body > #guide > .contentswrap > h3{
+      color: #865828;
+    }
+
+/**** SECTION4 DETAIL IMG ****/
+#yuhan_body > #detail > .contentswrap > img:nth-of-type(1){
+  margin-top: 50px;
+  margin: 0 auto;
+  padding-left: 250px;
+  padding-top: 100px;
+  width: 1200px;
+}
+#yuhan_body > #detail > .contentswrap > img:nth-of-type(2){
+  width: 1000px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding: 150px 0;
+}
+
+/**** FOOTER ****/
+#yuhan_body > .footer{
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #865828;
+  letter-spacing: 1px;
+}
+    #yuhan_body > .footer > #btntop > a{
+      width: 100px;
+      height: 100px;
+      background: url(../images/btn_top_yuhan.png);
+    }
+
+/******* [S]CARDNEWS *******/
+.cardnews_body{
+    width: 100%;
+}
+    .cardnews_body > #main{
+        width: 100%; height: 750px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: url(../images/main_cardnews.png) no-repeat;
+
+        z-index: -50;
+    }
+    .cardnews_body > #mockup_1{
+        margin-top: 750px;
+        width: 100%;
+    }
+        .cardnews_body > #mockup_1 > h3{
+            color: #0a6a88;
+            font-size: 30px;
+            position: absolute;
+            left: 15%; top: 810px;
+        }
+        .cardnews_body > #mockup_1 > img{
+            width: 100%;
+        }
+
+    .cardnews_body > #mockup_2{
+        margin-top: -2px;
+    }
+        .cardnews_body > #mockup_2 > div{
+            position: relative;
+        }
+            .cardnews_body > #mockup_2 > div > h3{
+                color: #fff;
+                font-size: 30px;
+                position: absolute;
+                left: 15%; top: 60px;
+            }
+                .cardnews_body > #mockup_2 > img{
+                    width: 100%;
+                }
+
+    .cardnews_body > #mockup_3{
+            margin-top: 0;
+        }
+            .cardnews_body > #mockup_3 > div{
+                position: relative;
+            }
+                .cardnews_body > #mockup_3 > div > h3{
+                    color: #fff;
+                    font-size: 30px;
+                    position: absolute;
+                    left: 13%; top: 80px;
+                }
+                    .cardnews_body > #mockup_3 > img{
+                        width: 100%;
+                    }
+
+
+/** CARDNEWS FOOTER **/
+.cardnews_body > .footer{
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #0a6a88;
+  letter-spacing: 1px;
+}
+  .cardnews_body > .footer > #btntop{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+  }
+    .cardnews_body > .footer > #btntop > a{
+      width: 100px;
+      height: 100px;
+      background: url(../images/btn_top_cardnews.png);
+    }
+      .cardnews_body > .footer > #btntop > a:hover{
+        margin-top: -7px;
+        transition-duration: 0.3s;
+      }
+      .cardnews_body > .footer > .copyright{
+        font-size: 18px;
+        color: #fff;
+        padding-top: 50px;
+        margin-top: 0;
+      }
+
+
+/******* [S]DIGITAL DRAWING *******/
+.drawing_body{
+    width: 100%;
+}
+    .drawing_body > #main{
+        width: 100%; height: 750px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: url(../images/character_main.png) no-repeat;
+
+        z-index: -50;
+    }
+.logo_digital{
+    width: 436px;
+    font-size: 50px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #fff;
+}
+
+    .drawing_body > #character{
+        margin-top: 750px;
+        width: 100%;
+    }
+        .drawing_body > #character > img{
+            width: 100%;
+        }
+
+    .drawing_body > #illust_drawing{
+        width: 100%;
+    }
+        .drawing_body > #illust_drawing > img{
+            width: 100%;
+        }
+
+   .drawing_body > #digital_drawing{
+        width: 100%;
+    }
+        .drawing_body > #digital_drawing > img{
+            width: 100%;
+        }
+
+/** DIGITAL DRAWING FOOTER **/
+.drawing_body > .footer{
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #464540;
+  letter-spacing: 1px;
+}
+  .drawing_body > .footer > #btntop{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+  }
+    .drawing_body > .footer > #btntop > a{
+      width: 100px;
+      height: 100px;
+      background: url(../images/btn_top_drawing.png);
+    }
+      .drawing_body > .footer > #btntop > a:hover{
+        margin-top: -7px;
+        transition-duration: 0.3s;
+      }
+      .drawing_body > .footer > .copyright{
+        font-size: 18px;
+        color: #fff;
+        padding-top: 50px;
+        margin-top: 0;
+      }
+
+
+
+
+
+
+
+

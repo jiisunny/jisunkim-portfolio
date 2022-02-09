@@ -1,0 +1,155 @@
+/* header_style.css */
+
+#main_header{
+	width: 236px;
+	height: 893px;
+	margin: auto 0;
+
+	position: relative;
+}
+
+	/********** 메뉴 정렬 WRAP **********/
+	#main_header > .header_wrap{
+		width: 100%; height: 100%;
+		background: #green;
+		text-align: center;
+	}
+
+		/***** 로고 *****/
+		#main_header .header_wrap > .logo_wrap{
+			height: 210px; 
+			background-color: #eee;
+		}
+		#main_header .header_wrap > .logo_wrap > h1.logo{
+			position: absolute;
+			left: 23px; top: 89px;
+		}
+			#main_header .header_wrap > .logo_wrap > h1.logo > a{
+				width: 180px; height: 43px;
+				background: url(../images/logo.png);
+				text-indent: -6000px; overflow: hidden;
+			}
+
+
+		/***** 메인메뉴 *****/
+		 #main_nav{
+		 	position: absolute;
+			top: 210px;
+			width: 236px; height: 683px;
+		 }
+			#main_nav .mainnav_align{}
+				#main_nav .mainnav_align > ul{}
+					#main_nav .mainnav_align > ul > li{
+						height: 89px;
+						line-height: 89px;
+					}
+
+					/***** 메뉴 컬러적용 *****/
+					#main_nav .mainnav_align > ul > li:nth-of-type(1){
+						background: #0ab944;
+					}
+					#main_nav .mainnav_align > ul > li:nth-of-type(1):hover > a{
+						color: #0ab944;
+						background: #fff;
+					}
+
+					#main_nav .mainnav_align > ul > li:nth-of-type(2){
+						background: #009632;
+					}
+					#main_nav .mainnav_align > ul > li:nth-of-type(2):hover > a{
+						color: #009632;
+						background: #fff;
+					}
+
+					#main_nav .mainnav_align > ul > li:nth-of-type(3){
+						background: #017327;
+					}
+					#main_nav .mainnav_align > ul > li:nth-of-type(3):hover > a{
+						color: #017327;
+						background: #fff;
+					}
+
+					#main_nav .mainnav_align > ul > li:nth-of-type(4){
+						background: #00541c;
+					}
+					#main_nav .mainnav_align > ul > li:nth-of-type(4):hover > a{
+						color: #00541c;
+						background: #fff;
+					}
+
+					#main_nav .mainnav_align > ul > li:nth-of-type(5){
+						background: #003e15;
+					}
+					#main_nav .mainnav_align > ul > li:nth-of-type(5):hover > a{
+						color: #003e15;
+						background: #fff;
+					}
+
+					#main_nav .mainnav_align > ul > li:nth-of-type(6){
+						height: 238px;
+						background: url(../images/nav_bg.png);
+					}
+					#main_nav .mainnav_align > ul > li:nth-of-type(6):hover > a{
+						color: #865828;
+						background: url(../images/nav_hover.png);
+					}
+
+						#main_nav .mainnav_align > ul > li:nth-of-type(6) > a{
+							height: 238px;
+						}
+						#main_nav .mainnav_align > ul > li > a{
+							color: #fff;
+							font-size: 23px;
+							font-weight: bold;
+							transition-duration: 0.4s;
+						}
+
+							/***** 세부 메뉴 *****/
+							#main_nav > .mainnav_align > ul > li > .sub_nav{
+								height: 893px; width: 0;
+								overflow: hidden;
+								position: absolute;
+								top: -210px; left: 236px;
+								text-align: left;
+								background: url(../images/sub_bg.png);
+								transition-duration: 0.3s;
+                                
+                                z-index: 200;
+							}
+							#main_nav > .mainnav_align > ul > li:hover > .sub_nav{
+								width: 600px;
+							}
+
+								.sub_nav > li{
+									width: 600px; height: 60px;
+									margin-left: 90px;
+								}
+								.sub_nav > li:first-child{
+									margin-top: 210px;
+								}
+								
+									.sub_nav > li > a{
+										font-size: 25px;
+										font-weight: bold;
+										width: 300px;
+										color: #555555;
+									}
+									/***** 세부메뉴 a태그 색 적용 *****/
+									.mainnav_align > ul > li:nth-of-type(1) > .sub_nav > li > a:hover{
+										color: #0ab944;
+									}
+									.mainnav_align > ul > li:nth-of-type(2) > .sub_nav > li > a:hover{
+										color: #009632;
+									}
+									.mainnav_align > ul > li:nth-of-type(3) > .sub_nav > li > a:hover{
+										color: #017327;
+									}
+									.mainnav_align > ul > li:nth-of-type(4) > .sub_nav > li > a:hover{
+										color: #00541c;
+									}
+									.mainnav_align > ul > li:nth-of-type(5) > .sub_nav > li > a:hover{
+										color: #003e15;
+									}
+									.mainnav_align > ul > li:nth-of-type(6) > .sub_nav > li > a:hover{
+										color: #865828;
+									}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>sub_cafecha</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" type="images/x-icon" href="images/title_icon.png" />
+	<link rel="stylesheet" href="CSS/sub_layout.css" />
+
+	<script src="js/jquery-3.5.0.min.js"></script>
+    
+</head>
+
+<body id="cafecha_body">
+
+	<!-- HOME BUTTON -->
+	<h1 class="myname">
+		<a href="index.html">JISUN KIM</a>
+	</h1>
+
+	<!-- MAIN SECTION -->
+	<div id="main">
+
+		<div class="contentswrap">
+			<div class="title">
+				<h1 class="logo">Cafe Cha</h1>
+				<h2>Responsive Web</h2>
+				<p>카페 차</p>
+                <p>반응형 웹 제작</p>
+			</div>
+
+			<ul class="period">
+				<li>디자인 &#58; 1주 &#47; 퍼블리싱 &#58; 5일</li>
+				<li>참여율 100	&#37;</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- FIXED MENU -->
+	<script>
+		$(function(){
+			var mT=($(window).height()-$("div#menu").height())/2;
+			$("div#menu").css({top:mT});
+
+			setInterval(function(){
+				mT=($(window).height()-$("div#menu").height())/2;
+
+				$("div#menu").css({top:$(window).scrollTop()+mT});
+			},50);
+
+			$("#btntop > a").click(function(){
+				$('html, body').animate({
+					scrollTop: 0
+				}, 400);
+			});
+
+		});
+	</script>
+	<div id="menu">
+		<ul>
+            <li class="uriage">
+				<a href="sub_uriage.html">
+					<div class="front">
+						<img src="images/uriage_logo.png" alt="유리아쥬 로고" />
+					</div>
+					<div class="back">
+						<img src="images/uriage_go.png" alt="유리아쥬 바로가기" />
+					</div>
+				</a>
+			</li>
+			<li class="krispykreme">
+				<a href="sub_krispykreme.html">
+					<div class="front">
+						<img src="images/krispykreme_logo.png" alt="크리스피크림 로고" />
+					</div>
+					<div class="back">
+						<img src="images/krispykreme_go.png" alt="크리스피크림 바로가기" />
+					</div>
+				</a>
+			</li>
+			<li class="yuhan">
+				<a href="sub_yuhan.html">
+					<div class="front">
+						<img src="images/yuhan_logo.png" alt="유한양행 로고" />
+					</div>
+					<div class="back">
+						<img src="images/yuhan_go.png" alt="유한양행 바로가기" />
+					</div>
+				</a>
+			</li>
+            <li class="cafecha">
+				<a href="sub_cafecha.html">
+					<div class="front">
+						<img src="images/cafecha_logo.png" alt="카페차 로고" />
+					</div>
+					<div class="back">
+						<img src="images/cafecha_go.png" alt="카페차 바로가기" />
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+		
+	<!-- INTRO SECTION -->
+	<section id="intro">
+		<div class="contentswrap">
+			<h2>카페 차 반응형 웹사이트 제작</h2>
+			<ul class="summary">
+				<li>
+					<h3>WORK</h3>
+					<p>UIUX 디자인 퍼블리싱</p>
+				</li>
+				<li>
+					<h3>RELEASE DATE</h3>
+					<p>2020&#46; 07&#46; 07</p>
+				</li>
+				<li>
+					<h3>TYPE</h3>
+					<p>RESPONSIVE WEB</p>
+				</li>
+			</ul>
+			
+			<h3>OVERVIEW</h3>
+			<p>
+				성수동에 위치한 카페 차는 달고나 커피와 베이커리로 유명한 카페이다. 기존에 답답했던 사이트 이미지 크기를 키우고 배너를 넣어 시그니처 메뉴가 돋보이도록 디자인했다.
+			</p>
+		</div>
+	</section>
+	
+	<!-- MEDIA SECTION -->
+	<section id="media">
+		<div class="contentswrap">
+			<h3>MEDIA QUERY</h3>
+			<ul>
+				<li>PC &#58; 1920px &#45; 1400px</li>
+                <li>Tablet &#58; 1399px &#45; 768px</li>
+				<li>Mobile &#58; max 767px</li>
+			</ul>
+			<img src="images/media_cafecha.png" alt="유리아쥬 미디어쿼리 목업 사진" />
+			<!-- 바로가기 버튼 -->
+			<ul class="go">
+				<li class="gosite"><a target="_blank" href="cafecha/index.html">Responsive Web</a></li>
+                <!--
+				<li class="gomobile"><a target="_blank" href="#">View Mobile App</a></li>
+                -->
+			</ul>
+		</div>
+	</section>
+	
+	<!-- GUIDE SECTION -->
+	<section id="guide">
+		<div class="contentswrap">
+			<h3>STYLE GUIDE</h3>
+			<ul>
+				<li>
+					<img src="images/typography_cafecha.png" alt="유리아쥬 typography" />
+				</li>
+				<li>
+					<img src="images/color_cafecha.png" alt="유리아쥬 color" />
+				</li>
+			</ul>
+			
+			<h3>PAGE DESIGN</h3>
+			<dl>
+				<dt>Goal</dt>
+				<dd>
+					시그니처 메뉴를 볼 수 있는 배너를 추가해 기존의 홈페이지 보다 사용자들이 브랜드 상품 이미지에 집중할 수 있도록 하고, 인스타그램에 있는 다양한 카페 컨텐츠를 볼 수 있도록 한다.
+				</dd>
+				<dt>Concept</dt>
+				<dd>
+					심플한 브랜드 컨셉을 살려 블랙 앤 화이트로 메인컬러를 잡아 깔끔한 이미지를 강조한다.
+				</dd>
+			</dl>
+		</div>
+	</section>
+	
+	<!-- DETAIL SECTION -->
+	<section id="detail">
+		<div class="contentswrap">
+			<img class="pcdetail" src="images/pcdetail_cafecha.png" alt="카페차 pc 상세보기" />
+            <!--
+			<img class="mobiledetail" src="images/mobiledetail_ㅊcafecha.png" alt="유리아쥬 mobile 상세보기" />
+            -->
+		</div> 
+	</section>
+	
+	<!-- FOOTER -->
+	<div class="footer">
+		<div id="btntop">
+			<a href="#"></a>
+		</div>
+		<p class="copyright">
+			Copyright(C) ALL RIGHTS RESERVED BY JISUN KIM
+		</p>
+	</div>
+	
+</body>
+</html>

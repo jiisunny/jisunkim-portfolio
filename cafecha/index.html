@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cafe Cha</title>
+    
+<link rel="shortcut icon" type="images/x-icon" href="images/logo_title.png" />
+<link rel="stylesheet" href="CSS/common.css" />
+<link rel="stylesheet" href="CSS/master.css" />
+<link rel="stylesheet" href="CSS/swiper.css" />
+<!-- Demo styles -->
+<style>
+/*
+html, body {
+	position: relative;
+	height: 100%;
+}
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color:#000;
+	margin: 0;
+	padding: 0;
+}
+*/
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+@media screen and ( min-width: 768px){
+.swiper-container.banner_bic{
+	display: block;
+}
+.swiper-container.banner_small{
+	display: none;
+}
+}
+@media screen and ( max-width: 767px){
+.swiper-container.banner_bic{
+	display: none;
+}
+.swiper-container.banner_small{
+	display: block;
+}
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #809495;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+/* 배너이미지가 1400px 크기로 제작이 되어있어서 */
+@media screen and ( max-width: 1399px){
+.swiper-slide > img{
+	width: 100%;
+}
+}
+</style>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/acodian_menu.js"></script>
+</head>
+<body>
+
+<input id="toggle_menu" type="checkbox" />
+
+<div id="wrap">
+	<header id="main_header">
+		<input id="toggle_search" type="checkbox" />
+		<label class="search" for="toggle_search">검색버튼</label>
+		<nav id="top_nav">
+			<ul>
+				<li id="search_wrap">
+					<form>
+						<fieldset>
+							<input class="search_text" type="text" placeholder="검색어를 입력하세요" />
+							<input class="search_btn" type="image" src="images/btn_search.png" alt="검색" />
+						</fieldset>
+					</form>
+				</li>
+				<li id="language">
+					<a href="#">ENGLISH</a>
+				</li>
+			</ul>
+		</nav>
+
+		<h1 id="logo"><a href="index.html">ㅊa</a></h1>
+
+		<label class="menu" for="toggle_menu">메뉴버튼</label>
+	</header>
+
+	<!-- [s]메뉴 롤오버시 전체 메뉴 보이지게 설정 -->
+	<script>
+	$(function(){
+		//mouseover mouseenter  ↔ mouseout mouseleave
+		$("#main_nav > ul").mouseenter(function(){
+			$("#main_nav").addClass("active");
+		});
+
+		$("#main_nav").mouseleave(function(){
+			$("#main_nav").removeClass("active");
+		});
+	
+	});
+	</script>
+	<nav id="main_nav">
+		<ul>
+			<li id="menu">
+				<a href="#">MENU</a>
+				<h3>MENU</h3>
+				<ul>
+					<li><a href="#">MILK TEA</a></li>
+					<li><a href="#">COFFEE</a></li>
+                    <li><a href="#">BEVERAGE</a></li>
+                    <li><a href="#">DRIP TEA</a></li>
+                    <li><a href="#">DESSERT</a></li>
+				</ul>
+			</li>
+			<li id="news">
+				<a href="#">NEWS</a>
+				<h3>NEWS</h3>
+				<ul>
+					<li><a href="#">INFORMATION</a></li>
+					<li><a href="#">EVENT</a></li>
+				</ul>
+			</li>
+			<li id="store">
+				<a href="#">INTERIOR</a>
+				<h3>INTERIOR</h3>
+				<ul>
+					<li><a href="#">SEONGSU-DONG</a></li>
+					<li><a href="#">IKSEON-DONG</a></li>
+				</ul>
+			</li>
+			<li id="sns">
+				<a href="#">CONTACT</a>
+				<h3>CONTACT</h3>
+				<ul>
+					<li><a href="#">INSTAGRAM</a></li>
+					<li><a href="#">FACEBOOK</a></li>
+				</ul>
+			</li>
+		</ul>
+
+		<label class="btn_close" for="toggle_menu"></label>
+	</nav>
+	<!-- [e]메뉴 롤오버시 전체 메뉴 보이지게 설정 -->
+
+<!-- Swiper -->
+
+<!-- tablet pc & PC ver.-->
+<div class="swiper-container banner_bic">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner1.png" alt="달고나 커피" /></div>
+		<div class="swiper-slide"><img src="images/banner2.png" alt="달고나 과자" /></div>
+		<div class="swiper-slide"><img src="images/banner3.png" alt="달고나 스콘" /></div>
+	</div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+<!-- //tablet pc & PC ver.-->
+
+<!-- smart phone -->
+<div class="swiper-container banner_small">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner_m_1.png" alt="달고나 커피" /></div>
+		<div class="swiper-slide"><img src="images/banner_m_2.png" alt="달고나 과자" /></div>
+		<div class="swiper-slide"><img src="images/banner_m_3.png" alt="달고나 스콘" /></div>
+	</div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+<!-- //smart phon -->
+
+<!-- Swiper JS -->
+<script src="js/swiper.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+    autoplay: {
+        delay: 2900,
+        disableOnInteraction: false,
+    }
+});
+    
+
+</script>
+
+	<div id="container">
+		<section id="con_top">
+			<article class="con_1">
+				<div>
+					<a href="#">
+						<img src="images/con_1.png" alt="메뉴 바로가기" />
+					</a>
+				</div>
+                <h2>MENU</h2>
+			</article>
+			<article class="con_2">
+				<div>
+					<a href="#">
+						<img src="images/con_2.png" alt="프로모션 바로가기" />
+					</a>
+				</div>
+                <h2>NEWS</h2>
+			</article>
+			<article class="con_3">
+				<div>
+					<a href="#">
+						<img src="images/con_3.png" alt="지점 바로가기" />
+					</a>
+				</div>
+                <h2>INTERIOR</h2>
+			</article>
+		</section>
+		<section id="con_bottom">
+			<div id="instagram">
+				<dl>
+					<dt><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta00.png" alt="instagram" /></a></dt>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta01.png" alt="인스타그램 사진1" /></a></dd>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta02.png" alt="인스타그램 사진2" /></a></dd>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta03.png" alt="인스타그램 사진3" /></a></dd>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta04.png" alt="인스타그램 사진4" /></a></dd>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta05.png" alt="인스타그램 사진5" /></a></dd>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta06.png" alt="인스타그램 사진6" /></a></dd>
+					<dd><a target="_blank" href="https://www.instagram.com/cha_seongsu/"><img src="images/insta07.png" alt="인스타그램 사진7" /></a></dd>
+				</dl>
+			</div>
+		</section>
+	</div>
+
+	<footer id="main_footer">
+		<div>
+			<ul class="sns">
+				<li><a href="#" target="_blank"><img src="images/sns_facebook.png" alt="페이스북" /></a></li>
+				<li><a href="https://www.instagram.com/cha_seongsu/" target="_blank"><img src="images/sns_instagram.png" alt="인스타그램" /></a></li>
+			</ul>
+			<address>
+				Copyright&#169; 2020 ALL RIGHT RESERVED BY CAFECHA  
+			</address>
+		</div>
+	</footer>
+</div>
+
+</body>
+</html>

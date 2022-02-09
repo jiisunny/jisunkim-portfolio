@@ -1,0 +1,69 @@
+/* common.css */
+
+/* 카페24 당당해체 */
+@font-face { font-family: 'Cafe24Dangdanghae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  font: 23px 'Cafe24Dangdanghae', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+table, tr, th, td{
+  font: 23px 'Cafe24Dangdanghae', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  border-collapse: collapse;/* 기본여백 없애기 */
+}
+h1, h2, h3, h4, h5, h6{
+  font-size: 23px;
+  color: #fff;
+  font-weight: 700;
+}
+ul, ol, li{
+  list-style: none;
+  color: #fff;
+}
+img, fieldset, frameset, iframe{
+  border: none;
+}
+input, select, option, textarea, button{
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  outline: none;
+}
+a, img, label{
+  display: block;/* 인라인요소로 쓰는경우는 드물기 때문에 block으로 기본 설정 */
+}
+legend, hr, input[type=radio]{
+  display: none;
+}
+em, i, address{
+  font-style: normal;
+}
+b, strong{
+  font-weight: normal;
+}
+p{
+  margin-top: 15px;
+  font-size: 19px;
+  color: #fff;
+
+  font-weight: 400;
+}
+a{
+  text-decoration: none; color: #000;
+}
+
+.skip/* 바로가기 메뉴 */,.blind{
+  display: block;
+  height: 0;
+  overflow: hidden;
+
+  position: absolute;
+  top: -6000px;
+}
