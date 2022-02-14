@@ -38,23 +38,23 @@
   width: 120px; height: 120px;
   z-index: 300;
 }
-  .myname > a {
-    width: 120px; height: 120px;
-    background: url(../images/sunny_logo.png);
-    text-indent: -6000px;
-    overflow: hidden;
-    animation: rotate_image 15s linear infinite;
-    transform-origin: 50% 50%;
+.myname > a {
+  width: 120px; height: 120px;
+  background: url(../images/sunny_logo.png);
+  text-indent: -6000px;
+  overflow: hidden;
+  animation: rotate_image 15s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes rotate_image {
+  100% {
+  transform: rotate(360deg);
   }
-    @keyframes rotate_image {
-      100% {
-        transform: rotate(360deg);
-      }
-    }
-    .myname:hover > a {
-      transform: rotate(-1440deg);
-    }
-    
+}
+.myname:hover > a {
+  transform: rotate(-1440deg);
+}
+
 /**** NAV ****/
 #main_header {
   width: 100%; height: 50px;
@@ -119,40 +119,52 @@ ul#main_nav > li > h3 > a {
 ul#main_nav > li:hover > h3 > a {
   color: #717171;
 }
+.arrow-down {
+  position: absolute;
+  right: 10%;
+  line-height: 55px;
+  font-size: 30px;
+  transform: rotateZ(0deg);
+}
+ul#main_nav > li.active > h3 > .arrow-down {
+  transform: rotateZ(-180deg);
+  transition-duration: 0.3s;
+}
+
 /***** 세부메뉴 *****/
-  ul#main_nav > li > ul.sub_nav > li{
-    height: 0;
-    overflow: hidden;
-    transition-duration: 0.3s;
-  }
-  ul#main_nav > li.active > ul.sub_nav > li{
-    height: 50px;
-  }
-    ul#main_nav > li > ul.sub_nav > li > a{
-      padding-left: 60px;
-      line-height: 50px;
-      height: 50px;
-      color: #fff;
-      font-size: 20px;
-      background-color: #9b9ce8;
-      transition-duration: 0.3s;
-    }
-    ul#main_nav > li > ul.sub_nav > li:hover > a {
-      color: #fff;
-      background-color: #717171;
-    }
-    #main_nav_wrap > label.btn_close{
-      width: 30px; height: 26px;
-      background: url(../images/toggle_close.png) no-repeat;
-      position: absolute;
-      right: 3%; top: 3%;
-      text-indent: -6000px; overflow: hidden;
-      transform: rotateZ(0deg);
-    }
-    input#toggle:checked + #main_nav_wrap > label.btn_close{
-      transition-duration: 1s;
-      transform: rotateZ(-180deg);
-    }
+ul#main_nav > li > ul.sub_nav > li{
+  height: 0;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+ul#main_nav > li.active > ul.sub_nav > li{
+  height: 50px;
+}
+ul#main_nav > li > ul.sub_nav > li > a{
+  padding-left: 60px;
+  line-height: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #9b9ce8;
+  transition-duration: 0.3s;
+}
+ul#main_nav > li > ul.sub_nav > li:hover > a {
+  color: #fff;
+  background-color: #717171;
+}
+#main_nav_wrap > label.btn_close{
+  width: 30px; height: 26px;
+  background: url(../images/toggle_close.png) no-repeat;
+  position: absolute;
+  right: 3%; top: 3%;
+  text-indent: -6000px; overflow: hidden;
+  transform: rotateZ(0deg);
+}
+input#toggle:checked + #main_nav_wrap > label.btn_close{
+  transition-duration: 0.8s;
+  transform: rotateZ(-180deg);
+}
 
 /**** SECTION1 HOME ****/
 #home {
@@ -161,27 +173,27 @@ ul#main_nav > li:hover > h3 > a {
   position: relative;
 }
 #home > img {
-    width: 100%;
+  width: 100%;
 }
-    #maintitle {
-      position: absolute;
-      top: 13%;
-      right: 12%;
-    }
-      #home > .wrap_align > #maintitle > .logo {
-        font-size: 70px;
-        height: 160px;
-        text-align: left;
-        border-bottom: 4px solid #fff;
-        letter-spacing: 5px;
-        min-width: 450px;
-      }
-      #home > .wrap_align > #maintitle > h2 {
-        font-size: 30px;
-        text-align: left;
-        letter-spacing: 20px;
-        padding-top: 20px;
-      }
+#maintitle {
+  position: absolute;
+  top: 13%;
+  right: 12%;
+}
+#home > .wrap_align > #maintitle > .logo {
+  font-size: 70px;
+  height: 160px;
+  text-align: left;
+  border-bottom: 4px solid #fff;
+  letter-spacing: 5px;
+  min-width: 450px;
+}
+#home > .wrap_align > #maintitle > h2 {
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 20px;
+  padding-top: 20px;
+}
 
 /***** 메뉴 제목 *****/
 .menu {
@@ -207,41 +219,41 @@ ul#main_nav > li:hover > h3 > a {
   position: relative;
   background: linear-gradient( #e3c5e4, #c5b0eb);
 }
-  #portfolio > .wrap_align > .brandlist {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 3% 10% 0;
-  }
-        #portfolio > .wrap_align > .brandlist > ul > li {
-          display: inline-block;
-          padding: 0 30px;
-          margin-top: 50px;
-        }
-          #portfolio > .wrap_align > .brandlist > ul > li > a {
-            width: 250px;
-            height: 250px;
-          }
-            .brandname {
-              margin-top: 25px;
-              font-size: 22px;
-            }
+#portfolio > .wrap_align > .brandlist {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 3% 10% 0;
+}
+#portfolio > .wrap_align > .brandlist > ul > li {
+  display: inline-block;
+  padding: 0 30px;
+  margin-top: 50px;
+}
+#portfolio > .wrap_align > .brandlist > ul > li > a {
+  width: 250px;
+  height: 250px;
+}
+.brandname {
+  margin-top: 25px;
+  font-size: 22px;
+}
 
-            /***** 크리스피크림 *****/
-            #krispykreme > img {
-              opacity: 0;
-              transition-duration: 0.4s;
-            }
-            #krispykreme > img:hover {
-              opacity: 1;
-            }
-            #krispykreme > .krispykremebg {
-              width: 250px;
-              height: 250px;
-              border-radius: 50%;
-              background: url(../images/krispykreme.png);
-              margin-top: -250px;
-            }
+/***** 크리스피크림 *****/
+#krispykreme > img {
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+#krispykreme > img:hover {
+  opacity: 1;
+}
+#krispykreme > .krispykremebg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../images/krispykreme.png);
+  margin-top: -250px;
+}
 
 /***** 유리아쥬 *****/
 #uriage > img {
@@ -298,58 +310,57 @@ ul#main_nav > li:hover > h3 > a {
   position: relative;
   background: linear-gradient(#c5b0eb, #acc1f9);
 }
-  #me > .wrap_align {
-    position: relative;
-    height: 100%;
-  }
-  #me > .wrap_align > .profile_wrap{
-    position: relative;
-    height: 100%;
-    margin: 0 10%;
-  }
-    #me > .wrap_align > .profile_wrap > #profile {
-      position: relative;
-      height: 280px;
-    }
-      /* 프로필 사진 */
-      .floating1 {
-        position: absolute;
-        top: 320px;
-        left: 7%;
-      }
-
-    #me > .wrap_align > .profile_wrap > .info {
-      position: absolute;
-      top: 31%;
-      left: 35%;
-      font-size: 23px;
-    }
-      #me > .wrap_align > .profile_wrap > .info > ul.question {
-        position: absolute;
-        left: 0; top: 0;
-        text-align: right;
-      }
-        #me > .wrap_align > .profile_wrap > .info > ul.question > li {
-          padding: 5px 0;
-          line-height: 50px;
-        }
-        #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
-          margin-top: 50px;
-        }
-        #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
-          margin-top: 100px;
-        }
-      #me > .wrap_align > .profile_wrap > .info > ul.answer {
-        position: absolute;
-        left: 200px;
-        top: 0;
-        text-align: left;
-        width: 544px;
-      }
-        #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
-          padding: 5px 0;
-          line-height: 50px;
-        }
+#me > .wrap_align {
+  position: relative;
+  height: 100%;
+}
+#me > .wrap_align > .profile_wrap{
+  position: relative;
+  height: 100%;
+  margin: 0 10%;
+}
+#me > .wrap_align > .profile_wrap > #profile {
+  position: relative;
+  height: 280px;
+}
+/* 프로필 사진 */
+.floating1 {
+  position: absolute;
+  top: 320px;
+  left: 7%;
+}
+#me > .wrap_align > .profile_wrap > .info {
+  position: absolute;
+  top: 31%;
+  left: 35%;
+  font-size: 23px;
+}
+#me > .wrap_align > .profile_wrap > .info > ul.question {
+  position: absolute;
+  left: 0; top: 0;
+  text-align: right;
+}
+#me > .wrap_align > .profile_wrap > .info > ul.question > li {
+  padding: 5px 0;
+  line-height: 50px;
+}
+#me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+  margin-top: 50px;
+}
+#me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+  margin-top: 100px;
+}
+#me > .wrap_align > .profile_wrap > .info > ul.answer {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  text-align: left;
+  width: 544px;
+}
+#me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+  padding: 5px 0;
+  line-height: 50px;
+}
 
 /**** SECTION4 ARTWORKS ****/
 #artwork {
@@ -358,50 +369,41 @@ ul#main_nav > li:hover > h3 > a {
   position: relative;
   background: linear-gradient(#acc1f9, #bfb3ee);
 }
-    #artwork > .wrap_align > ul.artlist {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-    }
-      #artwork > .wrap_align > ul.artlist > li {
-        display: inline-block;
-        padding: 0 30px;
-        margin-top: 50px;
-      }
-        #artwork > .wrap_align > ul.artlist > li > a > div {
-          transform: scale(1.0);
-        }
-        #artwork > .wrap_align > ul.artlist > li > a:hover > div {
-          transform: scale(1.05);
-          transition-duration: 0.4s
-        }
-        /* project */
-          #artwork > .wrap_align > ul.artlist > #project > a > div {
-            width: 250px; height: 250px;
-          }
-          #project > a > h2,
-          #graphic > a > h2,
-          #drawing > a > h2,
-          #photography > a > h2 {
-            margin-top: 45px;
-            font-size: 25px;
-          }
-        /* graphic */
-        #artwork > .wrap_align > ul.artlist > #graphic > a > div {
-          width: 250px; height: 250px;
-        }
-        /* drawing */
-        #artwork > .wrap_align > ul.artlist > #drawing > a > div {
-          width: 250px; height: 250px;
-        }
-        /* photography */
-        /*
-        #artwork > .wrap_align > ul.artlist > #photography > a > div {
-          width: 300px; height: 300px;
-          background: url(../images/photography.png);
-        }
-        */
+#artwork > .wrap_align > ul.artlist {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+#artwork > .wrap_align > ul.artlist > li {
+  display: inline-block;
+  padding: 0 30px;
+  margin-top: 50px;
+}
+#artwork > .wrap_align > ul.artlist > li > a > div {
+  transform: scale(1.0);
+}
+#artwork > .wrap_align > ul.artlist > li > a:hover > div {
+  transform: scale(1.05);
+  transition-duration: 0.4s
+}
+.artlist > li > a > div > img {
+  width: 250px;
+}
+
+#project > a > h2,
+#graphic > a > h2,
+#drawing > a > h2,
+#photography > a > h2 {
+  margin-top: 45px;
+  font-size: 25px;
+}
+
+
+#artwork > .wrap_align > ul > li > a > div {
+  width: 250px;
+  height: 250px;
+}
 
 /**** SECTION5 CONTACT ****/
 #contact {
@@ -409,35 +411,35 @@ ul#main_nav > li:hover > h3 > a {
   height: 100%;
   background: linear-gradient(#bfb3ee, #e5b9e4);
 }
-      #contact > .wrap_align > .address > h2 {
-        font-size: 60px;
-        margin-top: 150px;
-        letter-spacing: 3px;
-      }
-      #contact > .wrap_align > .address > p.first {
-        margin-top: 50px;
-        font-size: 23px;
-      }
-      #contact > .wrap_align > .address > p.second {
-        font-size: 23px;
-      }
-      .circle {
-        width: 350px; height: 350px;
-        margin: 0 auto;
-        background: url(../images/contact_bg.png) no-repeat center;
-        margin-top: 80px;
-      }
-      #contact > .wrap_align > .address > ul.contactme {
-        margin-top: -285px;
-        margin-bottom: 200px;
-      }
-        #contact > .wrap_align > .address > ul.contactme > li {
-          font-size: 20px;
-          padding: 5px 0;
-        }
-        #contact > .wrap_align > .address > ul.contactme > li:nth-of-type(3) {
-          margin-top: 40px;
-        }
+#contact > .wrap_align > .address > h2 {
+  font-size: 60px;
+  margin-top: 6%;
+  letter-spacing: 3px;
+}
+#contact > .wrap_align > .address > p.first {
+  margin-top: 50px;
+  font-size: 23px;
+}
+#contact > .wrap_align > .address > p.second {
+  font-size: 23px;
+}
+.circle {
+  width: 350px; height: 350px;
+  margin: 0 auto;
+  background: url(../images/contact_bg.png) no-repeat center;
+  margin-top: 80px;
+}
+#contact > .wrap_align > .address > ul.contactme {
+  margin-top: -285px;
+  margin-bottom: 200px;
+}
+#contact > .wrap_align > .address > ul.contactme > li {
+  font-size: 20px;
+  padding: 5px 0;
+}
+#contact > .wrap_align > .address > ul.contactme > li:nth-of-type(3) {
+  margin-top: 40px;
+}
 
 /**** FOOTER ****/
 #contact > .wrap_align > .footer {
@@ -448,24 +450,194 @@ ul#main_nav > li:hover > h3 > a {
   background-color: #fff;
   letter-spacing: 1px;
 }
-  #contact > .wrap_align > .footer > #btntop {
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    margin-left: -50px;
+#contact > .wrap_align > .footer > #btntop {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
+#contact > .wrap_align > .footer > #btntop > a {
+  width: 100px;
+  height: 100px;
+  background: url(../images/btn_top.png);
+}
+#contact > .wrap_align > .footer > #btntop > a:hover {
+  margin-top: -7px;
+  transition-duration: 0.3s;
+}
+#contact > .wrap_align > .footer > .copyright {
+  font-size: 18px;
+  color: #6e6e6e;
+  padding-top: 35px;
+  z-index: 10;
+}
+
+
+/* RESPONSIVE */
+@media (min-width: 1490px) and (max-width: 1580px) {
+  #portfolio > .wrap_align > .brandlist {
+    margin: 3% 5% 0;
   }
-    #contact > .wrap_align > .footer > #btntop > a {
-      width: 100px;
-      height: 100px;
-      background: url(../images/btn_top.png);
-    }
-    #contact > .wrap_align > .footer > #btntop > a:hover {
-      margin-top: -7px;
-      transition-duration: 0.3s;
-    }
-    #contact > .wrap_align > .footer > .copyright {
-      font-size: 18px;
-      color: #6e6e6e;
-      padding-top: 35px;
-      z-index: 10;
-    }
+}
+/* web minimum */
+@media (min-width: 1490px) {
+  .bg_minpc,
+  .mobile_list > img,
+  .mobile_list > div {
+    display: none;
+  }
+}
+/* img 파일 */
+@media (max-width: 1489px) {
+  .bg_pc,
+  .pc_list > img,
+  .pc_list > div {
+    display: none;
+  }
+  .bg_minpc,
+  .mobile_list > img,
+  .mobile_list > div {
+    display: visible;
+  }
+
+  /**** SECTION1 HOME ****/
+  #home > .wrap_align > #maintitle > .logo {
+    font-size: 40px;
+    height: 100px;
+    text-align: left;
+    border-bottom: 3px solid #fff;
+    letter-spacing: 5px;
+    min-width: 100px;
+  }
+  #home > .wrap_align > #maintitle > h2 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 15px;
+    padding-top: 20px;
+  }
+
+  /***** 메뉴 제목 *****/
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid #fff;
+  }
+
+  /* SECTION2 PROJECTS */
+  #portfolio > .wrap_align > .brandlist {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 40px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li {
+    display: inline-block;
+    padding: 0 30px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li > a {
+    width: 150px;
+    height: 150px;
+  }
+  .brandname {
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  /***** 크리스피크림 *****/
+  #krispykreme > img {
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  #krispykreme > img:hover {
+    opacity: 1;
+  }
+  #krispykreme > .krispykremebg_m {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(../images/krispykreme_m.png);
+    margin-top: -150px;
+  }
+
+  /* SECTION3 ABOUT ME */
+  #profile > img {
+    width: 200px;
+    height: 200px;
+  }
+  .floating1 {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -100px;
+  }
+  #me > .wrap_align > .profile_wrap > .info {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    font-size: 16px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+    padding: 5px 0;
+    line-height: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+    padding: 5px 0;
+    line-height: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+    margin-top: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+    margin-top: 30px;
+  }
+
+  /* SECTION4 ART WORKS */
+  #artwork > .wrap_align > .artlist > li > a > div {
+    width: 180px;
+    height: 180px;
+  }
+  .artlist > li > a > div > img {
+    width: 180px;
+  }
+  #project > a > h2,
+  #graphic > a > h2,
+  #drawing > a > h2,
+  #photography > a > h2 {
+    font-size: 18px;
+  }
+  #artwork > .wrap_align > ul.artlist > li {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 50px;
+  }
+
+  /* SECTION5 CONTACT */
+  #contact > .wrap_align > .address > h2 {
+    font-size: 40px;
+    margin-top: 6%;
+    letter-spacing: 3px;
+  }
+  #contact > .wrap_align > .address > p.first {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  #contact > .wrap_align > .address > p.second {
+    font-size: 18px;
+  }
+  .circle {
+    width: 350px; height: 350px;
+    margin: 0 auto;
+    background: url(../images/contact_bg.png) no-repeat center;
+    margin-top: 40px;
+  }
+}

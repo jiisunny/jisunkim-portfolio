@@ -24,7 +24,7 @@
 
   <link rel="icon" href="./favicon.png" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+  
   <link rel="stylesheet" href="css/master.css" />
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -89,7 +89,7 @@
     <!-- nav -->
     <input id="toggle" type="checkbox" />
     <nav id="main_nav_wrap">
-      <!-- 메인메뉴 --> 
+      <!-- 메인메뉴 -->
       <ul id="main_nav">
         <li>
           <h3>
@@ -97,7 +97,10 @@
           </h3>
         </li>
         <li>
-          <h3>PROJECTS</h3>
+          <h3>
+            PROJECTS
+            <span class="material-icons arrow-down">expand_more</span>
+          </h3>
           <ul class="sub_nav">
             <li><a href="javascript:void(0)">STARBUCKS</a></li>
             <li><a href="javascript:void(0)">URIAGE</a></li>
@@ -115,7 +118,10 @@
           </h3>
         </li>
         <li>
-          <h3>ART WORKS</h3>
+          <h3>
+            ART WORKS
+            <span class="material-icons arrow-down">expand_more</span>
+          </h3>
           <ul class="sub_nav">
             <li><a href="javascript:void(0)">GRAPHIC DESIGN</a></li>
             <li><a href="javascript:void(0)">CARDNEWS</a></li>
@@ -139,7 +145,8 @@
         <!---- [s]SECTION1 HOME ---->
         <div class="swiper-slide">
           <section id="home">
-            <img src="images/main_bg.png" alt="main bg" />
+            <img src="images/main_bg.png" class="bg_pc" alt="main bg" />
+            <img src="images/main_bg_minpc.png" class="bg_minpc" alt="main bg" />
             <!-- HOME BUTTON -->
             <h1 class="myname">
               <a href="index.html">JISUN KIM</a>
@@ -169,77 +176,107 @@
               <div class="brandlist">
                 <ul>
                   <li>
-                    <a target="_blank" href="sub_uriage.html">
-                      <div id="uriage">
-                        <img src="images/uriage_hover.png" alt="uriage logo" />
-                        <div class="uriagebg"></div>
-                      </div>
-                      <h3 class="brandname">URIAGE</h3>
-                    </a>
-                  </li>
-                  <li>
                     <a target="_blank" href="sub_krispykreme.html">
-                      <div id="krispykreme">
+                      <div id="krispykreme" class="pc_list">
                         <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
                         <div class="krispykremebg"></div>
+                      </div>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
                       </div>
                       <h3 class="brandname">KRISPYKREME</h3>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="sub_yuhan.html">
-                      <div id="yuhan">
-                        <img src="images/yuhan_hover.png" alt="yuhan logo" />
-                        <div class="yuhanbg"></div>
-                      </div>
-                      <h3 class="brandname">YUHAN</h3>
-                    </a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="cafecha/index.html">
-                      <div id="working">
-                        <img src="images/cafecha_hover.png" alt="working logo" />
-                        <div class="workingbg"></div>
-                      </div>
-                      <h3 class="brandname">CAFECHA</h3>
-                    </a>
-                  </li>
-
-
-                  <li>
-                    <a target="_blank" href="sub_uriage.html">
-                      <div id="uriage">
-                        <img src="images/uriage_hover.png" alt="uriage logo" />
-                        <div class="uriagebg"></div>
-                      </div>
-                      <h3 class="brandname">URIAGE</h3>
-                    </a>
-                  </li>
-                  <li>
                     <a target="_blank" href="sub_krispykreme.html">
-                      <div id="krispykreme">
+                      <div id="krispykreme" class="pc_list">
                         <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
                         <div class="krispykremebg"></div>
+                      </div>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
                       </div>
                       <h3 class="brandname">KRISPYKREME</h3>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="sub_yuhan.html">
-                      <div id="yuhan">
-                        <img src="images/yuhan_hover.png" alt="yuhan logo" />
-                        <div class="yuhanbg"></div>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme" class="pc_list">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
                       </div>
-                      <h3 class="brandname">YUHAN</h3>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="cafecha/index.html">
-                      <div id="working">
-                        <img src="images/cafecha_hover.png" alt="working logo" />
-                        <div class="workingbg"></div>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme" class="pc_list">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
                       </div>
-                      <h3 class="brandname">CAFECHA</h3>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme" class="pc_list">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
+                      </div>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme" class="pc_list">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
+                      </div>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme" class="pc_list">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
+                      </div>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme" class="pc_list">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
+                      </div>
+                      <div id="krispykreme" class="mobile_list">
+                        <img src="images/krispykreme_hover_m.png" alt="krispykreme logo" />
+                        <div class="krispykremebg_m"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
                     </a>
                   </li>
                 </ul>
@@ -305,7 +342,7 @@
                 <li id="graphic">
                   <a href="sub_cardnews.html">
                     <div>
-                      <img src="images/cardnews.png" alt="cardnews" style="width: 250px; height: 250px;" />
+                      <img src="images/cardnews.png" alt="cardnews" />
                     </div>
                     <h2>Graphic Design</h2>
                   </a>
@@ -313,7 +350,7 @@
                 <li id="graphic">
                   <a href="sub_cardnews.html">
                     <div>
-                      <img src="images/cardnews.png" alt="cardnews" style="width: 250px; height: 250px;" />
+                      <img src="images/cardnews.png" alt="cardnews" />
                     </div>
                     <h2>Graphic Design</h2>
                   </a>
@@ -321,7 +358,7 @@
                 <li id="project">
                   <a href="sub_balimoon.html">
                     <div>
-                      <img src="images/balimoon.png" alt="project" style="width: 250px; height: 250px;" />
+                      <img src="images/balimoon.png" alt="project" />
                     </div>
                     <h2>Design Project</h2>
                   </a>
@@ -329,19 +366,11 @@
                 <li id="drawing">
                   <a href="sub_digitaldrawing.html">
                     <div>
-                      <img src="images/drawing.png" alt="drawing" style="width: 250px; height: 250px;" />
+                      <img src="images/drawing.png" alt="drawing" />
                     </div>
                     <h2>Digital Drawing</h2>
                   </a>
                 </li>
-                <!--
-                <li id="photography">
-                  <a href="#">
-                    <div></div>
-                    <h2>Photography</h2>
-                  </a>
-                </li>
-                -->
               </ul>
             </div>
           </section>
