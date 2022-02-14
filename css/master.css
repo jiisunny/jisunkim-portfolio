@@ -30,6 +30,7 @@
   transform: translateX(0);
 }
 
+
 /**** GOMAIN ****/
 .myname {
   position: absolute;
@@ -474,29 +475,208 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 
 
 /* RESPONSIVE */
+
+@media (min-width: 1581px) {
+  .mobile_list {
+    display : none;
+  }
+}
+
 @media (min-width: 1490px) and (max-width: 1580px) {
   #portfolio > .wrap_align > .brandlist {
     margin: 3% 5% 0;
   }
 }
-/* web minimum */
+/* WEB LARGE */
 @media (min-width: 1490px) {
   .bg_minpc,
-  .mobile_list > img,
-  .mobile_list > div {
+  .bg_tablet,
+  .bg_mobile,
+  .tablet_list > img,
+  .tablet_list > div,
+  .tablet_list > img,
+  .tablet_list > div {
     display: none;
   }
 }
+
+/* WEB MINIMUM_1 */
 /* img 파일 */
-@media (max-width: 1489px) {
+@media (min-width: 1025px) and (max-width: 1489px) {
   .bg_pc,
+  .bg_tablet,
+  .bg_mobile,
   .pc_list > img,
-  .pc_list > div {
+  .pc_list > div,
+  .mobile_list > img,
+  .mobile_list > div,
+  .answer_mobile {
     display: none;
   }
   .bg_minpc,
+  .tablet_list > img,
+  .tablet_list > div {
+    display: visible;
+  }
+
+  /**** SECTION1 HOME ****/
+  #home > .wrap_align > #maintitle > .logo {
+    font-size: 40px;
+    height: 100px;
+    text-align: left;
+    border-bottom: 3px solid #fff;
+    letter-spacing: 5px;
+    min-width: 100px;
+  }
+  #home > .wrap_align > #maintitle > h2 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 15px;
+    padding-top: 20px;
+  }
+
+  /***** 메뉴 제목 *****/
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid #fff;
+  }
+
+  /* SECTION2 PROJECTS */
+  #portfolio > .wrap_align > .brandlist {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 40px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li {
+    display: inline-block;
+    padding: 0 60px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li > a {
+    width: 150px;
+    height: 150px;
+  }
+  .brandname {
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  /***** 크리스피크림 *****/
+  #krispykreme > img {
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  #krispykreme > img:hover {
+    opacity: 1;
+  }
+  #krispykreme > .krispykremebg_t {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(../images/krispykreme_t.png);
+    margin-top: -150px;
+  }
+
+  /* SECTION3 ABOUT ME */
+  #profile > img {
+    width: 200px;
+    height: 200px;
+  }
+  .floating1 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -100px;
+  }
+  #me > .wrap_align > .profile_wrap > .info {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 16px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+    padding: 5px 0;
+    line-height: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+    padding: 5px 0;
+    line-height: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+    margin-top: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+    margin-top: 30px;
+  }
+
+  /* SECTION4 ART WORKS */
+  #artwork > .wrap_align > .artlist > li > a > div {
+    width: 180px;
+    height: 180px;
+  }
+  .artlist > li > a > div > img {
+    width: 180px;
+  }
+  #project > a > h2,
+  #graphic > a > h2,
+  #drawing > a > h2,
+  #photography > a > h2 {
+    font-size: 18px;
+  }
+  #artwork > .wrap_align > ul.artlist > li {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 50px;
+  }
+
+  /* SECTION5 CONTACT */
+  #contact > .wrap_align > .address > h2 {
+    font-size: 40px;
+    margin-top: 6%;
+    letter-spacing: 3px;
+  }
+  #contact > .wrap_align > .address > p.first {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  #contact > .wrap_align > .address > p.second {
+    font-size: 18px;
+  }
+  .circle {
+    width: 350px; height: 350px;
+    margin: 0 auto;
+    background: url(../images/contact_bg.png) no-repeat center;
+    margin-top: 90px;
+  }
+}
+
+/* WEB MINIMUM_2 */
+/* img 파일 */
+@media (min-width: 992px) and (max-width: 1024px) {
+  .bg_pc,
+  .bg_tablet,
+  .bg_mobile,
+  .pc_list > img,
+  .pc_list > div,
   .mobile_list > img,
-  .mobile_list > div {
+  .mobile_list > div,
+  .answer_mobile {
+    display: none;
+  }
+  .bg_minpc,
+  .tablet_list > img,
+  .tablet_list > div {
     display: visible;
   }
 
@@ -551,7 +731,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   .brandname {
     margin-top: 25px;
-    font-size: 22px;
+    font-size: 18px;
   }
   /***** 크리스피크림 *****/
   #krispykreme > img {
@@ -561,11 +741,11 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   #krispykreme > img:hover {
     opacity: 1;
   }
-  #krispykreme > .krispykremebg_m {
+  #krispykreme > .krispykremebg_t {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: url(../images/krispykreme_m.png);
+    background: url(../images/krispykreme_t.png);
     margin-top: -150px;
   }
 
@@ -576,14 +756,14 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   .floating1 {
     position: absolute;
-    top: 170px;
+    top: 160px;
     left: 50%;
     margin-left: -100px;
   }
   #me > .wrap_align > .profile_wrap > .info {
     position: absolute;
-    top: 400px;
-    left: 40px;
+    top: 50%;
+    left: 10%;
     font-size: 16px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
@@ -640,4 +820,426 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
     background: url(../images/contact_bg.png) no-repeat center;
     margin-top: 40px;
   }
+}
+
+
+/* TABLET */
+@media (min-width: 700px) and (max-width: 991px) {
+  .bg_pc,
+  .bg_minpc,
+  .pc_list > img,
+  .pc_list > div,
+  .mobile_list > img,
+  .mobile_text > div,
+  .answer_mobile {
+    display: none;
+  }
+  .bg_tablet,
+  .tablet_list > img,
+  .tablet_list > div {
+    display: visible;
+  }
+
+  /**** SECTION1 HOME ****/
+  #home > .wrap_align > #maintitle > .logo {
+    font-size: 40px;
+    height: 100px;
+    text-align: left;
+    border-bottom: 3px solid #fff;
+    letter-spacing: 5px;
+    min-width: 100px;
+  }
+  #home > .wrap_align > #maintitle > h2 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 15px;
+    padding-top: 20px;
+  }
+
+  /***** 메뉴 제목 *****/
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid #fff;
+    line-height: 25px;
+  }
+
+  /* SECTION2 PROJECTS */
+  #portfolio > .wrap_align > .brandlist {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 50px 40px 0;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li {
+    display: inline-block;
+    padding: 0 30px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li > a {
+    width: 150px;
+    height: 150px;
+  }
+  .brandname {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  /***** 크리스피크림 *****/
+  #krispykreme > img {
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  #krispykreme > img:hover {
+    opacity: 1;
+  }
+  #krispykreme > .krispykremebg_t {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: url(../images/krispykreme_t.png);
+    margin-top: -150px;
+  }
+
+  /* SECTION3 ABOUT ME */
+  #profile > img {
+    width: 200px;
+    height: 200px;
+  }
+  .floating1 {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-left: -100px;
+  }
+  #me > .wrap_align > .profile_wrap{
+    position: relative;
+    height: 100%;
+    margin: 0;
+  }
+  #me > .wrap_align > .profile_wrap > .info {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 16px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.answer {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    text-align: left;
+    width: 544px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+    padding: 5px 0;
+    line-height: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+    padding: 5px 0;
+    line-height: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+    margin-top: 30px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+    margin-top: 30px;
+  }
+
+  /* SECTION4 ART WORKS */
+  #artwork > .wrap_align > .artlist > li > a > div {
+    width: 180px;
+    height: 180px;
+  }
+  .artlist > li > a > div > img {
+    width: 180px;
+  }
+  #project > a > h2,
+  #graphic > a > h2,
+  #drawing > a > h2,
+  #photography > a > h2 {
+    font-size: 18px;
+  }
+  #artwork > .wrap_align > ul.artlist > li {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 50px;
+  }
+
+  /* SECTION5 CONTACT */
+  #contact > .wrap_align > .address > h2 {
+    font-size: 40px;
+    margin-top: 25%;
+    letter-spacing: 3px;
+  }
+  #contact > .wrap_align > .address > p.first {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  #contact > .wrap_align > .address > p.second {
+    font-size: 18px;
+  }
+  .circle {
+    width: 350px; height: 350px;
+    margin: 0 auto;
+    background: url(../images/contact_bg.png) no-repeat center;
+    margin-top: 12%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 699px) {
+  .bg_pc,
+  .bg_minpc,
+  .bg_tablet,
+  .pc_list > img,
+  .pc_list > div,
+  .tablet_list > img,
+  .tablet_list > div,
+  .answer_normal {
+    display: none;
+  }
+  .bg_mobile,
+  .mobile_list,
+  .mobile_list > img,
+  .mobile_list > div,
+  .answer_mobile {
+    display : visible;
+  }
+
+  /* NAV */
+  ul#main_nav{
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+  }
+
+  /* GOMAIN */
+  .myname {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 80px; height: 80px;
+    z-index: 300;
+  }
+  .myname > a {
+    width: 80px; height: 80px;
+    background: url(../images/sunny_logo_m.png);
+    text-indent: -6000px;
+    overflow: hidden;
+    animation: rotate_image 15s linear infinite;
+    transform-origin: 50% 50%;
+  }
+
+  /**** SECTION1 HOME ****/
+  #maintitle {
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  #home > .wrap_align > #maintitle > .logo {
+    font-size: 40px;
+    height: 100px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    letter-spacing: 5px;
+    min-width: 300px;
+  }
+  #home > .wrap_align > #maintitle > h2 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 15px;
+    padding-top: 20px;
+  }
+
+  /***** 메뉴 제목 *****/
+  .menu {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid #fff;
+    line-height: 20px;
+  }
+
+  /* SECTION2 PROJECTS */
+  #portfolio > .wrap_align > .brandlist {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    margin: 0 10px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li > a {
+    width: 120px;
+    height: 120px;
+  }
+  .brandname {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  /***** 크리스피크림 *****/
+  #krispykreme > img {
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  #krispykreme > img:hover {
+    opacity: 1;
+  }
+  #krispykreme > .krispykremebg_m {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url(../images/krispykreme_m.png);
+    margin-top: -120px;
+  }
+
+  /* SECTION3 ABOUT ME */
+  #profile > img {
+    width: 160px;
+    height: 160px;
+  }
+  .floating1 {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    margin-left: -80px;
+  }
+  #me > .wrap_align > .profile_wrap{
+    position: relative;
+    height: 100%;
+    margin: 0;
+  }
+  #me > .wrap_align > .profile_wrap > .info {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    font-size: 14px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.answer {
+    position: absolute;
+    left: 115px;
+    top: 0;
+    text-align: left;
+    width: 220px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+    padding: 5px 0;
+    line-height: 25px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+    padding: 5px 0;
+    line-height: 25px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+    margin-top: 75px;
+  }
+  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+    margin-top: 100px;
+  }
+
+  /* SECTION4 ART WORKS */
+  #artwork > .wrap_align > .artlist > li > a > div {
+    width: 130px;
+    height: 130px;
+  }
+  .artlist > li > a > div > img {
+    width: 130px;
+  }
+  #project > a > h2,
+  #graphic > a > h2,
+  #drawing > a > h2,
+  #photography > a > h2 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  #artwork > .wrap_align > ul.artlist > li {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 50px;
+  }
+
+  /* SECTION5 CONTACT */
+  #contact > .wrap_align > .address > h2 {
+    font-size: 30px;
+    margin-top: 32%;
+    letter-spacing: 3px;
+  }
+  #contact > .wrap_align > .address > p.first {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  #contact > .wrap_align > .address > p.second {
+    font-size: 14px;
+  }
+  #contact > .wrap_align > .address > ul.contactme {
+    margin-top: -240px;
+    margin-bottom: 200px;
+  }
+  #contact > .wrap_align > .address > ul.contactme > li {
+    font-size: 15px;
+    padding: 5px 0;
+  }
+  .circle {
+    width: 300px; height: 300px;
+    margin: 0 auto;
+    background: url(../images/contact_bg.png) no-repeat center;
+    background-size: 300px;
+    margin-top: 12%;
+  }
+
+  #contact > .wrap_align > .footer > #btntop {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  #contact > .wrap_align > .footer > #btntop > a {
+    width: 80px;
+    height: 80px;
+    background: url(../images/btn_top.png);
+    background-size: 80px;
+  }
+  #contact > .wrap_align > .footer > .copyright {
+    font-size: 13px;
+    color: #6e6e6e;
+    padding-top: 35px;
+    z-index: 10;
+  }
+
+
+
+
+
+
+
+
+
+
 }
