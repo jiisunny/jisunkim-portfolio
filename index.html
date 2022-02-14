@@ -27,8 +27,17 @@
 
   <link rel="stylesheet" href="css/master.css" />
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- GSAP & ScrollToPlugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="css/swiper.css" />
+
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script defer src="./js/main.js"></script>
   
   <!-- Demo styles -->
   <style>
@@ -69,12 +78,61 @@
     align-items: center;
   }
   </style>
-  <script src="js/jquery-3.5.0.min.js"></script>
 </head>
 
 <body>
 
   <div id="contentswrap">
+
+  <!-- toggle -->
+    <label class="toggle toggle_menu" for="toggle">toggle</label>
+    <!-- nav -->
+    <input id="toggle" type="checkbox" />
+    <nav id="main_nav_wrap">
+      <!-- 메인메뉴 --> 
+      <ul id="main_nav">
+        <li>
+          <h3>
+            <a href="javascript:void(0)">HOME</a>
+          </h3>
+        </li>
+        <li>
+          <h3>PROJECTS</h3>
+          <ul class="sub_nav">
+            <li><a href="javascript:void(0)">STARBUCKS</a></li>
+            <li><a href="javascript:void(0)">URIAGE</a></li>
+            <li><a href="javascript:void(0)">KRISPYKREME</a></li>
+            <li><a href="javascript:void(0)">YUHAN</a></li>
+            <li><a href="javascript:void(0)">TWOSOME COFFEE</a></li>
+            <li><a href="javascript:void(0)">DONGA</a></li>
+            <li><a href="javascript:void(0)">DONGBU STEEL</a></li>
+            <li><a href="javascript:void(0)">OVERWATCH HERO</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>
+            <a href="javascript:void(0)">ABOUT ME</a>
+          </h3>
+        </li>
+        <li>
+          <h3>ART WORKS</h3>
+          <ul class="sub_nav">
+            <li><a href="javascript:void(0)">GRAPHIC DESIGN</a></li>
+            <li><a href="javascript:void(0)">CARDNEWS</a></li>
+            <li><a href="javascript:void(0)">DESIGN PROJECT</a></li>
+            <li><a href="javascript:void(0)">DIGITAL DRAWING</a></li>
+          </ul>
+        </li>
+        <li>
+          <h3>
+            <a href="javascript:void(0)">CONTACT</a>
+          </h3>
+        </li>
+      </ul>
+      <!-- 닫기영역 -->
+      <label class="btn_close" for="toggle"></label>
+    </nav>
+
     <!---- [s]MAIN SWIPER ---->
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -146,6 +204,44 @@
                       <h3 class="brandname">CAFECHA</h3>
                     </a>
                   </li>
+
+
+                  <li>
+                    <a target="_blank" href="sub_uriage.html">
+                      <div id="uriage">
+                        <img src="images/uriage_hover.png" alt="uriage logo" />
+                        <div class="uriagebg"></div>
+                      </div>
+                      <h3 class="brandname">URIAGE</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="sub_krispykreme.html">
+                      <div id="krispykreme">
+                        <img src="images/krispykreme_hover.png" alt="krispykreme logo" />
+                        <div class="krispykremebg"></div>
+                      </div>
+                      <h3 class="brandname">KRISPYKREME</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="sub_yuhan.html">
+                      <div id="yuhan">
+                        <img src="images/yuhan_hover.png" alt="yuhan logo" />
+                        <div class="yuhanbg"></div>
+                      </div>
+                      <h3 class="brandname">YUHAN</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a target="_blank" href="cafecha/index.html">
+                      <div id="working">
+                        <img src="images/cafecha_hover.png" alt="working logo" />
+                        <div class="workingbg"></div>
+                      </div>
+                      <h3 class="brandname">CAFECHA</h3>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -165,24 +261,28 @@
                 <h2 class="title">About Me</h2>
                 <h3 class="subtitle">안녕하세요, 감각적인 디자이너 김지선입니다.</h3>
               </div>
-              <div class="info">
-                <ul class="question">
-                  <li>NAME</li>
-                  <li>BIRTH</li>
-                  <li>EDUCATION</li>
-                  <li>SKILL</li>
-                  <li>CONTACT</li>
-                </ul>
-                <ul class="answer">
-                  <li>김지선</li>
-                  <li>93&period; 11&period; 25</li>
-                  <li>WEB &amp; APP UI&sol;UX 웹디자인 과정 수료</li>
-                  <li>HTML &sdot; CSS &sdot; jQuery &sdot; Photoshop &sdot; Illust</li>
-                  <li>010 3307 7591&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jisunny302&commat;naver.com</li>
-                </ul>
-              </div>
-              <div id="profile">
-                <img src="images/jisun.png" alt="김지선 프로필 사진" />
+              <div class="profile_wrap">
+                <div id="profile">
+                  <img src="images/jisun.png" alt="김지선 프로필 사진" class="floating floating1" />
+                </div>
+                <div class="info">
+                  <ul class="question">
+                    <li>NAME</li>
+                    <li>BIRTH</li>
+                    <li>EDUCATION</li>
+                    <li>SKILL</li>
+                    <li>CONTACT</li>
+                  </ul>
+                  <ul class="answer">
+                    <li>김지선</li>
+                    <li>93&period; 11&period; 25</li>
+                    <li>WEB &amp; APP UI&sol;UX 웹디자인 과정 수료 <br />
+                      패스트캠퍼스 프론트엔드 과정 수료
+                    </li>
+                    <li>HTML &sdot; CSS &sdot; JavaScript &sdot; jQuery &sdot; Photoshop &sdot; Illust &sdot; Adobe XD &sdot; Lightroom &sdot; After Effects</li>
+                    <li>010 3307 7591&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jisunny302&commat;naver.com</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>
@@ -198,25 +298,39 @@
             </h1>
             <div class="wrap_align">
               <div class="menu">
-                <h2 class="title">Other Works</h2>
+                <h2 class="title">Art Works</h2>
                 <h3 class="subtitle">Graphic Design &amp; Digital Drawing</h3>
               </div>
               <ul class="artlist">
-                <li id="project">
-                  <a href="sub_balimoon.html">
-                    <div></div>
-                    <h2>Design Project</h2>
+                <li id="graphic">
+                  <a href="sub_cardnews.html">
+                    <div>
+                      <img src="images/cardnews.png" alt="cardnews" style="width: 250px; height: 250px;" />
+                    </div>
+                    <h2>Graphic Design</h2>
                   </a>
                 </li>
                 <li id="graphic">
                   <a href="sub_cardnews.html">
-                    <div></div>
+                    <div>
+                      <img src="images/cardnews.png" alt="cardnews" style="width: 250px; height: 250px;" />
+                    </div>
                     <h2>Graphic Design</h2>
+                  </a>
+                </li>
+                <li id="project">
+                  <a href="sub_balimoon.html">
+                    <div>
+                      <img src="images/balimoon.png" alt="project" style="width: 250px; height: 250px;" />
+                    </div>
+                    <h2>Design Project</h2>
                   </a>
                 </li>
                 <li id="drawing">
                   <a href="sub_digitaldrawing.html">
-                    <div></div>
+                    <div>
+                      <img src="images/drawing.png" alt="drawing" style="width: 250px; height: 250px;" />
+                    </div>
                     <h2>Digital Drawing</h2>
                   </a>
                 </li>
@@ -246,8 +360,8 @@
                 <h2>Thank you</h2>
                 <p class="first">저의 포트폴리오를 끝까지 봐주셔서 감사합니다.</p>
                 <p class="second">연락처로 문의주시면 확인 후 빠른 회신 드리겠습니다.</p>
-                <div class="circle"></div>
-                <ul class="contactme">
+                <div class="circle floating"></div>
+                <ul class="contactme floating">
                   <li>PHONE</li>
                   <li>010 3307 7591</li>
                   <li>E-MAIL</li>
