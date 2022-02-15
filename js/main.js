@@ -37,3 +37,11 @@ $(function(){
 		$("#main_nav > li").removeClass("active");
 	});
 });
+
+// 메뉴 슬라이드 이동
+function aboutme () {
+  swiper.slideTo(2, 1000, false)
+}
+function contact () {
+  swiper.slideTo(4, 1000, false)
+}

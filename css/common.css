@@ -30,11 +30,18 @@ ul, ol, li{
 img, fieldset, frameset, iframe{
   border: none;
 }
-input, select, option, textarea, button{
+input, select, option, textarea {
   border: none;
   background: transparent;
   border-radius: 0;
   outline: none;
+}
+button {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  outline: none;
+  font: 23px 'Cafe24Dangdanghae', sans-serif;
 }
 a, img, label{
   display: block;/* 인라인요소로 쓰는경우는 드물기 때문에 block으로 기본 설정 */
