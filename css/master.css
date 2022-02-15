@@ -99,7 +99,7 @@ ul#main_nav > li {
   font-size: 20px;
 }
 ul#main_nav > li:first-child {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 ul#main_nav > li > h3 {
   height: 54px;
@@ -172,6 +172,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   width: 100%;
   height: 100%;
   position: relative;
+  background-color: #e5bfe3;
 }
 #home > img {
   width: 100%;
@@ -375,6 +376,9 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
+
+
+  margin-top: 30px;
 }
 #artwork > .wrap_align > ul.artlist > li {
   display: inline-block;
@@ -383,6 +387,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 }
 #artwork > .wrap_align > ul.artlist > li > a > div {
   transform: scale(1.0);
+  margin: 0 auto;
 }
 #artwork > .wrap_align > ul.artlist > li > a:hover > div {
   transform: scale(1.05);
@@ -497,7 +502,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   .tablet_list > img,
   .tablet_list > div,
   .mobile_list_min > img,
-  .mobile_list_min > div {
+  .mobile_list_min > div,
+  .nav_logo {
     display: none;
   }
 }
@@ -514,7 +520,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   .mobile_list > div,
   .mobile_list_min > img,
   .mobile_list_min > div,
-  .answer_mobile {
+  .answer_mobile,
+  .nav_logo {
     display: none;
   }
   .bg_minpc,
@@ -677,7 +684,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   .mobile_list > div,
   .mobile_list_min > img,
   .mobile_list_min > div,
-  .answer_mobile {
+  .answer_mobile,
+  .nav_logo {
     display: none;
   }
   .bg_minpc,
@@ -839,7 +847,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   .mobile_text > div,
   .mobile_list_min > img,
   .mobile_list_min > div,
-  .answer_mobile {
+  .answer_mobile,
+  .nav_logo {
     display: none;
   }
   .bg_tablet,
@@ -1020,7 +1029,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   .bg_mobile,
   .mobile_list > img,
   .mobile_list > div,
-  .answer_mobile {
+  .answer_mobile,
+  .nav_logo {
     display : visible;
   }
 
@@ -1226,7 +1236,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   /* SECTION5 CONTACT */
   #contact > .wrap_align > .address > h2 {
     font-size: 30px;
-    margin-top: 32%;
+    margin-top: 100px;
     letter-spacing: 3px;
   }
   #contact > .wrap_align > .address > p.first {
@@ -1272,7 +1282,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 }
 
 /* MOBILE-MIN */
-@media (max-width: 375px) {
+@media (min-width: 200px) and (max-width: 375px) {
   .bg_pc,
   .bg_minpc,
   .bg_tablet,
@@ -1293,6 +1303,9 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
     display : visible;
   }
 
+  ul#main_nav > li:first-child {
+    margin-top: 103px;
+  }
   /* NAV */
   ul#main_nav{
     width: 100%;
@@ -1336,7 +1349,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   /* GOMAIN */
   .myname {
     position: absolute;
-    top: 25px;
+    top: 12px;
     left: 12px;
     width: 80px; height: 80px;
     z-index: 300;
@@ -1402,17 +1415,27 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   #portfolio > .wrap_align > .brandlist > ul > li {
     display: inline-block;
-    padding: 0 10px;
-    margin-top: 10px;
+    padding: 0 5px;
+    margin-top: 10%;
   }
   #portfolio > .wrap_align > .brandlist > ul > li > a {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 50px;
   }
-  .brandname {
-    margin-top: 10px;
+  h3.brandname {
+    margin-top: 0;
     font-size: 12px;
+    line-height: 50px;
+    border-radius: 50px;
+    border: 1px solid #fff;
   }
+  #portfolio > .wrap_align > .brandlist > ul > li > a:hover > h3 {
+    background-color: #8081d9;
+    color: #fff;
+    transition-duration: 0.3s;
+    border: 1px solid #8081d9;
+  }
+
   /***** 크리스피크림 *****/
   #krispykreme > img {
     opacity: 0;
@@ -1431,14 +1454,14 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 
   /* SECTION3 ABOUT ME */
   #profile > img {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
   }
   .floating1 {
     position: absolute;
     top: 130px;
     left: 50%;
-    margin-left: -65px;
+    margin-left: -50px;
   }
   #me > .wrap_align > .profile_wrap{
     position: relative;
@@ -1460,17 +1483,17 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
     padding: 5px 0;
-    line-height: 25px;
+    line-height: 20px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.question > li {
     padding: 5px 0;
-    line-height: 25px;
+    line-height: 20px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   /* SECTION4 ART WORKS */
@@ -1497,7 +1520,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   /* SECTION5 CONTACT */
   #contact > .wrap_align > .address > h2 {
     font-size: 30px;
-    margin-top: 20%;
+    margin-top: 14%;
     letter-spacing: 3px;
   }
   #contact > .wrap_align > .address > p.first {
@@ -1508,19 +1531,27 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
     font-size: 13px;
   }
   #contact > .wrap_align > .address > ul.contactme {
-    margin-top: -240px;
+    margin-top: -204px;
     margin-bottom: 200px;
   }
   #contact > .wrap_align > .address > ul.contactme > li {
-    font-size: 15px;
+    font-size: 13px;
     padding: 5px 0;
   }
   .circle {
-    width: 300px; height: 300px;
+    width: 240px; height: 240px;
     margin: 0 auto;
     background: url(../images/contact_bg.png) no-repeat center;
-    background-size: 300px;
+    background-size: 240px;
     margin-top: 6%;
+  }
+  .footer {
+    width: 100%; height: 60px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #fff;
+    letter-spacing: 1px;
   }
   #contact > .wrap_align > .footer > #btntop {
     position: absolute;
@@ -1534,10 +1565,22 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
     background: url(../images/btn_top.png);
     background-size: 80px;
   }
+
+  /**** FOOTER ****/
+  #contact > .wrap_align > .footer {
+    width: 100%; height: 80px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: #fff;
+    letter-spacing: 1px;
+  }
   #contact > .wrap_align > .footer > .copyright {
     font-size: 13px;
     color: #6e6e6e;
-    padding-top: 35px;
-    z-index: 10;
+    padding-top: 0;
+    line-height: 80px;
+    margin-top: 7px;
   }
+
 }
