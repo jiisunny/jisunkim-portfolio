@@ -1121,7 +1121,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   .floating1 {
     position: absolute;
-    top: 130px;
+    top: 150px;
     left: 50%;
     margin-left: -50px;
   }
