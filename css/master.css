@@ -462,14 +462,14 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 
 
 /* RESPONSIVE */
-@media (min-width: 1490px) and (max-width: 1580px) {
+@media screen and (min-width: 1490px) and (max-width: 1580px) {
   #portfolio > .wrap_align > .brandlist {
     margin: 3% 5% 0;
   }
 }
 
 /* WEB LARGE */
-@media (min-width: 1490px) {
+@media screen and (min-width: 1490px) {
   .bg_minpc,
   .bg_tablet,
   .bg_mobile {
@@ -479,7 +479,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 
 /* WEB MINIMUM_1 */
 /* img 파일 */
-@media (min-width: 1025px) and (max-width: 1489px) {
+@media screen and (min-width: 1025px) and (max-width: 1489px) {
   .bg_pc,
   .bg_tablet,
   .bg_mobile,
@@ -631,7 +631,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 
 /* WEB MINIMUM_2 */
 /* img 파일 */
-@media (min-width: 992px) and (max-width: 1024px) {
+@media screen and (min-width: 992px) and (max-width: 1024px) {
   .bg_pc,
   .bg_tablet,
   .bg_mobile,
@@ -782,7 +782,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 }
 
 /* TABLET */
-@media (min-width: 700px) and (max-width: 991px) {
+@media screen and (min-width: 700px) and (max-width: 991px) {
   .bg_pc,
   .bg_minpc,
   .bg_mobile,
@@ -956,7 +956,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 }
 
 /* MOBILE */
-@media (min-width: 100px) and (max-width: 699px) {
+@media screen and (min-width: 100px) and (max-width: 699px) {
   .bg_pc,
   .bg_minpc,
   .bg_tablet,

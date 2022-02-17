@@ -39,9 +39,11 @@
 
 <body>
   <!-- HOME BUTTON -->
-  <h1 class="myname">
-    <a href="index.html">JISUN KIM</a>
-  </h1>
+  <header>
+    <h1 class="myname">
+      <a href="index.html">JISUN KIM</a>
+    </h1>
+  </header>
   <!-- toggle -->
   <label class="toggle toggle_menu" for="toggle">toggle</label>
   <!-- nav -->
@@ -206,7 +208,9 @@
   <div id="main">
     <div class="contentswrap">
       <div class="bg_wrap">
-        <img src="./images/main_kkd.png" alt="Krispykreme" />
+        <img src="./images/main_kkd.png" class="bg_pc" alt="Krispykreme" />
+        <img src="./images/main_kkd_t.png" class="bg_tablet" alt="Krispykreme" />
+        <img src="./images/main_kkd_m.png" class="bg_mobile" alt="Krispykreme" />
       </div>
       <div class="title">
         <h1 class="logo">Krispykreme</h1>
@@ -253,11 +257,11 @@
     <section id="media">
       <div class="contentswrap">
         <h3>MEDIA QUERY</h3>
-        <ul>
+        <ul class="media_query">
           <li>PC &#58; 1920px &#45; 1400px</li>
           <li>Mobile &#58; max 767px</li>
         </ul>
-        <img src="images/media_kkd.png" alt="크리스피크림 도넛 미디어쿼리 목업 사진" />
+        <img src="images/media_kkd.png" alt="크리스피크림 도넛" />
         <!-- 바로가기 버튼 -->
         <ul class="go">
           <li class="gosite"><a target="_blank" href="krispykreme/index.html">View Website</a></li>
@@ -272,9 +276,11 @@
         <h3>STYLE GUIDE</h3>
         <ul>
           <li>
+            <h3>TYPOGRAPHY</h3>
             <img src="images/typography_kkd.png" alt="크리스피크림 도넛 typography" />
           </li>
           <li>
+            <h3>COLOR</h3>
             <img src="images/color_kkd.png" alt="크리스피크림 도넛 color" />
           </li>
         </ul>
@@ -296,7 +302,8 @@
     <section id="detail">
       <div class="contentswrap">
         <img class="pcdeail" src="images/pcdetail_kkd.png" alt="크리스피크림 도넛 pc 상세보기" />
-        <img class="mobiledetail" src="images/mobiledetail_kkd.png" alt="크리스피크림 도넛 mobile 상세보기" />
+        <img class="mobiledetail bg_normal" src="images/mobiledetail_kkd.png" alt="크리스피크림 도넛 mobile 상세보기" />
+        <img class="mobiledetail bg_mobile" src="images/mobiledetail_kkd_m.png" alt="크리스피크림 도넛 mobile 상세보기" />
       </div>
     </section>
   </div>
