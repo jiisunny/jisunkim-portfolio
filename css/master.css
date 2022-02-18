@@ -446,8 +446,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
 }
 #contact > .wrap_align > .footer > #btntop > a {
   width: 100px;
-  height: 100px;
-  background: url(../images/btn_top.png);
+  height: 70px;
+  background: url(../images/btn_top.png) no-repeat;
 }
 #contact > .wrap_align > .footer > #btntop > a:hover {
   margin-top: -7px;
