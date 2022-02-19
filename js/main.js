@@ -47,13 +47,13 @@ function contact () {
 }
 
 // Scroll Magic
-const spyEls = document.querySelectorAll('section.scroll-spy');
-spyEls.forEach(function (spyEl) {
-  new ScrollMagic
-    .Scene({
-      triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
-      triggerHook: .8 // 감시하는 요소가 뷰포트에 위치하는 값 (뷰포트 시작점이 0 끝점이 1)
-    })
-    .setClassToggle(spyEl, 'show')
-    .addTo(new ScrollMagic.Controller()); // 메소드체이닝
-});
+// const spyEls = document.querySelectorAll('section.scroll-spy');
+// spyEls.forEach(function (spyEl) {
+//   new ScrollMagic
+//     .Scene({
+//       triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
+//       triggerHook: .8 // 감시하는 요소가 뷰포트에 위치하는 값 (뷰포트 시작점이 0 끝점이 1)
+//     })
+//     .setClassToggle(spyEl, 'show')
+//     .addTo(new ScrollMagic.Controller()); // 메소드체이닝
+// });
