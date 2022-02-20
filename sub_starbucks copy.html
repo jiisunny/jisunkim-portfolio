@@ -32,9 +32,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-  <!-- ScrollMagic -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
   <link rel="stylesheet" href="css/sub_layout.css" />
   <script src="js/jquery-3.5.0.min.js"></script>
   <script defer src="./js/main.js"></script>
@@ -231,69 +228,55 @@
   <!-- [s]CONTENTS -->
   <div id ="section_wrap">
     <!-- INTRO SECTION -->
-    <section id="intro" class="scroll-spy">
+    <section id="intro">
       <div class="contentswrap">
-        <h2 class="back-to-position to-bottom delay-0">스타벅스 커피 웹사이트 제작</h2>
+        <h2>스타벅스 커피 웹사이트 제작</h2>
         <ul class="summary">
-          <li class="back-to-position to-bottom delay-1">
+          <li>
             <h3>WORK</h3>
             <p>웹사이트 제작</p>
           </li>
-          <li class="back-to-position to-bottom delay-2">
+          <li>
             <h3>RELEASE DATE</h3>
             <p>2022&#46; 01&#46; 29</p>
           </li>
-          <li class="back-to-position to-bottom delay-3">
+          <li>
             <h3>TYPE</h3>
             <p>WEBSITE</p>
           </li>
         </ul>
-        <h3 class="back-to-position to-bottom delay-4">OVERVIEW</h3>
-        <p class="back-to-position to-bottom delay-5">
+        <h3>OVERVIEW</h3>
+        <p>
           스타벅스 커피 웹사이트를 제작했다. Javascript를 사용해 YouTube API 를 적용했고, GSAP 애니메이션 라이브러리를 통해 Scroll To Plugin 효과를 적용했다. 메인페이지와 로그인페이지를 작업했다.
         </p>
       </div>
     </section>
   
     <!-- MEDIA SECTION -->
-    <section id="media" class="scroll-spy">
+    <section id="media">
       <div class="contentswrap">
-        <h3 class="back-to-position to-right delay-1">MEDIA QUERY</h3>
-        <ul class="media_query back-to-position to-left delay-1">
+        <h3>MEDIA QUERY</h3>
+        <ul class="media_query">
           <li>PC &#58; 1920px &#45; 1400px</li>
         </ul>
-        <img src="images/media_starbucks.png" alt="Starbucks mediaquery" class="back-to-position to-right delay-0" />
+        <img src="images/media_starbucks.png" alt="Starbucks mediaquery" />
         <!-- 바로가기 버튼 -->
-        <ul class="go back-to-position to-left delay-1">
-          <li class="gosite floating"><a target="_blank" href="https://wonderful-morse-63f91e.netlify.app/">View Website</a></li>
+        <ul class="go">
+          <li class="gosite"><a target="_blank" href="https://wonderful-morse-63f91e.netlify.app/">View Website</a></li>
         </ul>
       </div>
     </section>
-    <script>
-      // floating 효과
-      function floatingObject(selector) {
-        // gsap.to(요소, 시간, 옵션);
-        gsap.to(selector, 1, {
-          y: 10,
-          repeat: -1,
-          yoyo: true,
-          ease: Power1.easeInOut,
-          delay: 1
-        })
-      }
-      floatingObject('.floating');
-    </script>
     
     <!-- GUIDE SECTION -->
-    <section id="guide" class="scroll-spy">
+    <section id="guide">
       <div class="contentswrap">
         <h3>STYLE GUIDE</h3>
         <ul>
-          <li class="back-to-position to-right delay-2">
+          <li>
             <h3>TYPOGRAPHY</h3>
             <img src="images/typography_starbucks.png" alt="Starbucks typography" />
           </li>
-          <li class="back-to-position to-left delay-3">
+          <li>
             <h3>COLOR</h3>
             <img src="images/color_starbucks.png" alt="Starbucks color" />
           </li>
@@ -302,9 +285,9 @@
     </section>
     
     <!-- DETAIL SECTION -->
-    <section id="detail" class="scroll-spy">
+    <section id="detail">
       <div class="contentswrap">
-        <img class="pcdeail back-to-position to-bottom delay-0" src="images/pcdetail_starbucks.png" alt="Starbucks overview" />
+        <img class="pcdeail" src="images/pcdetail_starbucks.png" alt="Starbucks overview" />
       </div>
     </section>
   </div>
@@ -319,20 +302,6 @@
       Copyright(C) ALL RIGHTS RESERVED BY JISUN KIM
     </p>
   </div>
-
-  <script>
-    // Scroll Magic
-    const spyEls = document.querySelectorAll('section.scroll-spy');
-    spyEls.forEach(function (spyEl) {
-      new ScrollMagic
-        .Scene({
-          triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
-          triggerHook: .9 // 감시하는 요소가 뷰포트에 위치하는 값 (뷰포트 시작점이 0 끝점이 1)
-        })
-        .setClassToggle(spyEl, 'show')
-        .addTo(new ScrollMagic.Controller()); // 메소드체이닝
-    });
-  </script>
   
 </body>
 </html>
