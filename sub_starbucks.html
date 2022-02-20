@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+  
   <!-- GSAP & ScrollToPlugin -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -36,8 +36,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <link rel="stylesheet" href="css/sub_layout.css" />
+  <script defer src="./js/sub_main.js"></script>
   <script src="js/jquery-3.5.0.min.js"></script>
-  <script defer src="./js/main.js"></script>
 </head>
 
 <body id="starbucks_body">
@@ -75,11 +75,6 @@
           <li><a href="sub_overwatch.html">OVERWATCH HERO</a></li>
         </ul>
       </li>
-      <!-- <li>
-        <h3>
-          <button onclick="location.href='index.html'">ABOUT ME</button>
-        </h3>
-      </li> -->
       <li>
         <h3>
           ART WORKS
@@ -92,11 +87,6 @@
           <li><a href="javascript:void(0)">DIGITAL DRAWING</a></li>
         </ul>
       </li>
-      <!-- <li>
-        <h3>
-          <button onclick="contact()">CONTACT</button>
-        </h3>
-      </li> -->
     </ul>
     <!-- 닫기영역 -->
     <label class="btn_close" for="toggle"></label>
@@ -269,25 +259,11 @@
         </ul>
       </div>
     </section>
-    <script>
-      // floating 효과
-      function floatingObject(selector) {
-        // gsap.to(요소, 시간, 옵션);
-        gsap.to(selector, 1, {
-          y: 10,
-          repeat: -1,
-          yoyo: true,
-          ease: Power1.easeInOut,
-          delay: 1
-        })
-      }
-      floatingObject('.floating');
-    </script>
     
     <!-- GUIDE SECTION -->
     <section id="guide" class="scroll-spy">
       <div class="contentswrap">
-        <h3>STYLE GUIDE</h3>
+        <h3 class="back-to-position to-right delay-3">STYLE GUIDE</h3>
         <ul>
           <li class="back-to-position to-right delay-2">
             <h3>TYPOGRAPHY</h3>
@@ -304,7 +280,7 @@
     <!-- DETAIL SECTION -->
     <section id="detail" class="scroll-spy">
       <div class="contentswrap">
-        <img class="pcdeail back-to-position to-bottom delay-0" src="images/pcdetail_starbucks.png" alt="Starbucks overview" />
+        <img class="pcdeail back-to-position to-bottom delay-4" src="images/pcdetail_starbucks.png" alt="Starbucks overview" />
       </div>
     </section>
   </div>
@@ -320,19 +296,5 @@
     </p>
   </div>
 
-  <script>
-    // Scroll Magic
-    const spyEls = document.querySelectorAll('section.scroll-spy');
-    spyEls.forEach(function (spyEl) {
-      new ScrollMagic
-        .Scene({
-          triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
-          triggerHook: .9 // 감시하는 요소가 뷰포트에 위치하는 값 (뷰포트 시작점이 0 끝점이 1)
-        })
-        .setClassToggle(spyEl, 'show')
-        .addTo(new ScrollMagic.Controller()); // 메소드체이닝
-    });
-  </script>
-  
 </body>
 </html>
