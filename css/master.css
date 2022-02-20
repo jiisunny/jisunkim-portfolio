@@ -104,7 +104,6 @@ ul#main_nav > li:first-child {
 }
 ul#main_nav > li > h3 {
   height: 54px;
-  /* border-bottom: 1px solid #ccc; 수정 */
   padding-left: 30px;
   line-height: 54px;
   font-weight: 700;
@@ -177,6 +176,9 @@ ul#main_nav > li > ul.sub_nav > li:hover > a {
 input#toggle:checked + #main_nav_wrap > label.btn_close{
   transition-duration: 0.8s;
   transform: rotateZ(-180deg);
+}
+section {
+  overflow: hidden;
 }
 
 /**** SECTION1 HOME ****/
@@ -983,7 +985,6 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   ul#main_nav > li > h3 {
     height: 45px;
-    /* border-bottom: 1px solid #ccc; 수정 */
     padding-left: 30px;
     line-height: 50px;
     font-weight: 700;
@@ -1078,7 +1079,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   #portfolio > .wrap_align > .brandlist > ul > li {
     display: inline-block;
     padding: 0 5px;
-    margin-top: 12px;
+    margin-top: 3%;
     width: 75%;
   }
   #portfolio > .wrap_align > .brandlist > ul > li > a {

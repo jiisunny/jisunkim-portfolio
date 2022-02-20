@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta name="format-detection" content="telephone=no" />
   <title>Krispykreme</title>
   
@@ -32,9 +32,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <link rel="stylesheet" href="css/sub_layout.css" />
+  <script defer src="./js/sub_main.js"></script>
   <script src="js/jquery-3.5.0.min.js"></script>
-  <script defer src="./js/main.js"></script>
 </head>
 
 <body>
@@ -72,11 +75,6 @@
           <li><a href="sub_overwatch.html">OVERWATCH HERO</a></li>
         </ul>
       </li>
-      <!-- <li>
-        <h3>
-          <button onclick="location.href='index.html'">ABOUT ME</button>
-        </h3>
-      </li> -->
       <li>
         <h3>
           ART WORKS
@@ -89,11 +87,6 @@
           <li><a href="javascript:void(0)">DIGITAL DRAWING</a></li>
         </ul>
       </li>
-      <!-- <li>
-        <h3>
-          <button onclick="contact()">CONTACT</button>
-        </h3>
-      </li> -->
     </ul>
     <!-- 닫기영역 -->
     <label class="btn_close" for="toggle"></label>
@@ -229,69 +222,69 @@
   <!-- [s]CONTENTS -->
   <div id ="section_wrap">
     <!-- INTRO SECTION -->
-    <section id="intro">
+    <section id="intro" class="scroll-spy">
       <div class="contentswrap">
-        <h2>크리스피크림 웹&#44; 모바일 앱 리뉴얼</h2>
+        <h2 class="back-to-position to-bottom delay-0">크리스피크림 웹&#44; 모바일 앱 리뉴얼</h2>
         <ul class="summary">
-          <li>
+          <li class="back-to-position to-bottom delay-1">
             <h3>WORK</h3>
             <p>UIUX 디자인 및 제작</p>
           </li>
-          <li>
+          <li class="back-to-position to-bottom delay-2">
             <h3>RELEASE DATE</h3>
             <p>2022&#46; 02&#46; 06</p>
           </li>
-          <li>
+          <li class="back-to-position to-bottom delay-3">
             <h3>TYPE</h3>
             <p>WEB&#44; MOBILE APP</p>
           </li>
         </ul>
-        <h3>OVERVIEW</h3>
-        <p>
+        <h3 class="back-to-position to-bottom delay-4">OVERVIEW</h3>
+        <p class="back-to-position to-bottom delay-5">
           크리스피크림 도넛은 당일 생상한 신선한 도넛만 판매한다는 원칙으로 달콤하고 신선한 도넛을 제공하는 도넛 브랜드이다. 기존 웹사이트는 수 많은 배너 개수로 사용자의 주의를 분산시키고, 인터렉션 요소가 많지 않아 다소 단조로운 디자인으로 다가오는 점이 아쉬웠다. 리뉴얼을 진행하며 크리스피크림 도넛만의 메뉴가 잘 돋보일 수 있도록 했고, 사용자가 필요한 정보를 메인페이지에 배치해 접근성을 높였다.
         </p>
       </div>
     </section>
   
     <!-- MEDIA SECTION -->
-    <section id="media">
+    <section id="media" class="scroll-spy">
       <div class="contentswrap">
-        <h3>MEDIA QUERY</h3>
-        <ul class="media_query">
+        <h3 class="back-to-position to-right delay-1">MEDIA QUERY</h3>
+        <ul class="media_query back-to-position to-left delay-1">
           <li>PC &#58; 1920px &#45; 1400px</li>
           <li>Mobile &#58; max 767px</li>
         </ul>
-        <img src="images/media_kkd.png" alt="Krispykreme mediaquery" />
+        <img src="images/media_kkd.png" alt="Krispykreme mediaquery" class="back-to-position to-right delay-0" />
         <!-- 바로가기 버튼 -->
-        <ul class="go">
-          <li class="gosite"><a target="_blank" href="https://elegant-thompson-69b225.netlify.app/">View Website</a></li>
-          <li class="gomobile"><a target="_blank" href="https://vigorous-goldberg-477775.netlify.app/">View Mobile App</a></li>
+        <ul class="go back-to-position to-left delay-3">
+          <li class="gosite floating"><a target="_blank" href="https://elegant-thompson-69b225.netlify.app/">View Website</a></li>
+          <li class="gomobile floating"><a target="_blank" href="https://vigorous-goldberg-477775.netlify.app/">View Mobile App</a></li>
         </ul>
       </div>
     </section>
     
     <!-- GUIDE SECTION -->
-    <section id="guide">
+    <section id="guide" class="scroll-spy">
       <div class="contentswrap">
-        <h3>STYLE GUIDE</h3>
+        <h3 class="back-to-position to-right delay-1">STYLE GUIDE</h3>
         <ul>
           <li>
-            <h3>TYPOGRAPHY</h3>
-            <img src="images/typography_kkd.png" alt="Krispykreme typography" />
+            <h3 class="back-to-position to-right delay-3">TYPOGRAPHY</h3>
+            <img src="images/typography_kkd.png" alt="Krispykreme typography" class="back-to-position to-right delay-4" />
           </li>
           <li>
-            <h3>COLOR</h3>
-            <img src="images/color_kkd.png" alt="Krispykreme color" />
+            <h3 class="back-to-position to-left delay-3">COLOR</h3>
+            <img src="images/color_kkd.png" alt="Krispykreme color" class="back-to-position to-left delay-4" />
           </li>
         </ul>
-        <h3>PAGE DESIGN</h3>
+        <h3 class="back-to-position to-right delay-5">PAGE DESIGN</h3>
         <dl>
-          <dt>Goal</dt>
-          <dd>
+          <dt class="back-to-position to-right delay-6">Goal</dt>
+          <dd class="back-to-position to-right delay-7">
             배너의 길이를 확장해 기존의 홈페이지 보다 사용자들이 신상품 이미지와 프로모션 이미지에 집중할 수 있도록 하고, 메뉴와 이벤트 정보를 한 눈에 확인할 수 있도록 한다.
           </dd>
-          <dt>Concept</dt>
-          <dd>
+          <dt class="back-to-position to-right delay-8">Concept</dt>
+          <dd class="back-to-position to-right delay-9">
             다양한 마우스 오버 효과로 시각적 효과를 높이고, 땡땡이 무늬와 기존 크리스피크림 도넛 로고 색상인 그린과 레드를 포인트 컬러로 사용해 크리스피크림 도넛의 브랜드 아이덴티티를 나타내고 주 고객층인 젊은 고객들의 시선을 끌도록 한다.
           </dd>
         </dl>
@@ -299,11 +292,11 @@
     </section>
     
     <!-- DETAIL SECTION -->
-    <section id="detail">
+    <section id="detail" class="scroll-spy">
       <div class="contentswrap">
-        <img class="pcdeail" src="images/pcdetail_kkd.png" alt="Krispykreme overview" />
-        <img class="mobiledetail bg_normal" src="images/mobiledetail_kkd.png" alt="Krispykreme overview" />
-        <img class="mobiledetail bg_mobile" src="images/mobiledetail_kkd_m.png" alt="Krispykreme overview" />
+        <img class="pcdeail back-to-position to-bottom delay-4" src="images/pcdetail_kkd.png" alt="Krispykreme overview" />
+        <img class="mobiledetail bg_normal back-to-position to-bottom delay-8" src="images/mobiledetail_kkd.png" alt="Krispykreme overview" />
+        <img class="mobiledetail bg_mobile back-to-position to-bottom delay-8" src="images/mobiledetail_kkd_m.png" alt="Krispykreme overview" />
       </div>
     </section>
   </div>

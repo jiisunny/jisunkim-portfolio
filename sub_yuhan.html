@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta name="format-detection" content="telephone=no" />
   <title>Yuhan</title>
   
@@ -32,9 +32,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <link rel="stylesheet" href="css/sub_layout.css" />
+  <script defer src="./js/sub_main.js"></script>
   <script src="js/jquery-3.5.0.min.js"></script>
-  <script defer src="./js/main.js"></script>
 </head>
 
 <body id="yuhan_body">
@@ -72,11 +75,6 @@
           <li><a href="sub_overwatch.html">OVERWATCH HERO</a></li>
         </ul>
       </li>
-      <!-- <li>
-        <h3>
-          <button onclick="location.href='index.html'">ABOUT ME</button>
-        </h3>
-      </li> -->
       <li>
         <h3>
           ART WORKS
@@ -89,11 +87,6 @@
           <li><a href="javascript:void(0)">DIGITAL DRAWING</a></li>
         </ul>
       </li>
-      <!-- <li>
-        <h3>
-          <button onclick="contact()">CONTACT</button>
-        </h3>
-      </li> -->
     </ul>
     <!-- 닫기영역 -->
     <label class="btn_close" for="toggle"></label>
@@ -229,67 +222,67 @@
   <!-- [s]CONTENTS -->
   <div id ="section_wrap">
     <!-- INTRO SECTION -->
-    <section id="intro">
+    <section id="intro" class="scroll-spy">
       <div class="contentswrap">
-        <h2>유한양행 웹사이트 리뉴얼</h2>
+        <h2 class="back-to-position to-bottom delay-0">유한양행 웹사이트 리뉴얼</h2>
         <ul class="summary">
-          <li>
+          <li class="back-to-position to-bottom delay-1">
             <h3>WORK</h3>
             <p>UIUX 디자인 및 제작</p>
           </li>
-          <li>
+          <li class="back-to-position to-bottom delay-2">
             <h3>RELEASE DATE</h3>
             <p>2022&#46; 02&#46; 06</p>
           </li>
-          <li>
+          <li class="back-to-position to-bottom delay-3">
             <h3>TYPE</h3>
             <p>WEBSITE</p>
           </li>
         </ul>
-        <h3>OVERVIEW</h3>
-        <p>
+        <h3 class="back-to-position to-bottom delay-4">OVERVIEW</h3>
+        <p class="back-to-position to-bottom delay-5">
           1926년 유일한 박사가 설립한 이후 국내 1위 제약회사로 자리잡은 유한양행은 윤리경영으로 사랑받는 국내기업 중 하나이다. 신뢰를 상징하는 컬러인 그린과 차분한 색상인 브라운 색상을 메인으로 잡아 제약회사의 신뢰도를 나타냈고, 배너 영역을 넓혀 시선을 사로잡게 만들었다. 사이트를 방문하는 사용자들이 가장 많이 찾는 메뉴인 약품 및 증상 검색을 메인페이지로 배치해 접근성을 높였다.
         </p>
       </div>
     </section>
   
     <!-- MEDIA SECTION -->
-    <section id="media">
+    <section id="media" class="scroll-spy">
       <div class="contentswrap">
-        <h3>MEDIA QUERY</h3>
-        <ul class="media_query">
-          <li>PC &#58; 1920px &#45; 1400px</li>\
+        <h3 class="back-to-position to-right delay-1">MEDIA QUERY</h3>
+        <ul class="media_query back-to-position to-left delay-1">
+          <li>PC &#58; 1920px &#45; 1400px</li>
         </ul>
-        <img src="images/media_yuhan.png" alt="Yuhan mediaquery" />
+        <img src="images/media_yuhan.png" alt="Yuhan mediaquery" class="back-to-position to-right delay-0" />
         <!-- 바로가기 버튼 -->
-        <ul class="go">
-          <li class="gosite"><a target="_blank" href="https://dazzling-lovelace-035878.netlify.app/">View Website</a></li>
+        <ul class="go back-to-position to-left delay-3">
+          <li class="gosite floating"><a target="_blank" href="https://dazzling-lovelace-035878.netlify.app/">View Website</a></li>
         </ul>
       </div>
     </section>
     
     <!-- GUIDE SECTION -->
-    <section id="guide">
+    <section id="guide" class="scroll-spy">
       <div class="contentswrap">
-        <h3>STYLE GUIDE</h3>
+        <h3 class="back-to-position to-right delay-2">STYLE GUIDE</h3>
         <ul>
           <li>
-            <h3>TYPOGRAPHY</h3>
-            <img src="images/typography_yuhan.png" alt="Yuhan typography" />
+            <h3 class="back-to-position to-right delay-3">TYPOGRAPHY</h3>
+            <img src="images/typography_yuhan.png" alt="Yuhan typography"  class="back-to-position to-right delay-4" />
           </li>
           <li>
-            <h3>COLOR</h3>
-            <img src="images/color_yuhan.png" alt="Yuhan color" />
+            <h3 class="back-to-position to-left delay-3">COLOR</h3>
+            <img src="images/color_yuhan.png" alt="Yuhan color" class="back-to-position to-left delay-4" />
           </li>
         </ul>
-        <h3>PAGE DESIGN</h3>
+        <h3 class="back-to-position to-right delay-5">PAGE DESIGN</h3>
         <dl>
-          <dt>Goal</dt>
-          <dd>
+          <dt class="back-to-position to-right delay-6">Goal</dt>
+          <dd class="back-to-position to-right delay-7">
             배너의 길이를 확장해  기존의 홈페이지 보다 사용자의 시선을 끌을 수 있도록 한다. 사용자가 쉽게 제약 상품을 검색할 수 있도록 약품명, 증상, 키워드 등을 검색창 아래 배치하고 메인페이지에서 쉽게 볼 수 있도록 한다.
           </dd>
-          <dt>Concept</dt>
-          <dd>
+          <dt class="back-to-position to-right delay-8">Concept</dt>
+          <dd class="back-to-position to-right delay-9">
             헤더 영역을 왼쪽에 배치해 기존 웹페이지와는 다르게 색다른 레이아웃을 제공한다. 유한양행의 운영철학인 신념, 비전, 정신으로 중심으로 배너 주제를 잡고 키워드마다 한개의 배너를 구성해 한눈에 브랜드 아이덴티티를 알 수있도록 한다. 
           </dd>
         </dl>
@@ -297,11 +290,11 @@
     </section>
     
     <!-- DETAIL SECTION -->
-    <section id="detail">
+    <section id="detail" class="scroll-spy">
       <div class="contentswrap">
-        <img class="pcdeail" src="images/pcdetail_yuhan.png" alt="Yuhan overview" />
-        <img class="mobiledetail bg_normal" src="images/mobiledetail_yuhan.png" alt="Yuhan overview" />
-        <img class="mobiledetail bg_mobile" src="images/mobiledetail_yuhan_m.png" alt="Yuhan overview" />
+        <img class="pcdeail back-to-position to-bottom delay-4" src="images/pcdetail_yuhan.png" alt="Yuhan overview" />
+        <img class="mobiledetail bg_normal back-to-position to-bottom delay-9" src="images/mobiledetail_yuhan.png" alt="Yuhan overview" />
+        <img class="mobiledetail bg_mobile back-to-position to-bottom delay-4" src="images/mobiledetail_yuhan_m.png" alt="Yuhan overview" />
       </div>
     </section>
   </div>

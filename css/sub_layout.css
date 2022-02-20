@@ -46,6 +46,18 @@ body {
 .show .back-to-position.delay-5 {
   transition-delay: .5s;
 }
+.show .back-to-position.delay-6 {
+  transition-delay: .6s;
+}
+.show .back-to-position.delay-7 {
+  transition-delay: .7s;
+}
+.show .back-to-position.delay-8 {
+  transition-delay: .8s;
+}
+.show .back-to-position.delay-9 {
+  transition-delay: .9s;
+}
 
 /** GO HOME **/
 .myname {
@@ -124,7 +136,6 @@ ul#main_nav > li:first-child  {
 }
 ul#main_nav > li > h3  {
   height: 54px;
-  border-bottom: 1px solid #ccc;
   padding-left: 30px;
   line-height: 54px;
   font-weight: 700;
@@ -1208,7 +1219,6 @@ section {
   }
   ul#main_nav > li > h3  {
     height: 54px;
-    border-bottom: 1px solid #ccc;
     padding-left: 30px;
     line-height: 54px;
     font-weight: 700;
