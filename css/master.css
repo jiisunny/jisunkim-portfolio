@@ -104,7 +104,7 @@ ul#main_nav > li:first-child {
 }
 ul#main_nav > li > h3 {
   height: 54px;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; 수정 */
   padding-left: 30px;
   line-height: 54px;
   font-weight: 700;
@@ -983,7 +983,7 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   ul#main_nav > li > h3 {
     height: 45px;
-    border-bottom: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; 수정 */
     padding-left: 30px;
     line-height: 50px;
     font-weight: 700;
@@ -1232,8 +1232,8 @@ input#toggle:checked + #main_nav_wrap > label.btn_close{
   }
   #contact > .wrap_align > .footer > #btntop > a {
     width: 80px;
-    height: 80px;
-    background: url(../images/btn_top.png);
+    height: 70px;
+    background: url(../images/btn_top.png) no-repeat;
     background-size: 80px;
   }
   /**** FOOTER ****/
