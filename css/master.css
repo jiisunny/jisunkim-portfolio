@@ -93,6 +93,7 @@ ul#main_nav{
   top: 0;
   bottom: 0;
   overflow: auto;
+  box-shadow: 0 0 14px 13px rgb(0 0 0 / 10%);
 }
 ul#main_nav > li {
   border-bottom: 1px solid #ccc;
@@ -173,9 +174,22 @@ ul#main_nav > li > ul.sub_nav > li:hover > a {
   text-indent: -6000px; overflow: hidden;
   transform: rotateZ(0deg);
 }
-input#toggle:checked + #main_nav_wrap > label.btn_close{
+#main_nav_wrap > label.bg_close {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 50%; top: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transform: rotateZ(0deg);
+}
+input#toggle:checked + #main_nav_wrap > label.btn_close {
   transition-duration: 0.8s;
   transform: rotateZ(-180deg);
+}
+input#toggle:checked + #main_nav_wrap > label.bg_close {
+  left: 0;
+  transition-duration: 0.3s;
+  transform: rotateZ(0deg);
 }
 section {
   overflow: hidden;
@@ -561,14 +575,14 @@ section {
   }
   .floating1 {
     position: absolute;
-    top: 200px;
+    top: 70%;
     left: 50%;
     margin-left: -100px;
   }
   #me > .wrap_align > .profile_wrap > .info {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 22%;
     font-size: 16px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
@@ -713,7 +727,7 @@ section {
   }
   .floating1 {
     position: absolute;
-    top: 160px;
+    top: 80%;
     left: 50%;
     margin-left: -100px;
   }
@@ -885,7 +899,8 @@ section {
   #me > .wrap_align > .profile_wrap > .info {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 50%;
+    margin-left: -300px;
     font-size: 16px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.answer {
@@ -1007,6 +1022,14 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
+  #main_nav_wrap > label.bg_close {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 70%; top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateZ(0deg);
+  }
   .arrow-down {
     position: absolute;
     right: 10%;
@@ -1117,12 +1140,12 @@ section {
   }
   /* SECTION3 ABOUT ME */
   #profile > img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   .floating1 {
     position: absolute;
-    top: 150px;
+    top: 65%;
     left: 50%;
     margin-left: -50px;
   }
@@ -1134,7 +1157,8 @@ section {
   #me > .wrap_align > .profile_wrap > .info {
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 50%;
+    margin-left: -170px;
     font-size: 12px;
     letter-spacing: 2px;
   }
@@ -1253,5 +1277,21 @@ section {
     line-height: 80px;
     margin-top: 7px;
     letter-spacing: 0;
+  }
+}
+
+@media screen and (max-height: 610px) {
+  .floating1 {
+    top: 50%;
+  }
+  #portfolio > .wrap_align > .brandlist > ul > li {
+    width: 40%;
+    margin: 5% 0 2% -2%;
+  }
+  #artwork > .wrap_align > ul.artlist {
+    top: 55%;
+  }
+  .circle {
+    margin-top: 5%;
   }
 }

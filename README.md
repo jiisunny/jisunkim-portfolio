@@ -58,7 +58,7 @@ KakaoTalk -
 <meta property="og:title" content="Jisun's Portfolio" />
 <meta property="og:description" content="안녕하세요. 감각적인 디자이너 김지선입니다." />
 <meta property="og:image" content="./images/portfolio_seo.jpg" />
-<meta property="og:url" content="#" />
+<meta property="og:url" content="https://infallible-heisenberg-75d4ab.netlify.app/" />
 ```
 
 - `og:type`: 페이지의 유형(E.g, `website`, `video.movie`)
@@ -80,7 +80,7 @@ KakaoTalk -
 <meta property="twitter:title" content="Jisun's Portfolio" />
 <meta property="twitter:description" content="안녕하세요. 감각적인 디자이너 김지선입니다." />
 <meta property="twitter:image" content="./images/portfolio_seo.jpg" />
-<meta property="twitter:url" content="#" />
+<meta property="twitter:url" content="https://infallible-heisenberg-75d4ab.netlify.app/" />
 ```
 
 - `twitter:card`: 페이지(카드)의 유형(E.g. `summary`, `player`)

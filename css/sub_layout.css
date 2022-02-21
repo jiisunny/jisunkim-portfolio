@@ -111,6 +111,7 @@ body {
 input#toggle:checked + #main_nav_wrap {
   right: 0;
   transition-duration: 0.3s;
+  z-index: 500;
 }
 #main_nav > li > h3 > a:checked + #main_nav_wrap  {
   position: fixed;
@@ -208,6 +209,19 @@ ul#main_nav > li > ul.sub_nav > li:hover > a  {
 input#toggle:checked + #main_nav_wrap > label.btn_close {
   transition-duration: 0.8s;
   transform: rotateZ(-180deg);
+}
+#main_nav_wrap > label.bg_close {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 50%; top: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transform: rotateZ(0deg);
+}
+input#toggle:checked + #main_nav_wrap > label.bg_close {
+  left: 0;
+  transition-duration: 0.3s;
+  transform: rotateZ(0deg);
 }
 
 /***** 고정 메뉴 *****/
@@ -966,6 +980,14 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
+  #main_nav_wrap > label.bg_close {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 70%; top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateZ(0deg);
+  }
 
   /** MAIN **/
   #main > .contentswrap {
@@ -1235,7 +1257,15 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
-
+  #main_nav_wrap > label.bg_close {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    right: 70%; top: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotateZ(0deg);
+  }
+  
   /** MAIN **/
   #main > .contentswrap {
     width: 100%;
