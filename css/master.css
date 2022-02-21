@@ -1054,7 +1054,7 @@ section {
   /***** 메뉴 제목 *****/
   .menu {
     position: absolute;
-    top: 30px;
+    top: 5%;
     left: 50%;
     transform: translateX(-45%);
     text-align: center;
@@ -1078,7 +1078,7 @@ section {
   }
   #portfolio > .wrap_align > .brandlist > ul > li {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 2%;
     margin-top: 3%;
     width: 75%;
   }
@@ -1133,7 +1133,7 @@ section {
   }
   #me > .wrap_align > .profile_wrap > .info {
     position: absolute;
-    top: 41%;
+    top: 50%;
     left: 20px;
     font-size: 12px;
     letter-spacing: 2px;
