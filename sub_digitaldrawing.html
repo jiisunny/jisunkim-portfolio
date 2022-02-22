@@ -1,134 +1,334 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<title>DIGITAL DRAWING</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta name="format-detection" content="telephone=no" />
+  <title>Digital Drawing</title>
 
-	<link rel="shortcut icon" type="images/x-icon" href="images/title_icon.png" />
-	<link rel="stylesheet" href="CSS/sub_layout_works.css" />
+  <!-- 오픈 그래프(The Open Graph protocol) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jisun's Portfolio" />
+  <meta property="og:title" content="Jisun's Portfolio" />
+  <meta property="og:description" content="안녕하세요. 감각적인 디자이너 김지선입니다." />
+  <meta property="og:image" content="./images/portfolio_seo.jpg" />
+  <meta property="og:url" content="#" />
 
-	<script src="js/jquery-3.5.0.min.js"></script>
-    
+  <!-- 트위터 카드(Twitter Cards) -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="Jisun's Portfolio" />
+  <meta property="twitter:title" content="Jisun's Portfolio" />
+  <meta property="twitter:description" content="안녕하세요. 감각적인 디자이너 김지선입니다." />
+  <meta property="twitter:image" content="./images/portfolio_seo.jpg" />
+  <meta property="twitter:url" content="#" />
+
+  <link rel="icon" href="./favicon.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- GSAP & ScrollToPlugin -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js" integrity="sha512-eI+25yMAnyrpomQoYCqvHBmY4dLfqKWPnD4j8y0E3Js+yqpF26xncL4t81M1zxC+ISYfRoCN52rN/n0q2UIBZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="css/sub_layout_design.css" />
+
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script defer src="./js/sub_main.js"></script>
+  <script src="js/jquery-3.5.0.min.js"></script>
 </head>
 
-<body class="drawing_body">
+<body class="digital_body">
+  <!-- HOME BUTTON -->
+  <header>
+    <h1 class="myname">
+      <a href="index.html">JISUN KIM</a>
+    </h1>
+  </header>
+  <!-- toggle -->
+  <label class="toggle toggle_menu" for="toggle">toggle</label>
+  <!-- nav -->
+  <input id="toggle" type="checkbox" />
+  <nav id="main_nav_wrap">
+    <!-- 메인메뉴 -->
+    <ul id="main_nav">
+      <li>
+        <h3>
+          <a href="index.html">HOME</a>
+        </h3>
+      </li>
+      <li>
+        <h3>
+          PROJECTS
+          <span class="material-icons arrow-down">expand_more</span>
+        </h3>
+        <ul class="sub_nav">
+          <li><a href="sub_starbucks.html">STARBUCKS</a></li>
+          <li><a href="sub_uriage.html">URIAGE</a></li>
+          <li><a href="sub_krispykreme.html">KRISPYKREME</a></li>
+          <li><a href="sub_yuhan.html">YUHAN</a></li>
+          <li><a href="sub_twosome.html">TWOSOME</a></li>
+          <li><a href="sub_donga.html">DONGA</a></li>
+          <li><a href="sub_dongbu.html">DONGBU</a></li>
+          <li><a href="sub_overwatch.html">OVERWATCH HERO</a></li>
+        </ul>
+      </li>
+      <li>
+        <h3>
+          DESIGN WORKS
+          <span class="material-icons arrow-down">expand_more</span>
+        </h3>
+        <ul class="sub_nav">
+          <li><a href="sub_webdesign.html">WEB DESIGN</a></li>
+          <li><a href="sub_graphicdesign">GRAPHIC DESIGN</a></li>
+          <li><a href="sub_digitaldrawing.html">DIGITAL DRAWING</a></li>
+          <li><a href="sub_designproject">DESIGN PROJECT</a></li>
+        </ul>
+      </li>
+    </ul>
+    <!-- 닫기영역 -->
+    <label class="btn_close" for="toggle"></label>
+    <label class="btn_close bg_close" for="toggle"></label>
+  </nav>
 
-	<!-- HOME BUTTON -->
-	<h1 class="myname">
-		<a href="index.html">JISUN KIM</a>
-	</h1>
+  <!-- FIXED MENU -->
+  <script>
+    $(function(){
+      var mT=($(window).height()-$("div#menu").height())/2;
+      $("div#menu").css({top:mT});
 
-	<!-- MAIN SECTION -->
-	<div id="main">
-		<div class="contentswrap">
-			<div class="title">
-				<h1 class="logo_digital">Character Design</h1>
-				<h2>캐릭터 디자인</h2>
-				<h3>OVERVIEW</h3>
-				<p>
-                    폰케이스나 에어팟 케이스로 사용할 수 있는 브랜딩
-                    캐릭터를 만든다는 목표로 캐릭터 스토리와 디자인을
-                    기획 후 일러스트로 제작한 작업이다.
-                </p>
-			</div>
+      setInterval(function(){
+        mT=($(window).height()-$("div#menu").height())/2;
 
-			<ul class="period">
-				<li>참여율 &#58; 100	&#37;</li>
-			</ul>
-		</div>
-	</div>
+        $("div#menu").css({top:$(window).scrollTop()+mT});
+      },50);
 
-	<!-- FIXED MENU -->
-	<script>
-		$(function(){
-			var mT=($(window).height()-$("div#menu").height())/2;
-			$("div#menu").css({top:mT});
+      $("#btntop > a").click(function(){
+        $('html, body').animate({
+          scrollTop: 0
+        }, 400);
+      });
+    });
+  </script>
 
-			setInterval(function(){
-				mT=($(window).height()-$("div#menu").height())/2;
+  <div id="menu">
+    <ul>
+      <li class="web">
+        <a href="sub_webdesign.html">
+          <div class="front">
+            <img src="images/web_logo.png" alt="웹 디자인 로고" />
+          </div>
+          <div class="back">
+            <img src="images/web_go.png" alt="웹 디자인 바로가기" />
+          </div>
+        </a>
+      </li>
+      <li class="graphic">
+        <a href="sub_graphic.html">
+          <div class="front">
+            <img src="images/graphic_logo.png" alt="그래픽 디자인 로고" />
+          </div>
+          <div class="back">
+            <img src="images/graphic_go.png" alt="그래픽 디자인 바로가기" />
+          </div>
+        </a>
+      </li>
+      <li class="drawing">
+        <a href="sub_digitaldrawing.html">
+          <div class="front">
+            <img src="images/drawing_logo.png" alt="디지털 드로잉 로고" />
+          </div>
+          <div class="back">
+            <img src="images/drawing_go.png" alt="디지털 드로잉 바로가기" />
+          </div>
+        </a>
+      </li>
+      <li class="project">
+        <a href="sub_project.html">
+          <div class="front">
+            <img src="images/project_logo.png" alt="디자인 프로젝트 로고" />
+          </div>
+          <div class="back">
+            <img src="images/project_go.png" alt="디자인 프로젝트 바로가기" />
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-				$("div#menu").css({top:$(window).scrollTop()+mT});
-			},50);
-
-			$("#btntop > a").click(function(){
-				$('html, body').animate({
-					scrollTop: 0
-				}, 400);
-			});
-
-		});
-	</script>
-	<div id="menu">
-		<ul>
-			<li class="project">
-				<a href="sub_balimoon.html">
-					<div class="front">
-						<img src="images/balimoon_logo.png" alt="프로젝트 로고" />
-					</div>
-					<div class="back">
-						<img src="images/balimoon_go.png" alt="프로젝트 바로가기" />
-					</div>
-				</a>
-			</li>
-			<li class="graphic">
-				<a href="sub_cardnews.html">
-					<div class="front">
-						<img src="images/cardnews_logo.png" alt="그래픽디자인 로고" />
-					</div>
-					<div class="back">
-						<img src="images/cardnews_go.png" alt="그래픽디자인 바로가기" />
-					</div>
-				</a>
-			</li>
-			<li class="drawing">
-				<a href="sub_digitaldrawing.html">
-					<div class="front">
-						<img src="images/drawing_logo.png" alt="드로잉 로고" />
-					</div>
-					<div class="back">
-						<img src="images/drawing_go.png" alt="드로잉 바로가기" />
-					</div>
-				</a>
-			</li>
-            <!--
-            <li class="photography">
-				<a href="sub_photography.html">
-					<div class="front">
-						<img src="images/photography_logo.png" alt="포토그래피 로고" />
-					</div>
-					<div class="back">
-						<img src="images/photography_go.png" alt="포토그래피 바로가기" />
-					</div>
-				</a>
-			</li>
-            -->
-		</ul>
-	</div>
+  <!-- MAIN SECTION -->
+  <div id="main">
+    <div class="contentswrap">
+      <img src="./images/main_digital.png" alt="Digital Drawing" class="floating" />
+      <div class="title">
+        <h1 class="logo">DIGITAL DRAWING</h1>
+        <h2>&#35;1 일러스트 작업</h2>
+        <h3>OVERVIEW</h3>
+        <p>
+          남미여행 때 느꼈던 여행지의 느낌을 그래픽으로 구상한 후 페루 마추픽추, 비니쿤카, 와카치나 사막을 일러스트레이션으로 표현한 작업이다.
+        </p>
+      </div>
+      <ul class="period">
+        <li>참여율 &#58; 100	&#37;</li>
+      </ul>
+    </div>
+  </div>
     
-    <!-- SECTION -->
-	<section id="character">
-        <img src="images/character.png" alt="캐릭터 디자인" />
-	</section>
-    
-    <section id="illust_drawing">
-        <img src="images/illustration.png" alt="일러스트 작업" />
-	</section>
-    
-    <section id="digital_drawing">
-        <img src="images/digital_drawing.png" alt="태블릿 그림" />
-	</section>
-    
+  <!-- Illust SECTION -->
+  <section id="illust_1">
+    <ul>
+      <li>
+        <img src="images/main_digital.png" class="digital_1_01" alt="디지털드로잉1-일러스트" />
+      </li>
+      <li>
+        <img src="images/digital_1_02.png" class="digital_1_02" alt="디지털드로잉1-일러스트" />
+      </li>
+    </ul>
+  </section>
 
-	<!-- FOOTER -->
-	<div class="footer">
-		<div id="btntop">
-			<a href="#"></a>
-		</div>
-		<p class="copyright">
-			Copyright(C) ALL RIGHTS RESERVED BY JISUN KIM
-		</p>
-	</div>
-	
+  <section id="illust_2">
+    <ul>
+      <li>
+        <img src="images/digital_2_01.png" alt="디지털드로잉2-일러스트" />
+      </li>
+      <li>
+        <img src="images/digital_2_02.png" alt="디지털드로잉2-일러스트" />
+      </li>
+      <li>
+        <img src="images/digital_2_03.png" alt="디지털드로잉2-일러스트" />
+      </li>
+    </ul>
+  </section>
+
+  <section id="illust_3">
+    <ul>
+      <li>
+        <img src="images/digital_3_01.png" alt="디지털드로잉3-일러스트" />
+      </li>
+      <li>
+        <img src="images/digital_3_02.png" alt="디지털드로잉3-일러스트" />
+      </li>
+      <li>
+        <img src="images/digital_3_03.png" alt="디지털드로잉3-일러스트" />
+      </li>
+    </ul>
+  </section>
+
+  <!-- CHARACTER SECTION -->
+  <section id="main_character">
+    <div class="contentswrap">
+      <img src="./images/character_1_01.png" alt="Digital Drawing" class="floating" />
+      <div class="title">
+        <h1 class="logo">DIGITAL DRAWING</h1>
+        <h2>&#35;2 캐릭터 디자인</h2>
+        <h3>OVERVIEW</h3>
+        <p>
+          폰케이스, 에어팟 케이스 디자인으로 활용할 수 있는 브랜딩 캐릭터를 만든다는 목표로 캐릭터 스토리와 디자인을 기획했다. '뭉치'라는 캐릭터를 만들고 일러스트레이션으로 제작한 작업이다.
+        </p>
+      </div>
+      <ul class="period">
+        <li>참여율 &#58; 100	&#37;</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="character_1">
+    <div class="contentswrap">
+      <ul>
+        <li>
+          <img src="images/character_1_02.png" alt="디지털드로잉4-캐릭터디자인" />
+        </li>
+        <li>
+          <img src="images/character_1_03.png" alt="디지털드로잉4-캐릭터디자인" />
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="character_2">
+    <div class="contentswrap">
+      <ul>
+        <li>
+          <img src="images/character_1_04.png" class="floating" alt="디지털드로잉4-캐릭터디자인" />
+        </li>
+        <li>
+          <img src="images/character_1_05.png" style="width: 85%;" alt="디지털드로잉4-캐릭터디자인" />
+        </li>
+        <li>
+          <img src="images/character_1_06.png" class="floating" alt="디지털드로잉4-캐릭터디자인" />
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DRAWING SECTION -->
+  <section id="main_drawing">
+    <div class="contentswrap">
+      <img src="./images/drawing_1_03.png" alt="Digital Drawing" class="floating" />
+      <div class="title">
+        <h1 class="logo">DIGITAL DRAWING</h1>
+        <h2>&#35;3 디지털 드로잉</h2>
+        <h3>OVERVIEW</h3>
+        <p>
+          태블릿 PC로 직접 그린 디지털 드로잉 작업물이다. 친구들의 반려견을 보고 프로크리에이트로 작업했다.
+        </p>
+      </div>
+      <ul class="period">
+        <li>참여율 &#58; 100	&#37;</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="webbanner_2">
+    <div class="contentswrap">
+      <h3>URIAGE WEB BANNER</h3>
+      <ul>
+        <li>
+          <img src="images/webbanner_2_01.png" alt="웹배너2-유리아쥬" />
+        </li>
+        <li>
+          <img src="images/webbanner_2_02.png" alt="웹배너2-유리아쥬" />
+        </li>
+        <li>
+          <img src="images/webbanner_2_03.png" alt="웹배너2-유리아쥬" />
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="webbanner_3">
+    <div class="contentswrap">
+      <h3>YUHAN WEB BANNER</h3>
+      <ul>
+        <li>
+          <img src="images/webbanner_3_01.png" alt="웹배너2-유한양행" />
+        </li>
+        <li>
+          <img src="images/webbanner_3_02.png" alt="웹배너2-유한양행" />
+        </li>
+        <li>
+          <img src="images/webbanner_3_03.png" alt="웹배너2-유한양행" />
+        </li>
+      </ul>
+    </div>
+  </section>
+    
+  <!-- FOOTER -->
+  <div class="footer">
+    <div id="btntop">
+      <a id="goTop"></a>
+    </div>
+    <p class="copyright">Copyright 2022 ALL RIGHTS RESERVED BY JISUN KIM</p>
+  </div>
+  
 </body>
 </html>
