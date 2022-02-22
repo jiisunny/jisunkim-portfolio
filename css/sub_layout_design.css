@@ -266,8 +266,6 @@ div#menu > ul > li:hover > a > .back {
 }
 #main > .contentswrap > .title > p {
   font-size: 24px;
-}
-#main > .contentswrap > .title > p {
   padding-top: 1%;
   font-size: 20px;
   line-height: 25px;
@@ -284,7 +282,7 @@ section h3 {
   font-size: 30px;
   padding: 70px 0;
 }
-/** SECTION1 CARDNEWS1 - 공모전공고 **/
+/** SECTION1 CARDNEWS1 - 공모전 공고 **/
 #cardnews_1 {
   width: 100%;
   background: #ddece8;
@@ -296,16 +294,20 @@ section h3 {
 }
 #cardnews_1 ul {
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  padding-top: 100px;
 }
 #cardnews_1 ul li {
   flex-grow: 1;
+
 }
-/* .cardnews_1_01 {
-  padding: 12% 0 0 38%;
+.cardnews_1_01 {
+  padding: 12% 0 0 25%;
 }
 .cardnews_1_02 {
-  padding: 0 0 5%8%;
-} */
+  padding: 0 0 5% 8%;
+}
 
 /** SECTION2 CARDNEWS1 - detail **/
 #cardnews_1_detail {
@@ -328,17 +330,283 @@ section h3 {
   box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
 }
 
+/** SECTION3 CARDNEWS2 - 퀴즈 이벤트 **/
+#cardnews_2 {
+  width: 100%;
+  /* background: #c5e3fb; */
+  background: #ddece8;
+  text-align: center;
+  margin-top: -2px;
+}
+#cardnews_2 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#cardnews_2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 0;
+}
+#cardnews_2 ul li {
+  padding: 10px;
+}
+#cardnews_2 .contentswrap ul li img {
+  width: 350px;
+  box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+}
 
+/** SECTION4 CARDNEWS3 - 퀴즈 이벤트 **/
+#cardnews_3 {
+  width: 100%;
+  background: #ddece8;
+  text-align: center;
+  margin-top: -2px;
+}
+#cardnews_3 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#cardnews_3 .contentswrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 0;
+}
+#cardnews_3 .contentswrap ul li {
+  padding: 10px;
+}
+#cardnews_3 .contentswrap ul li img {
+  width: 350px;
+  box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
+}
 
+/** SECTION4 CARDNEWS4 - 금융서비스 **/
+#cardnews_4 {
+  width: 100%;
+  background: #ddece8;
+  text-align: center;
+  margin-top: -2px;
+}
+#cardnews_4 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#cardnews_4 .contentswrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 0;
+}
+#cardnews_4 .contentswrap ul li {
+  padding: 10px;
+}
+#cardnews_4 .contentswrap ul li img {
+  width: 350px;
+  box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
+}
 
+/** SECTION5 CARDNEWS5 - 오행시 **/
+#cardnews_5 {
+  width: 100%;
+  background: #ddece8;
+  text-align: center;
+  margin-top: -2px;
+}
+#cardnews_5 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#cardnews_5 .contentswrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 0;
+}
+#cardnews_5 .contentswrap ul li {
+  padding: 10px;
+}
+#cardnews_5 .contentswrap ul li img {
+  width: 350px;
+  box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
+}
 
+/** SECTION6 WEB BANNER **/
+#main_webbanner {
+  width: 100%;
+  background: #484848;
+  margin-top: -2px;
+}
+#main_webbanner .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_webbanner .contentswrap img {
+  position: absolute;
+  top: 20%;
+  right: 2%;
+  width: 550px;
+}
+#main_webbanner > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_webbanner > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 274px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_webbanner > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_webbanner > .contentswrap > .title > h3 {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-top: 30%;
+}
+#main_webbanner > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 25px;
+}
+#main_webbanner > .contentswrap > ul.period {
+  position: absolute;
+  top: 72%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+}
 
+/** SECTION7 WEB BANNER1 - 크리스피크림 **/
+#webbanner_1 {
+  width: 100%;
+  background: #484848;
+  text-align: center;
+  margin-top: -2px;
+}
+#webbanner_1 h3 {
+  font-size: 22px;
+  padding: 30px 0 50px 0;
+}
+#webbanner_1 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#webbanner_1 .contentswrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+#webbanner_1 .contentswrap ul li {
+  padding-bottom: 30px;
+}
+#webbanner_1 .contentswrap ul li img {
+  width: 100%;
+}
 
+/** SECTION8 WEB BANNER2 - 유리아쥬 **/
+#webbanner_2{
+  width: 100%;
+  background: #484848;
+  text-align: center;
+  margin-top: -2px;
+}
+#webbanner_2 h3 {
+  font-size: 22px;
+  padding: 30px 0 50px 0;
+}
+#webbanner_2 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#webbanner_2 .contentswrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+#webbanner_2 .contentswrap ul li {
+  padding-bottom: 30px;
+}
+#webbanner_2 .contentswrap ul li img {
+  width: 100%;
+}
 
+/** SECTION9 WEB BANNER3 - 유한양행 **/
+#webbanner_3 {
+  width: 100%;
+  background: #484848;
+  text-align: center;
+  margin-top: -2px;
+  padding-bottom: 100px;
+}
+#webbanner_3 h3 {
+  font-size: 22px;
+  padding: 30px 0 50px 0;
+}
+#webbanner_3 .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#webbanner_3 .contentswrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+#webbanner_3 .contentswrap ul li {
+  padding-bottom: 30px;
+}
+#webbanner_3 .contentswrap ul li img {
+  width: 100%;
+}
 
-
-
-
+/** FOOTER **/
+.webdesign_body .footer {
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+.webdesign_body .footer > #btntop {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
+.webdesign_body .footer > #btntop > a {
+  width: 100px;
+  height: 100px;
+  background: url(../images/btn_top.png) no-repeat;
+}
+.webdesign_body .footer > #btntop > a:hover {
+  margin-top: -7px;
+  transition-duration: 0.3s;
+}
+.webdesign_body .footer > .copyright {
+  font-size: 18px;
+  color: #484848;
+  padding-top: 50px;
+  margin-top: 0;
+}
 
 
 
