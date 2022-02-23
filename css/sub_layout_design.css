@@ -1,4 +1,4 @@
-/* sub_krispykreme.css */
+/* sub_layout_design.css */
 
 @import url( common.css);
 
@@ -224,7 +224,7 @@ div#menu > ul > li:hover > a > .back {
   transform: rotateY(360deg);
 }
 
-/** MAIN **/
+/** MAIN - WEB DESIGN **/
 #main {
   width: 100%;
   position: relative;
@@ -268,7 +268,7 @@ div#menu > ul > li:hover > a > .back {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 30px;
 }
 #main > .contentswrap > ul.period {
   position: absolute;
@@ -609,7 +609,6 @@ section h3 {
 }
 
 
-
 /** SECTION1 DigitalDrawing_Illust **/
 .digital_body #main .contentswrap {
   background-color: #308274;
@@ -745,7 +744,7 @@ section h3 {
   padding-top: 1%;
   font-size: 20px;
   color: #484848;
-  line-height: 25px;
+  line-height: 30px;
 }
 #main_character > .contentswrap > ul.period {
   position: absolute;
@@ -795,467 +794,188 @@ section h3 {
   padding-top: 70px;
 }
 
-
-
-
-
-
-
-
-/**** MAIN ****/
-/* #main{
-  width: 100%; height: 750px;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background: url(../images/main_cardnews.png) no-repeat;
-  z-index: -50;
-}
-  #main > .contentswrap{
-    width: 1500px;
-    margin: 0 auto;
-    position: absolute;
-    top: 15%;
-    left: 15%;
-  }
-    #main > .contentswrap > .title{
-      width: 400px;
-    }
-      #main > .contentswrap > .title > .logo{
-        font-size: 50px;
-        padding-bottom: 15px;
-        border-bottom: 3px solid #fff;
-      }
-      #main > .contentswrap > .title > h2{
-        padding-top: 15px;
-        font-size: 29px;
-      }
-      #main > .contentswrap > .title > h2:nth-of-type(1){
-        margin-top: 5px;
-      }
-      #main > .contentswrap > .title > h3{
-          font-size: 20px;
-          margin-top: 85px;
-      }
-      #main > .contentswrap > .title > p{
-        width: 400px;
-        font-size: 20px;
-        line-height: 25px;
-      }
-    #main > .contentswrap > ul.period{
-      font-size: 20px;
-      margin-top: 90px;
-    }
-      #main > .contentswrap > ul.period > li{
-        padding: 8px 0;
-      } */
-
-
-/**** SECTION1 GUIDE ****/
-#guide{
+/** SECTION7 MAIN DRAWING **/
+#main_drawing {
   width: 100%;
-  background: #fff;
+  background: #484848;
+  margin-top: -2px;
+}
+#main_drawing .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_drawing .contentswrap img {
+  position: absolute;
+  top: 12%;
+  right: 2%;
+  width: 500px;
+}
+#main_drawing > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_drawing > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 340px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_drawing > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_drawing > .contentswrap > .title > h3 {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-top: 15%;
+}
+#main_drawing > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 30px;
+}
+#main_drawing > .contentswrap > ul.period {
+  position: absolute;
+  top: 72%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/** SECTION8 DRAWING **/
+#drawing {
+  background-color: #f5e0b3;
+  margin-top: -2px;
+}
+#drawing .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+}
+#drawing .contentswrap ul {
+  padding-bottom: 100px;
+}
+#drawing .contentswrap ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+#drawing .contentswrap ul li img {
+  padding: 0 30px;
+  width: 500px;
+}
+
+/** FOOTER **/
+.digital_body .footer {
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #2c2a29;
+  letter-spacing: 1px;
+}
+.digital_body .footer > #btntop {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
+.digital_body .footer > #btntop > a {
+  width: 100px;
+  height: 70px;
+  background: url(../images/btn_top_starbucks.png) no-repeat;
+}
+.digital_body .footer > #btntop > a:hover {
+  margin-top: -7px;
+  transition-duration: 0.3s;
+}
+.digital_body .footer > .copyright {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+/** SECTION1 Design Project_MAIN **/
+.project_body #main .contentswrap {
+  background-color: #d1c4a1;
+}
+.project_body #main .contentswrap img {
+  position: absolute;
+  top: 16%;
+  right: 12%;
+  width: 600px;
+}
+.project_body #main .contentswrap .title {
+  width: 21%;
+}
+.project_body #main .contentswrap .title .logo {
+  width: 310px;
+}
+
+/** SECTION2 Design Projuect - 팜팜발리 **/
+.project_body #project_1 {
+  width: 100%;
+  background: #cad5b0;
   margin-top: 750px;
-  padding-top: 120px;
-  padding-bottom: 130px;
+  text-align: center;
 }
-#guide > .contentwrap{
-  width: 1000px;
-  margin: 0 auto;
+.project_body #project_1 ul {
+  margin: 0 10%;
+  padding: 100px 0 200px 0;
 }
-#guide > .contentwrap > h3{
-  font-size: 25px;
-  color: #077451;
+.project_body #project_1 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-  #guide > .contentwrap > ul{
-    padding: 50px 0;
-  }
-    #guide > .contentwrap > ul > li{
-      display: inline-block;
-      padding-top: 20px;
-    }
-    #guide > .contentwrap > ul > li:nth-of-type(1){
-      padding-right: 30px;
-    }
-
-/**** SECTION2 MOCKUP IMG ****/
-#mockup{
-  width: 100%;
+.project_body #project_1 ul li:first-child img {
+  padding: 0 50px;
 }
-#mockup > img{
-  width: 100%;
+.project_body #project_1 ul li:nth-child(2) img {
+  width: 680px;
+  padding: 0 50px;
+}
+.project_body #project_1 ul li:last-child img {
+  width: 400px;
+  padding: 0 20px;
 }
 
-/**** SECTION3 ILLUSTRATION IMG ****/
-#illustration{
-    width: 100%;
-    padding: 140px 0;
-    background: #fff;
-}
-#illustration > img{
-    width: 100%;
-}
-
-
-/**** FOOTER ****/
-.footer{
+/** FOOTER **/
+.project_body .footer {
   position: relative;
   width: 100%; height: 100px;
   text-align: center;
-  background-color: #e1c35b;
+  background-color: #2c2a29;
   letter-spacing: 1px;
 }
-  .footer > #btntop{
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    margin-left: -50px;
-  }
-    .footer > #btntop > a{
-      width: 100px;
-      height: 100px;
-      background: url(../images/btn_top_balimoon.png);
-    }
-      .footer > #btntop > a:hover{
-        margin-top: -7px;
-        transition-duration: 0.3s;
-      }
-      .footer > .copyright{
-        font-size: 18px;
-        color: #fff;
-        padding-top: 50px;
-        margin-top: 0;
-      }
-
-
-
-/************ [s]BRAND URIAGE ************/
-#uriage_body > #main{
-  background: url(../images/main_uriage.png);
+.project_body .footer > #btntop {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -50px;
 }
-
-/**** SECTION1 INTRO ****/
-    #uriage_body > #intro > .contentswrap > h2{
-      color: #1da2dd;
-    }
-    #uriage_body > #intro > .contentswrap > h3{
-      color: #1da2dd;
-    }
-
-/**** SECTION2 MEDIA QUERY ****/
-  #uriage_body > #media > .contentswrap > h3{
-    color: #1da2dd;
-  }
-  #uriage_body > #media > .contentswrap > .go{
-    position: relative;
-    margin-top: -600px;
-
-  }
-    #uriage_body > #media > .contentswrap > .go > li{
-      padding: 5px 0;
-    }
-      #uriage_body > #media > .contentswrap > .go > .gosite > a,
-      #uriage_body > #media > .contentswrap > .go > .gomobile > a{
-        width: 210px;
-        height: 50px;
-        background: #1da2dd;
-        text-align: center;
-        line-height: 50px;
-        color: #fff;
-        font-size: 20px;
-        border-radius: 25px;
-        border: 1px solid transparent;
-      }
-      #uriage_body > #media > .contentswrap > .go > .gosite > a:hover,
-      #uriage_body > #media > .contentswrap > .go > .gomobile > a:hover{
-        color: #1da2dd;
-        background: #fff;
-        transition-duration: 0.4s;
-        border: 1px solid #1da2dd;
-      }
-
-/**** SECTION3 DETAIL IMG ****/
-    #uriage_body > #guide > .contentswrap > h3{
-      color: #1da2dd;
-    }
-
-/**** SECTION4 DETAIL IMG ****/
-#uriage_body > #detail > .contentswrap > img:nth-of-type(2){
-  width: 1300px;
-  margin: 0 auto;
-  padding-left: 0;
-  padding: 150px 0;
+.project_body .footer > #btntop > a {
+  width: 100px;
+  height: 70px;
+  background: url(../images/btn_top_starbucks.png) no-repeat;
 }
-
-/**** FOOTER ****/
-#uriage_body > .footer{
-  position: relative;
-  width: 100%; height: 100px;
-  text-align: center;
-  background-color: #1da2dd;
-  letter-spacing: 1px;
+.project_body .footer > #btntop > a:hover {
+  margin-top: -7px;
+  transition-duration: 0.3s;
 }
-    #uriage_body > .footer > #btntop > a{
-      width: 100px;
-      height: 100px;
-      background: url(../images/btn_top_uriage.png);
-    }
-/************ [e]BRAND URIAGE ************/
-
-
-
-/************ [s]BRAND YUHAN ************/
-#yuhan_body > #main{
-  background: url(../images/main_yuhan.png);
+.project_body .footer > .copyright {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 50px;
+  margin-top: 0;
 }
-
-/**** SECTION1 INTRO ****/
-    #yuhan_body > #intro > .contentswrap > h2{
-      color: #865828;
-    }
-    #yuhan_body > #intro > .contentswrap > h3{
-      color: #865828;
-    }
-
-/**** SECTION2 MEDIA QUERY ****/
-  #yuhan_body > #media > .contentswrap > h3{
-    color: #865828;
-  }
-  #yuhan_body > #media > .contentswrap > .go{
-    position: relative;
-    margin-top: -600px;
-
-  }
-    #yuhan_body > #media > .contentswrap > .go > li{
-      padding: 5px 0;
-    }
-      #yuhan_body > #media > .contentswrap > .go > .gosite > a,
-      #yuhan_body > #media > .contentswrap > .go > .gomobile > a{
-        width: 210px;
-        height: 50px;
-        background: #865828;
-        text-align: center;
-        line-height: 50px;
-        color: #fff;
-        font-size: 20px;
-        border-radius: 25px;
-        border: 1px solid transparent;
-      }
-      #yuhan_body > #media > .contentswrap > .go > .gosite > a:hover,
-      #yuhan_body > #media > .contentswrap > .go > .gomobile > a:hover{
-        color: #865828;
-        background: #fff;
-        transition-duration: 0.4s;
-        border: 1px solid #865828;
-      }
-
-/**** SECTION3 DETAIL IMG ****/
-    #yuhan_body > #guide > .contentswrap > h3{
-      color: #865828;
-    }
-
-/**** SECTION4 DETAIL IMG ****/
-#yuhan_body > #detail > .contentswrap > img:nth-of-type(1){
-  margin-top: 50px;
-  margin: 0 auto;
-  padding-left: 250px;
-  padding-top: 100px;
-  width: 1200px;
-}
-#yuhan_body > #detail > .contentswrap > img:nth-of-type(2){
-  width: 1000px;
-  margin: 0 auto;
-  padding-left: 0;
-  padding: 150px 0;
-}
-
-/**** FOOTER ****/
-#yuhan_body > .footer{
-  position: relative;
-  width: 100%; height: 100px;
-  text-align: center;
-  background-color: #865828;
-  letter-spacing: 1px;
-}
-    #yuhan_body > .footer > #btntop > a{
-      width: 100px;
-      height: 100px;
-      background: url(../images/btn_top_yuhan.png);
-    }
-
-/******* [S]CARDNEWS *******/
-.cardnews_body{
-    width: 100%;
-}
-    .cardnews_body > #main{
-        width: 100%; height: 750px;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background: url(../images/main_cardnews.png) no-repeat;
-
-        z-index: -50;
-    }
-    .cardnews_body > #mockup_1{
-        margin-top: 750px;
-        width: 100%;
-    }
-        .cardnews_body > #mockup_1 > h3{
-            color: #0a6a88;
-            font-size: 30px;
-            position: absolute;
-            left: 15%; top: 810px;
-        }
-        .cardnews_body > #mockup_1 > img{
-            width: 100%;
-        }
-
-    .cardnews_body > #mockup_2{
-        margin-top: -2px;
-    }
-        .cardnews_body > #mockup_2 > div{
-            position: relative;
-        }
-            .cardnews_body > #mockup_2 > div > h3{
-                color: #fff;
-                font-size: 30px;
-                position: absolute;
-                left: 15%; top: 60px;
-            }
-                .cardnews_body > #mockup_2 > img{
-                    width: 100%;
-                }
-
-    .cardnews_body > #mockup_3{
-            margin-top: 0;
-        }
-            .cardnews_body > #mockup_3 > div{
-                position: relative;
-            }
-                .cardnews_body > #mockup_3 > div > h3{
-                    color: #fff;
-                    font-size: 30px;
-                    position: absolute;
-                    left: 13%; top: 80px;
-                }
-                    .cardnews_body > #mockup_3 > img{
-                        width: 100%;
-                    }
-
-
-/** CARDNEWS FOOTER **/
-.cardnews_body > .footer{
-  position: relative;
-  width: 100%; height: 100px;
-  text-align: center;
-  background-color: #0a6a88;
-  letter-spacing: 1px;
-}
-  .cardnews_body > .footer > #btntop{
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    margin-left: -50px;
-  }
-    .cardnews_body > .footer > #btntop > a{
-      width: 100px;
-      height: 100px;
-      background: url(../images/btn_top_cardnews.png);
-    }
-      .cardnews_body > .footer > #btntop > a:hover{
-        margin-top: -7px;
-        transition-duration: 0.3s;
-      }
-      .cardnews_body > .footer > .copyright{
-        font-size: 18px;
-        color: #fff;
-        padding-top: 50px;
-        margin-top: 0;
-      }
-
-
-/******* [S]DIGITAL DRAWING *******/
-.drawing_body{
-    width: 100%;
-}
-    .drawing_body > #main{
-        width: 100%; height: 750px;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background: url(../images/character_main.png) no-repeat;
-
-        z-index: -50;
-    }
-.logo_digital{
-    width: 436px;
-    font-size: 50px;
-    padding-bottom: 15px;
-    border-bottom: 3px solid #fff;
-}
-
-    .drawing_body > #character{
-        margin-top: 750px;
-        width: 100%;
-    }
-        .drawing_body > #character > img{
-            width: 100%;
-        }
-
-    .drawing_body > #illust_drawing{
-        width: 100%;
-    }
-        .drawing_body > #illust_drawing > img{
-            width: 100%;
-        }
-
-   .drawing_body > #digital_drawing{
-        width: 100%;
-    }
-        .drawing_body > #digital_drawing > img{
-            width: 100%;
-        }
-
-/** DIGITAL DRAWING FOOTER **/
-.drawing_body > .footer{
-  position: relative;
-  width: 100%; height: 100px;
-  text-align: center;
-  background-color: #464540;
-  letter-spacing: 1px;
-}
-  .drawing_body > .footer > #btntop{
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    margin-left: -50px;
-  }
-    .drawing_body > .footer > #btntop > a{
-      width: 100px;
-      height: 100px;
-      background: url(../images/btn_top_drawing.png);
-    }
-      .drawing_body > .footer > #btntop > a:hover{
-        margin-top: -7px;
-        transition-duration: 0.3s;
-      }
-      .drawing_body > .footer > .copyright{
-        font-size: 18px;
-        color: #fff;
-        padding-top: 50px;
-        margin-top: 0;
-      }
-
-
-
-
-
 
 
 
