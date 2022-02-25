@@ -224,7 +224,8 @@ div#menu > ul > li:hover > a > .back {
   transform: rotateY(360deg);
 }
 
-/** MAIN - WEB DESIGN **/
+/**** WEB DESIGN ****/
+/** #1_CARDNEWS_MAIN **/
 #main {
   width: 100%;
   position: relative;
@@ -282,7 +283,8 @@ section h3 {
   font-size: 30px;
   padding: 70px 0;
 }
-/** SECTION1 CARDNEWS1 - 공모전 공고 **/
+
+/** SECTION1_#1_CARDNEWS_01_공모전공고 **/
 #cardnews_1 {
   width: 100%;
   background: #ddece8;
@@ -309,7 +311,7 @@ section h3 {
   padding: 0 0 5% 8%;
 }
 
-/** SECTION2 CARDNEWS1 - detail **/
+/** SECTION2_#1_CARDNEWS_01_공모전공고_detail **/
 #cardnews_1_detail {
   width: 100%;
   background-color: #ddece8;
@@ -330,7 +332,7 @@ section h3 {
   box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
 }
 
-/** SECTION3 CARDNEWS2 - 퀴즈 이벤트 **/
+/** SECTION3_#1_CARDNEWS_02_퀴즈이벤트 **/
 #cardnews_2 {
   width: 100%;
   /* background: #c5e3fb; */
@@ -357,7 +359,7 @@ section h3 {
   box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
 }
 
-/** SECTION4 CARDNEWS3 - 퀴즈 이벤트 **/
+/** SECTION4_#1_CARDNEWS_03_퀴즈이벤트 **/
 #cardnews_3 {
   width: 100%;
   background: #ddece8;
@@ -383,7 +385,7 @@ section h3 {
   box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
 }
 
-/** SECTION4 CARDNEWS4 - 금융서비스 **/
+/** SECTION5_#1_CARDNEWS_04_금융서비스 **/
 #cardnews_4 {
   width: 100%;
   background: #ddece8;
@@ -409,7 +411,7 @@ section h3 {
   box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
 }
 
-/** SECTION5 CARDNEWS5 - 오행시 **/
+/** SECTION6_#1_CARDNEWS_05_오행시 **/
 #cardnews_5 {
   width: 100%;
   background: #ddece8;
@@ -435,7 +437,7 @@ section h3 {
   box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
 }
 
-/** SECTION6 WEB BANNER **/
+/** SECTION7_#2_WEB BANNER_MAIN **/
 #main_webbanner {
   width: 100%;
   background: #484848;
@@ -461,7 +463,7 @@ section h3 {
 }
 #main_webbanner > .contentswrap > .title > .logo {
   font-size: 40px;
-  width: 274px;
+  width: 250px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
@@ -490,7 +492,7 @@ section h3 {
   line-height: 25px;
 }
 
-/** SECTION7 WEB BANNER1 - 크리스피크림 **/
+/** SECTION8_#2_WEB BANNER_01_크리스피크림 **/
 #webbanner_1 {
   width: 100%;
   background: #484848;
@@ -519,7 +521,7 @@ section h3 {
   width: 100%;
 }
 
-/** SECTION8 WEB BANNER2 - 유리아쥬 **/
+/** SECTION9_#2_WEB BANNER_02_유리아쥬 **/
 #webbanner_2{
   width: 100%;
   background: #484848;
@@ -548,7 +550,7 @@ section h3 {
   width: 100%;
 }
 
-/** SECTION9 WEB BANNER3 - 유한양행 **/
+/** SECTION10_#2_WEB BANNER_03_유한양행 **/
 #webbanner_3 {
   width: 100%;
   background: #484848;
@@ -578,12 +580,107 @@ section h3 {
   width: 100%;
 }
 
-/** FOOTER **/
+/** SECTION11_#3_WEBPAGE DESIGN_MAIN **/
+#main_webpage {
+  width: 100%;
+  background: #338b8b;
+  margin-top: -2px;
+}
+#main_webpage .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_webpage .contentswrap img {
+  position: absolute;
+  top: 20%;
+  right: 2%;
+  width: 550px;
+}
+#main_webpage > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_webpage > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 240px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_webpage > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_webpage > .contentswrap > .title > h3 {
+  padding: 5px 0;
+  font-size: 20px;
+  margin-top: 22%;
+}
+#main_webpage > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 30px;
+}
+#main_webpage > .contentswrap > ul.period {
+  position: absolute;
+  top: 80%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/** SECTION12_#3_WEBPAGE DESIGN **/
+#webdesign {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  margin-top: -2px;
+  padding-bottom: 100px;
+}
+#webdesign h3 {
+  font-size: 22px;
+  padding: 30px 0 50px 0;
+}
+#webdesign .contentswrap {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+#webdesign .contentswrap ul {
+  padding: 100px 0;
+  text-align: center;
+}
+#webdesign .contentswrap ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+#webdesign .contentswrap ul h3 {
+  color: #484848;
+}
+#webdesign .contentswrap ul li img {
+  width: 100%;
+}
+#webdesign .contentswrap ul li:last-child img {
+  width: 48%;
+  margin: 0 1%;
+}
+
+/**** FOOTER_WEB DESIGN ****/
 .webdesign_body .footer {
   position: relative;
   width: 100%; height: 100px;
   text-align: center;
-  background-color: #fff;
+  background-color: #2c2a29;
   letter-spacing: 1px;
 }
 .webdesign_body .footer > #btntop {
@@ -595,7 +692,7 @@ section h3 {
 .webdesign_body .footer > #btntop > a {
   width: 100px;
   height: 100px;
-  background: url(../images/btn_top.png) no-repeat;
+  background: url(../images/btn_top_starbucks.png) no-repeat;
 }
 .webdesign_body .footer > #btntop > a:hover {
   margin-top: -7px;
@@ -603,13 +700,293 @@ section h3 {
 }
 .webdesign_body .footer > .copyright {
   font-size: 18px;
-  color: #484848;
+  color: #fff;
   padding-top: 50px;
   margin-top: 0;
 }
 
 
-/** SECTION1 DigitalDrawing_Illust **/
+/**** GRAPHIC DESIGN ****/
+/** #1_한국인터넷진흥원교재_MAIN **/
+.graphic_body #main .contentswrap {
+  background-color: #13294d;
+}
+.graphic_body #main .contentswrap img {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 450px;
+}
+.graphic_body #main .contentswrap .title {
+  width: 21%;
+}
+.graphic_body #main .contentswrap .title h3 {
+  margin-top: 25%;
+}
+.graphic_body #main .contentswrap .title .logo {
+  width: 320px;
+}
+.graphic_body #main .contentswrap ul.period {
+  top: 77%;
+}
+
+/** SECTION1_#1_한국인터넷진흥원교재 **/
+.graphic_body #graphic_1 {
+  position: relative;
+  width: 100%;
+  background: #ececec;
+  margin-top: 750px;
+  text-align: center;
+}
+.graphic_body #graphic_1 ul {
+  margin: 0 10%;
+  padding: 100px 0 200px 0;
+}
+.graphic_body #graphic_1 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.graphic_1_02 {
+  width: 700px;
+  height: 495px;
+  margin: 20px 50px;
+}
+.graphic_1_03 {
+  width: 400px;
+  height: 744px;
+  margin: 20px 50px;
+}
+.graphic_1_04, .graphic_1_05 {
+  width: 550px;
+  margin: 100px 2% 0 2%;
+  box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
+}
+.graphic_1_06 {
+  margin-top: 100px;
+  box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
+}
+
+/** SECTION2_#2_포스터_MAIN **/
+#main_poster {
+  width: 100%;
+  background: #2c4e9c;
+  margin-top: -2px;
+}
+#main_poster .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_poster .contentswrap img {
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  width: 550px;
+}
+#main_poster > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_poster > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 340px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_poster > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_poster > .contentswrap > .title > h3 {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-top: 15%;
+}
+#main_poster > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 30px;
+}
+#main_poster > .contentswrap > ul.period {
+  position: absolute;
+  top: 72%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/** SECTION3_#2_포스터 **/
+#graphic_2 {
+  background-color: #ececec;
+  margin-top: -2px;
+}
+#graphic_2 ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#graphic_2 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#graphic_2 ul li img {
+  width: 600px;
+  box-shadow: 0 0 17px 1px rgb(0, 0, 0, 7%);
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** FOOTER_GRAPHIC DESIGN **/
+.graphic_footer {
+  position: relative;
+  width: 100%; height: 100px;
+  text-align: center;
+  background-color: #2c2a29;
+  letter-spacing: 1px;
+}
+.graphic_footer #btntop {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
+.graphic_footer > #btntop > a {
+  width: 100px;
+  height: 70px;
+  background: url(../images/btn_top_starbucks.png) no-repeat;
+}
+.graphic_footer > #btntop > a:hover {
+  margin-top: -7px;
+  transition-duration: 0.3s;
+}
+.graphic_footer > .copyright {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** DIGITAL DRAWING ****/
+/** #1_ILLUST_MAIN **/
 .digital_body #main .contentswrap {
   background-color: #308274;
 }
@@ -626,7 +1003,7 @@ section h3 {
   width: 340px;
 }
 
-/** SECTION2 DigitalDrawing_Illust1 **/
+/** SECTION1_#1_ILLUST_01_마추픽추 **/
 .digital_body #illust_1 {
   width: 100%;
   background: #71a38a;
@@ -652,7 +1029,7 @@ section h3 {
   padding: 2% 0 0 17%;
 }
 
-/** SECTION3 DigitalDrawing_Illust2 **/
+/** SECTION2_#1_ILLUST_02_비니쿤카 **/
 .digital_body #illust_2 {
   width: 100%;
   background: #71a38a;
@@ -673,7 +1050,7 @@ section h3 {
   width: 370px;
 }
 
-/** SECTION3 DigitalDrawing_Illust3 **/
+/** SECTION3_#1_ILLUST_03_와카치나 **/
 .digital_body #illust_3 {
   width: 100%;
   background: #71a38a;
@@ -694,7 +1071,7 @@ section h3 {
   width: 370px;
 }
 
-/** SECTION4 CHARACTER **/
+/** SECTION4_#2_CHARACTER_MAIN **/
 #main_character {
   width: 100%;
   background: #a0ddf0;
@@ -758,7 +1135,7 @@ section h3 {
   color: #484848;
 }
 
-/** SECTION5 CHARACTER **/
+/** SECTION5_#2_CHARACTER_01 **/
 #character_1 {
   background-color: #fff;
   margin-top: -2px;
@@ -775,7 +1152,7 @@ section h3 {
   padding-top: 70px;
 }
 
-/** SECTION6 CHARACTER **/
+/** SECTION6_#2_CHARACTER_02 **/
 #character_2 {
   background-color: #a0ddf0;
   margin-top: -2px;
@@ -794,7 +1171,7 @@ section h3 {
   padding-top: 70px;
 }
 
-/** SECTION7 MAIN DRAWING **/
+/** SECTION7_#3_TABLET DRAWING_MAIN **/
 #main_drawing {
   width: 100%;
   background: #484848;
@@ -849,7 +1226,7 @@ section h3 {
   line-height: 25px;
 }
 
-/** SECTION8 DRAWING **/
+/** SECTION8_#3_TABLET DRAWING **/
 #drawing {
   background-color: #f5e0b3;
   margin-top: -2px;
@@ -872,7 +1249,7 @@ section h3 {
   width: 500px;
 }
 
-/** FOOTER **/
+/** FOOTER_DIGITAL DRAWING **/
 .digital_body .footer {
   position: relative;
   width: 100%; height: 100px;
@@ -902,7 +1279,8 @@ section h3 {
   margin-top: 0;
 }
 
-/** SECTION1 Design Project_MAIN **/
+/**** DESIGN PROJECT ****/
+/** #1_PALMPALM BALI_MAIN **/
 .project_body #main .contentswrap {
   background-color: #d1c4a1;
 }
@@ -919,7 +1297,7 @@ section h3 {
   width: 310px;
 }
 
-/** SECTION2 Design Projuect - 팜팜발리 **/
+/** SECTION1_#1_PALMPALM BALI **/
 .project_body #project_1 {
   position: relative;
   width: 100%;
@@ -963,7 +1341,7 @@ section h3 {
   width: 25%;
 }
 
-/** FOOTER **/
+/** FOOTER_DESIGN PROJECT **/
 .project_body .footer {
   position: relative;
   width: 100%; height: 100px;
@@ -987,221 +1365,6 @@ section h3 {
   transition-duration: 0.3s;
 }
 .project_body .footer > .copyright {
-  font-size: 18px;
-  color: #fff;
-  padding-top: 50px;
-  margin-top: 0;
-}
-
-/** SECTION1 GRAPHIC DESIGN - 암호모듈검증 교재 **/
-.graphic_body #main .contentswrap {
-  background-color: #13294d;
-}
-.graphic_body #main .contentswrap img {
-  position: absolute;
-  top: 10%;
-  right: 10%;
-  width: 450px;
-}
-.graphic_body #main .contentswrap .title {
-  width: 21%;
-}
-.graphic_body #main .contentswrap .title h3 {
-  margin-top: 25%;
-}
-.graphic_body #main .contentswrap .title .logo {
-  width: 320px;
-}
-.graphic_body #main .contentswrap ul.period {
-  top: 77%;
-}
-
-/** SECTION2 GRAPHIC DESIGN - 암호모듈검증 교재 **/
-.graphic_body #graphic_1 {
-  position: relative;
-  width: 100%;
-  background: #ececec;
-  margin-top: 750px;
-  text-align: center;
-}
-.graphic_body #graphic_1 ul {
-  margin: 0 10%;
-  padding: 100px 0 200px 0;
-}
-.graphic_body #graphic_1 ul li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.graphic_1_02 {
-  width: 700px;
-  height: 495px;
-  margin: 20px 50px;
-}
-.graphic_1_03 {
-  width: 400px;
-  height: 744px;
-  margin: 20px 50px;
-}
-.graphic_1_04, .graphic_1_05 {
-  width: 550px;
-  margin: 100px 2% 0 2%;
-  box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
-}
-.graphic_1_06 {
-  margin-top: 100px;
-  box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
-}
-
-/** SECTION3 GRAPHIC DESIGN - 포스터 **/
-#main_poster {
-  width: 100%;
-  background: #2c4e9c;
-  margin-top: -2px;
-}
-#main_poster .contentswrap {
-  width: 80%;
-  height: 750px;
-  margin: 0 auto;
-  position: relative;
-}
-#main_poster .contentswrap img {
-  position: absolute;
-  top: 10%;
-  right: 1%;
-  width: 550px;
-}
-#main_poster > .contentswrap > .title {
-  position: absolute;
-  width: 25%;
-  top: 12%;
-  left: 14%;
-}
-#main_poster > .contentswrap > .title > .logo {
-  font-size: 40px;
-  width: 340px;
-  padding-bottom: 15px;
-  border-bottom: 3px solid #fff;
-}
-#main_poster > .contentswrap > .title > h2 {
-  padding-top: 15px;
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 5px;
-}
-#main_poster > .contentswrap > .title > h3 {
-  padding: 30px 0;
-  font-size: 20px;
-  margin-top: 15%;
-}
-#main_poster > .contentswrap > .title > p {
-  font-size: 24px;
-  padding-top: 1%;
-  font-size: 20px;
-  line-height: 30px;
-}
-#main_poster > .contentswrap > ul.period {
-  position: absolute;
-  top: 72%;
-  left: 14%;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-/** SECTION5 CHARACTER **/
-#graphic_2 {
-  background-color: #ececec;
-  margin-top: -2px;
-}
-#graphic_2 ul {
-  width: 80%;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-#graphic_2 ul li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-#graphic_2 ul li img {
-  width: 600px;
-  box-shadow: 0 0 17px 1px rgb(0, 0, 0, 7%);
-  margin: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/** FOOTER **/
-.graphic_footer {
-  position: relative;
-  width: 100%; height: 100px;
-  text-align: center;
-  background-color: #2c2a29;
-  letter-spacing: 1px;
-}
-.graphic_footer #btntop {
-  position: absolute;
-  top: -50px;
-  left: 50%;
-  margin-left: -50px;
-}
-.graphic_footer > #btntop > a {
-  width: 100px;
-  height: 70px;
-  background: url(../images/btn_top_starbucks.png) no-repeat;
-}
-.graphic_footer > #btntop > a:hover {
-  margin-top: -7px;
-  transition-duration: 0.3s;
-}
-.graphic_footer > .copyright {
   font-size: 18px;
   color: #fff;
   padding-top: 50px;
