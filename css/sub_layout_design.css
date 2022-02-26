@@ -794,7 +794,7 @@ section h3 {
 }
 #main_poster > .contentswrap > .title > .logo {
   font-size: 40px;
-  width: 340px;
+  width: 320px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
@@ -844,6 +844,83 @@ section h3 {
   box-shadow: 0 0 17px 1px rgb(0, 0, 0, 7%);
   margin: 20px;
 }
+
+/** SECTION4_#3_브로슈어_MAIN **/
+#main_brochure {
+  width: 100%;
+  background: #E78C64;
+  margin-top: -2px;
+}
+#main_brochure .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_brochure .contentswrap img {
+  position: absolute;
+  top: 16%;
+  right: 1%;
+  width: 750px;
+}
+#main_brochure > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_brochure > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 320px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_brochure > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_brochure > .contentswrap > .title > h3 {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-top: 15%;
+}
+#main_brochure > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 30px;
+}
+#main_brochure > .contentswrap > ul.period {
+  position: absolute;
+  top: 72%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/** SECTION5_#3_브로슈어 **/
+#graphic_3 {
+  background-color: #ececec;
+  margin-top: -2px;
+}
+#graphic_3 ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#graphic_3 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#graphic_3 ul li:first-child {
+
+}
+
+
 
 
 
