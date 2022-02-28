@@ -768,84 +768,7 @@ section h3 {
   box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
 }
 
-/** SECTION2_#2_포스터_MAIN **/
-#main_poster {
-  width: 100%;
-  background: #2c4e9c;
-  margin-top: -2px;
-}
-#main_poster .contentswrap {
-  width: 80%;
-  height: 750px;
-  margin: 0 auto;
-  position: relative;
-}
-#main_poster .contentswrap img {
-  position: absolute;
-  top: 10%;
-  right: 1%;
-  width: 550px;
-}
-#main_poster > .contentswrap > .title {
-  position: absolute;
-  width: 25%;
-  top: 12%;
-  left: 14%;
-}
-#main_poster > .contentswrap > .title > .logo {
-  font-size: 40px;
-  width: 320px;
-  padding-bottom: 15px;
-  border-bottom: 3px solid #fff;
-}
-#main_poster > .contentswrap > .title > h2 {
-  padding-top: 15px;
-  font-size: 24px;
-  line-height: 30px;
-  margin-top: 5px;
-}
-#main_poster > .contentswrap > .title > h3 {
-  padding: 30px 0;
-  font-size: 20px;
-  margin-top: 15%;
-}
-#main_poster > .contentswrap > .title > p {
-  font-size: 24px;
-  padding-top: 1%;
-  font-size: 20px;
-  line-height: 30px;
-}
-#main_poster > .contentswrap > ul.period {
-  position: absolute;
-  top: 72%;
-  left: 14%;
-  font-size: 20px;
-  line-height: 25px;
-}
-
-/** SECTION3_#2_포스터 **/
-#graphic_2 {
-  background-color: #ececec;
-  margin-top: -2px;
-}
-#graphic_2 ul {
-  width: 80%;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-#graphic_2 ul li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-#graphic_2 ul li img {
-  width: 600px;
-  box-shadow: 0 0 17px 1px rgb(0, 0, 0, 7%);
-  margin: 20px;
-}
-
-/** SECTION4_#3_브로슈어_MAIN **/
+/** SECTION2_#2_브로슈어_MAIN **/
 #main_brochure {
   width: 100%;
   background: #E78C64;
@@ -900,8 +823,181 @@ section h3 {
   line-height: 25px;
 }
 
-/** SECTION5_#3_브로슈어 **/
+/** SECTION3_#2_브로슈어 **/
+#graphic_2 {
+  background-color: #ececec;
+  margin-top: -2px;
+}
+#graphic_2 ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+}
+#graphic_2 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+#graphic_2 ul li img {
+  width: 80%;
+}
+#graphic_2 ul li:nth-child(4) img {
+  width: 70%;
+  padding-bottom: 50px;
+}
+#graphic_2 ul li:last-child img {
+  width: 60%;
+}
+
+/** SECTION4_#3_해설서_MAIN **/
+#main_book {
+  width: 100%;
+  background: #0098e1;
+  margin-top: -2px;
+}
+#main_book .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_book .contentswrap img {
+  position: absolute;
+  top: 8%;
+  right: 1%;
+  width: 36%;
+}
+#main_book > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_book > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 320px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_book > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_book > .contentswrap > .title > h3 {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-top: 15%;
+}
+#main_book > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 30px;
+}
+#main_book > .contentswrap > ul.period {
+  position: absolute;
+  top: 72%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/** SECTION5_#3_해설서 **/
 #graphic_3 {
+  background-color: #ececec;
+  margin-top: -2px;
+}
+#graphic_3 ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 0 100px 0;
+}
+#graphic_3 ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+#graphic_3 ul li img {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** SECTION4_#3_포스터_MAIN **/
+/* #main_poster {
+  width: 100%;
+  background: #2c4e9c;
+  margin-top: -2px;
+}
+#main_poster .contentswrap {
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+#main_poster .contentswrap img {
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  width: 550px;
+}
+#main_poster > .contentswrap > .title {
+  position: absolute;
+  width: 25%;
+  top: 12%;
+  left: 14%;
+}
+#main_poster > .contentswrap > .title > .logo {
+  font-size: 40px;
+  width: 320px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #fff;
+}
+#main_poster > .contentswrap > .title > h2 {
+  padding-top: 15px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+#main_poster > .contentswrap > .title > h3 {
+  padding: 30px 0;
+  font-size: 20px;
+  margin-top: 15%;
+}
+#main_poster > .contentswrap > .title > p {
+  font-size: 24px;
+  padding-top: 1%;
+  font-size: 20px;
+  line-height: 30px;
+}
+#main_poster > .contentswrap > ul.period {
+  position: absolute;
+  top: 72%;
+  left: 14%;
+  font-size: 20px;
+  line-height: 25px;
+} */
+
+/** SECTION5_#3_포스터 **/
+/* #graphic_3 {
   background-color: #ececec;
   margin-top: -2px;
 }
@@ -916,9 +1012,13 @@ section h3 {
   justify-content: center;
   align-items: center;
 }
-#graphic_3 ul li:first-child {
+#graphic_3 ul li img {
+  width: 600px;
+  box-shadow: 0 0 17px 1px rgb(0, 0, 0, 7%);
+  margin: 20px;
+} */
 
-}
+
 
 
 
