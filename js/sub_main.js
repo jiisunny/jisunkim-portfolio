@@ -4,7 +4,7 @@ spyEls.forEach(function (spyEl) {
   new ScrollMagic
     .Scene({
       triggerElement: spyEl, // 보여짐 여부를 감시할 요소를 지정
-      triggerHook: 1 // 뷰포트 감시 지점
+      triggerHook: .8 // 뷰포트 감시 지점
     })
     .setClassToggle(spyEl, 'show')
     .addTo(new ScrollMagic.Controller());
