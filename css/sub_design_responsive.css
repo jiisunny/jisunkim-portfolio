@@ -528,19 +528,16 @@
   }
 
   /* WEB DESIGN */
+  .hide {
+    display: none;
+  }
   #main .contentswrap {
     text-align: center;
-    height: 1000px;
-  }
-  #main .contentswrap img {
-    width: 400px;
-    top: 85px;
-    left: 50%;
-    margin-left: -200px;
+    height: 550px;
   }
   #main > .contentswrap > .title {
     width: 70%;
-    top: 420px;
+    top: 140px;
   }
   #main > .contentswrap > .title > .logo {
     margin: 0 auto;
@@ -563,12 +560,152 @@
   }
   #main .contentswrap ul.period {
     left: 50%;
-    top: 820px;
+    top: 450px;
     transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #cardnews_1 {
+    margin-top: 550px;
+  }
+  #cardnews_1 ul {
+    padding-top: 50px;
+  }
+  #cardnews_1 ul li {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  #cardnews_1_detail ul,
+  #cardnews_2 ul,
+  #cardnews_3 .contentswrap ul,
+  #cardnews_4 .contentswrap ul {
+    padding: 25px 0;
+  }
+  #cardnews_1_detail ul li img,
+  #cardnews_2 .contentswrap ul li img,
+  #cardnews_3 .contentswrap ul li img,
+  #cardnews_4 .contentswrap ul li img {
+    width: 100%;
+  }
+  #main_webbanner .contentswrap {
+    height: 500px;
+    text-align: center;
+  }
+  #main_webbanner > .contentswrap > .title {
+    width: 90%;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_webbanner > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main_webbanner .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main_webbanner .contentswrap .title h3 {
+    margin-top: 50px;
     font-size: 16px;
   }
+  #main_webbanner .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main_webbanner .contentswrap ul.period {
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 70%;
+  }
+  #webbanner_1 h3,
+  #webbanner_2 h3,
+  #webbanner_3 h3,
+  #webdesign h3 {
+    font-size: 16px;
+    padding: 30px 0 20px 0;
+  }
+  #webbanner_1 .contentswrap ul,
+  #webbanner_2 .contentswrap ul {
+    padding-bottom: 20px;
+  }
+  #webbanner_3 .contentswrap ul {
+    padding-bottom: 0;
+  }
+  #main_webpage .contentswrap {
+    height: 550px;
+    text-align: center;
+  }
+  #main_webpage > .contentswrap > .title {
+    width: 90%;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_webpage > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main_webpage .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main_webpage .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  #main_webpage .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main_webpage .contentswrap ul.period {
+    left: 50%;
+    top: 430px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 70%;
+  }
+  #webdesign .contentswrap ul {
+    padding: 25px 0;
+  }
+  #webdesign .contentswrap ul li {
+    width: 100%;
+    padding-bottom: 0;
+  }
 
+  /**** FOOTER ****/
+  .webdesign_body > .footer > #btntop {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .webdesign_body > .footer > #btntop > a {
+    width: 80px;
+    height: 70px;
+    background: url(../images/btn_top_starbucks.png) no-repeat;
+    background-size: 80px;
+  }
 
+  .webdesign_body .footer {
+    height: 80px;
+    letter-spacing: 1px;
+  }
+  .webdesign_body .footer .copyright {
+    font-size: 13px;
+    letter-spacing: 0;
+    padding-top: 38px;
+  }
 
 
 
