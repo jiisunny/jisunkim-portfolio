@@ -305,7 +305,7 @@ div#menu > ul > li:hover > a > .back {
   position: absolute;
   width: 25%;
   top: 12%;
-  left: 14%;
+  left: 16%;
 }
 #main > .contentswrap > .title > .logo {
   font-size: 40px;
@@ -321,7 +321,7 @@ div#menu > ul > li:hover > a > .back {
 }
 #main > .contentswrap > .title > h3 {
   font-size: 20px;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 #main > .contentswrap > .title > p {
   font-size: 24px;
@@ -332,14 +332,9 @@ div#menu > ul > li:hover > a > .back {
 #main > .contentswrap > ul.period {
   position: absolute;
   top: 72%;
-  left: 14%;
+  left: 16%;
   font-size: 20px;
-  line-height: 25px;
-}
-
-section h3 {
-  font-size: 30px;
-  padding: 70px 0;
+  line-height: 30px;
 }
 
 /** SECTION1_#1_CARDNEWS_01_공모전공고 **/
@@ -357,16 +352,19 @@ section h3 {
   flex-wrap: wrap;
   margin: 0 10%;
   padding-top: 100px;
+  align-items: center;
+  justify-content: center;
 }
 #cardnews_1 ul li {
-  flex-grow: 1;
-
+  width: 50%;
 }
 .cardnews_1_01 {
-  padding: 12% 0 0 25%;
+  width: 90%;
+  margin: 0 auto;
 }
 .cardnews_1_02 {
-  padding: 0 0 5% 8%;
+  width: 57%;
+  margin: 0 auto;
 }
 
 /** SECTION2_#1_CARDNEWS_01_공모전공고_detail **/
@@ -515,9 +513,9 @@ section h3 {
 }
 #main_webbanner > .contentswrap > .title {
   position: absolute;
-  width: 25%;
+  width: 28%;
   top: 12%;
-  left: 14%;
+  left: 8%;
 }
 #main_webbanner > .contentswrap > .title > .logo {
   font-size: 40px;
@@ -532,22 +530,21 @@ section h3 {
   margin-top: 5px;
 }
 #main_webbanner > .contentswrap > .title > h3 {
-  padding: 30px 0;
   font-size: 20px;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 #main_webbanner > .contentswrap > .title > p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 30px;
 }
 #main_webbanner > .contentswrap > ul.period {
   position: absolute;
   top: 72%;
-  left: 14%;
+  left: 8%;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 /** SECTION8_#2_WEB BANNER_01_크리스피크림 **/
@@ -658,9 +655,9 @@ section h3 {
 }
 #main_webpage > .contentswrap > .title {
   position: absolute;
-  width: 25%;
+  width: 28%;
   top: 12%;
-  left: 14%;
+  left: 8%;
 }
 #main_webpage > .contentswrap > .title > .logo {
   font-size: 40px;
@@ -675,9 +672,8 @@ section h3 {
   margin-top: 5px;
 }
 #main_webpage > .contentswrap > .title > h3 {
-  padding: 5px 0;
   font-size: 20px;
-  margin-top: 22%;
+  margin-top: 25%;
 }
 #main_webpage > .contentswrap > .title > p {
   font-size: 24px;
@@ -688,9 +684,9 @@ section h3 {
 #main_webpage > .contentswrap > ul.period {
   position: absolute;
   top: 80%;
-  left: 14%;
+  left: 8%;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 /** SECTION12_#3_WEBPAGE DESIGN **/

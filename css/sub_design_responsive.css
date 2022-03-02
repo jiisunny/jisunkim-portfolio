@@ -1,0 +1,348 @@
+/* sub_design_responsive */
+
+/* WEB-MIDIUM 1440px */
+@media screen and (min-width: 1025px) and (max-width:1230px) {
+  #menu {
+    display: none;
+  }
+  .myname {
+    width: 100px;
+    height: 100px;
+  }
+  .myname a {
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+  }
+
+  /* WEB DESIGN */
+  #main .contentswrap img {
+    top: 16%;
+  }
+  #main .contentswrap .title {
+    width: 32%;
+  }
+  #main .contentswrap .title h3 {
+    margin-top: 30%;
+  }
+
+  #main_webbanner .contentswrap {
+    height: 700px;
+  }
+  #main_webbanner .contentswrap .title {
+    width: 40%;
+  }
+  #main_webbanner .contentswrap img {
+    top: 24%;
+    right: 0;
+  }
+  #main_webbanner .contentswrap ul.period {
+    top: 66%;
+  }
+  #main_webpage .contentswrap img {
+    width: 40%;
+  }
+  #main_webpage > .contentswrap > .title {
+    width: 43%;
+  }
+  #main_webpage > .contentswrap > ul.period {
+    top: 77%;
+  }
+}
+
+/* TABLET 가로 MIN */
+@media screen and (min-width:871px) and (max-width:1024px) {
+  #menu {
+    display: none;
+  }
+  .myname {
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+  }
+  .myname a {
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+  }
+
+  /* WEB DESIGN */
+  #main .contentswrap {
+    height: 650px;
+  }
+  #main .contentswrap img {
+    top: 18%;
+  }
+  #main .contentswrap .title {
+    left: 14%;
+  }
+  #main .contentswrap > .title {
+    left: 14%;
+    width: 33%;
+  }
+  #main .contentswrap > .title > .logo {
+    font-size: 30px;
+    width: 210px;
+  }
+  #main .contentswrap > .title > h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main .contentswrap > .title > h3 {
+    font-size: 16px;
+  }
+  #main .contentswrap > .title > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main .contentswrap ul.period {
+    left: 14%;
+    top: 69%;
+    font-size: 16px;
+  }
+  #cardnews_1 {
+    margin-top: 650px;
+  }
+  #main_webbanner .contentswrap {
+    height: 650px;
+  }
+  #main_webbanner > .contentswrap > .title {
+    left: 4%;
+    width: 42%;
+  }
+  #main_webbanner > .contentswrap > .title > .logo {
+    font-size: 30px;
+    width: 190px;
+  }
+  #main_webbanner > .contentswrap > .title > h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main_webbanner > .contentswrap > .title > h3 {
+    font-size: 16px;
+  }
+  #main_webbanner > .contentswrap > .title > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main_webbanner .contentswrap ul.period {
+    left: 4%;
+    top: 63%;
+    font-size: 16px;
+  }
+  #webbanner_1 h3 {
+    font-size: 16px;
+    padding-top: 0;
+  }
+  #webbanner_1 .contentswrap ul {
+    padding-bottom: 30px;
+  }
+  #webbanner_2 h3 {
+    font-size: 16px;
+  }
+  #webbanner_2 .contentswrap ul {
+    padding-bottom: 30px;
+  }
+  #webbanner_3 h3 {
+    font-size: 16px;
+  }
+  #webbanner_3 .contentswrap ul {
+    padding-bottom: 30px;
+  }
+  #main_webpage .contentswrap {
+    width: 80%;
+    height: 650px;
+  }
+  #main_webpage .contentswrap img {
+    top: 22%;
+  }
+  #main_webpage > .contentswrap > .title {
+    left: 4%;
+    width: 42%;
+  }
+  #main_webpage > .contentswrap > .title > .logo {
+  font-size: 30px;
+  }
+  #main_webpage > .contentswrap > .title > h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main_webpage > .contentswrap > .title > h3 {
+    font-size: 16px;
+  }
+  #main_webpage > .contentswrap > .title > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main_webpage .contentswrap ul.period {
+    left: 4%;
+    font-size: 16px;
+    top: 76%;
+  }
+  #webdesign h3 {
+    font-size: 16px;
+  }
+  #webdesign .contentswrap ul li {
+    padding-bottom: 70px;
+  }
+  #webdesign .contentswrap ul li:last-child {
+    padding-bottom: 0;
+  }
+  .webdesign_body .footer {
+    height: 80px;
+  }
+  .webdesign_body .footer > .copyright {
+    font-size: 16px;
+    padding-top: 38px;
+  }
+  #cardnews_1 ul {
+    margin: 0 11%;
+  }
+  #cardnews_1_detail ul li,
+  #cardnews_2 ul li,
+  #cardnews_3 .contentswrap ul li,
+  #cardnews_4 .contentswrap ul li {
+    width: 42%;
+  }
+  #cardnews_1_detail ul li img,
+  #cardnews_2 .contentswrap ul li img,
+  #cardnews_3 .contentswrap ul li img,
+  #cardnews_4 .contentswrap ul li img {
+    width: 100%;
+  }
+  #webbanner_1 .contentswrap ul li,
+  #webbanner_2 .contentswrap ul li,
+  #webbanner_3 .contentswrap ul li {
+    width: 90%;
+  }
+}
+
+/* TABLET 세로, MOBILE 가로 */
+@media screen and (min-width:600px) and (max-width:870px) {
+  #menu {
+    display: none;
+  }
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 20%);
+    z-index: 2;
+  }
+  .toggle_menu  {
+    width: 40px; height: 40px;
+    background: url(../images/toggle_btn_sub.png);
+    background-size: 40px;
+    position: fixed;
+    right: 3%;
+    top: 15px;
+    text-indent: -6000px; overflow: hidden;
+    z-index: 2;
+  }
+
+  /** GO HOME **/
+  .myname {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 60px; height: 60px;
+    z-index: 300;
+  }
+  .myname > a {
+    width: 60px; height: 60px;
+    background: url(../images/sunny_logo.png);
+    text-indent: -6000px;
+    overflow: hidden;
+    animation: rotate_image 15s linear infinite;
+    transform-origin: 50% 50%;
+    background-size: 60px;
+  }
+  ul#main_nav {
+    width: 70%;
+  }
+  #main_nav_wrap > label.bg_close {
+    width: 30%;
+  }
+
+  /* WEB DESIGN */
+  #main .contentswrap {
+    text-align: center;
+    height: 1000px;
+  }
+  #main .contentswrap img {
+    width: 500px;
+    top: 90px;
+    left: 50%;
+    margin-left: -250px;
+  }
+  #main > .contentswrap > .title {
+    width: 70%;
+    top: 500px;
+  }
+  #main > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 30px;
+  }
+  #main .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main .contentswrap .title h3 {
+    margin-top: 50px;
+  }
+  #main .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main .contentswrap ul.period {
+    left: 50%;
+    top: 820px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  #cardnews_1 {
+    margin-top: 1000px;
+  }
+  #cardnews_1_detail ul li,
+  #cardnews_2 ul li,
+  #cardnews_3 .contentswrap ul li,
+  #cardnews_4 .contentswrap ul li {
+    width: 42%;
+  }
+  #cardnews_1_detail ul li img,
+  #cardnews_2 .contentswrap ul li img,
+  #cardnews_3 .contentswrap ul li img,
+  #cardnews_4 .contentswrap ul li img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* WEB-MIDIUM 1440px */
+@media screen and (max-width:1459px) {
+  /* GRAPHIC DESIGN */
+  .graphic_body #main .contentswrap .title {
+    width: 28%;
+  }
+  .graphic_1_06 {
+    width: 90%;
+  }
+  #main_brochure .contentswrap img {
+    top: 23%;
+    right: -3%;
+  }
+}
