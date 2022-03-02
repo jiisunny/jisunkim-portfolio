@@ -959,21 +959,26 @@ section {
     margin-top: 70px;
   }
   ul#main_nav > li > h3  {
-    height: 54px;
-    border-bottom: 1px solid #ccc;
+    height: 45px;
     padding-left: 30px;
-    line-height: 54px;
+    line-height: 50px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     color: #8081d9;
     cursor: pointer;
   }
+  ul#main_nav > li > h3 > button {
+    font-size: 18px;
+  }
+  ul#main_nav > li.active > ul.sub_nav > li{
+    height: 40px;
+  }
   ul#main_nav > li > ul.sub_nav > li > a {
     padding-left: 60px;
-    line-height: 50px;
-    height: 50px;
+    line-height: 40px;
+    height: 40px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
@@ -983,6 +988,13 @@ section {
     position: absolute;
     right: 70%; top: 0; bottom: 0;
     background: rgba(0, 0, 0, 0.5);
+    transform: rotateZ(0deg);
+  }
+  .arrow-down {
+    position: absolute;
+    right: 10%;
+    line-height: 45px;
+    font-size: 30px;
     transform: rotateZ(0deg);
   }
 
@@ -1237,20 +1249,26 @@ section {
     margin-top: 70px;
   }
   ul#main_nav > li > h3  {
-    height: 54px;
+    height: 45px;
     padding-left: 30px;
-    line-height: 54px;
+    line-height: 50px;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     color: #8081d9;
     cursor: pointer;
   }
-  ul#main_nav > li > ul.sub_nav > li > a {
-    padding-left: 60px;
-    line-height: 50px;
-    height: 50px;
-    color: #fff;
+  ul#main_nav > li > h3 > button {
     font-size: 18px;
+  }
+  ul#main_nav > li.active > ul.sub_nav > li{
+    height: 40px;
+  }
+  ul#main_nav > li > ul.sub_nav > li > a{
+    padding-left: 60px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
@@ -1262,7 +1280,14 @@ section {
     background: rgba(0, 0, 0, 0.5);
     transform: rotateZ(0deg);
   }
-  
+  .arrow-down {
+    position: absolute;
+    right: 10%;
+    line-height: 45px;
+    font-size: 30px;
+    transform: rotateZ(0deg);
+  }
+
   /** MAIN **/
   #main > .contentswrap {
     width: 100%;

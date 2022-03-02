@@ -2,9 +2,13 @@
 
 /* WEB-MIDIUM 1440px */
 @media screen and (min-width: 1025px) and (max-width:1230px) {
+  
+  /* SIDE MENU */
   #menu {
     display: none;
   }
+
+  /* LOGO */
   .myname {
     width: 100px;
     height: 100px;
@@ -52,9 +56,13 @@
 
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1024px) {
+  
+  /* SIDE MENU */
   #menu {
     display: none;
   }
+
+  /* LOGO */
   .myname {
     top: 10px;
     left: 10px;
@@ -220,9 +228,13 @@
 
 /* TABLET 세로, MOBILE 가로 */
 @media screen and (min-width:600px) and (max-width:870px) {
+
+  /* SIDE MENU */
   #menu {
     display: none;
   }
+
+  /* HEADER */
   header {
     width: 100%;
     height: 70px;
@@ -243,7 +255,7 @@
     z-index: 2;
   }
 
-  /** GO HOME **/
+  /** GOGO **/
   .myname {
     position: fixed;
     top: 5px;
@@ -260,8 +272,37 @@
     transform-origin: 50% 50%;
     background-size: 60px;
   }
+
+  /* MAIN NAV */
   ul#main_nav {
     width: 70%;
+  }
+  ul#main_nav > li > h3  {
+    height: 45px;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  ul#main_nav > li > h3 > button {
+    font-size: 18px;
+  }
+  ul#main_nav > li.active > ul.sub_nav > li{
+    height: 40px;
+  }
+  ul#main_nav > li > ul.sub_nav > li > a {
+    padding-left: 60px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #9b9ce8;
+    transition-duration: 0.3s;
+  }
+  .arrow-down {
+    position: absolute;
+    right: 10%;
+    line-height: 45px;
+    font-size: 30px;
+    transform: rotateZ(0deg);
   }
   #main_nav_wrap > label.bg_close {
     width: 30%;
@@ -318,7 +359,248 @@
   #cardnews_4 .contentswrap ul li img {
     width: 100%;
   }
+  #main_webbanner .contentswrap {
+    text-align: center;
+    height: 900px;
+  }
+  #main_webbanner .contentswrap img {
+    top: 50px;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+  }
+  #main_webbanner > .contentswrap > .title {
+    width: 85%;
+    top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_webbanner > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 30px;
+  }
+  #main_webbanner .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main_webbanner .contentswrap .title h3 {
+    margin-top: 50px;
+  }
+  #main_webbanner .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main_webbanner .contentswrap ul.period {
+    left: 50%;
+    top: 720px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  #main_webpage .contentswrap {
+    text-align: center;
+    height: 950px;
+  }
+  #main_webpage .contentswrap img {
+    width: 440px;
+    top: 50px;
+    left: 50%;
+    margin-left: -220px;
+  }
+  #main_webpage > .contentswrap > .title {
+    width: 85%;
+    top: 470px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_webpage > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 30px;
+  }
+  #main_webpage .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main_webpage .contentswrap .title h3 {
+    margin-top: 50px;
+  }
+  #main_webpage .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main_webpage .contentswrap ul.period {
+    left: 50%;
+    top: 840px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  #webdesign .contentswrap {
+    width: 100%;
+  }
+  #webdesign .contentswrap ul {
+    padding: 100px 0 0 0;
+  }
 }
+
+/* MOBILE 세로 */
+@media screen and (min-width:50px) and (max-width:599px) {
+  
+  /* SIDE MENU */
+  #menu {
+    display: none;
+  }
+
+  /* HEADER */
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 20%);
+    z-index: 2;
+  }
+  .toggle_menu  {
+    width: 40px; height: 40px;
+    background: url(../images/toggle_btn_sub.png);
+    background-size: 40px;
+    position: fixed;
+    right: 3%;
+    top: 15px;
+    text-indent: -6000px; overflow: hidden;
+    z-index: 2;
+  }
+
+  /** LOGO **/
+  .myname {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 60px; height: 60px;
+    z-index: 300;
+  }
+  .myname > a {
+    width: 60px; height: 60px;
+    background: url(../images/sunny_logo.png);
+    text-indent: -6000px;
+    overflow: hidden;
+    animation: rotate_image 15s linear infinite;
+    transform-origin: 50% 50%;
+    background-size: 60px;
+  }
+
+  /* MAIN NAV */
+  ul#main_nav {
+    width: 70%;
+  }
+  ul#main_nav > li > h3  {
+    height: 45px;
+    padding-left: 30px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #8081d9;
+    cursor: pointer;
+  }
+  ul#main_nav > li > h3 > button {
+    font-size: 18px;
+  }
+  ul#main_nav > li.active > ul.sub_nav > li{
+    height: 40px;
+  }
+  ul#main_nav > li > ul.sub_nav > li > a{
+    padding-left: 60px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #9b9ce8;
+    transition-duration: 0.3s;
+  }
+  #main_nav_wrap > label.bg_close {
+    width: 30%;
+  }
+  .arrow-down {
+    position: absolute;
+    right: 10%;
+    line-height: 45px;
+    font-size: 30px;
+    transform: rotateZ(0deg);
+  }
+
+  /* WEB DESIGN */
+  #main .contentswrap {
+    text-align: center;
+    height: 1000px;
+  }
+  #main .contentswrap img {
+    width: 400px;
+    top: 85px;
+    left: 50%;
+    margin-left: -200px;
+  }
+  #main > .contentswrap > .title {
+    width: 70%;
+    top: 420px;
+  }
+  #main > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 190px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  #main .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main .contentswrap ul.period {
+    left: 50%;
+    top: 820px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
