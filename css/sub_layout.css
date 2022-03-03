@@ -1353,6 +1353,7 @@ section {
   #intro > .contentswrap > h2 {
     color: #077451;
     font-size: 24px;
+    line-height: 30px;
   }
   #intro > .contentswrap > .summary {
     margin-top: 50px;
@@ -1360,18 +1361,18 @@ section {
   }
   #intro > .contentswrap > .summary > li {
     display: inline-block;
-    width: 200px;
+    width: 160px;
     margin-bottom: 40px;
   }
   #intro > .contentswrap > .summary > li > h3 {
     color: #484848;
-    font-size: 22px;
+    font-size: 20px;
     border-bottom: 3px solid #484848;
     padding-bottom: 7px;
   }
   #intro > .contentswrap > .summary > li > p {
     color: #484848;
-    font-size: 19px;
+    font-size: 18px;
     margin-top: 10px;
   }
   #intro > .contentswrap > h3 {
@@ -1400,7 +1401,7 @@ section {
   }
   #media > .contentswrap > ul > li {
     color: #484848;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 10px;
   }
   #media > .contentswrap > img {
@@ -1452,7 +1453,7 @@ section {
   }
   #guide > .contentswrap > dl > dd {
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 500;
   }
@@ -1477,20 +1478,22 @@ section {
   }
   .footer > #btntop {
     position: absolute;
-    top: -42px;
+    top: -40px;
     left: 50%;
-    margin-left: -50px;
+    margin-left: -40px;
   }
   .footer > #btntop > a {
-    width: 100px;
+    width: 80px;
     height: 70px;
     background: url(../images/btn_top_kkd.png) no-repeat;
+    background-size: 80px;
   }
   .footer > .copyright {
     font-size: 13px;
     color: #fff;
     padding-top: 35px;
     margin-top: 0;
+    letter-spacing: 0;
   }
 }
 
@@ -1539,6 +1542,18 @@ section {
   #starbucks_body #detail .contentswrap img {
     padding-top: 30px;
   }
+  #starbucks_body > .footer > #btntop {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  #starbucks_body > .footer > #btntop > a {
+    width: 80px;
+    height: 70px;
+    background: url(../images/btn_top_starbucks.png) no-repeat;
+    background-size: 80px;
+  }
 }
 
 /***** URIAGE *****/
@@ -1563,12 +1578,18 @@ section {
 #uriage_body .footer {
   background-color: #1da2dd;
 }
+#uriage_body > .footer > #btntop {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
 #uriage_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_uriage.png) no-repeat;
+  background-size: 80px;
 }
-
 #uriage_body #media .contentswrap .go {
   top: 230px;
 }
@@ -1622,12 +1643,18 @@ section {
 #yuhan_body .footer {
   background-color: #865828;
 }
+#yuhan_body .footer #btntop {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
 #yuhan_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_yuhan.png) no-repeat;
+  background-size: 80px;
 }
-
 #yuhan_body #media .contentswrap .go {
   top: 180px;
 }
@@ -1678,12 +1705,18 @@ section {
 #twosome_body .footer {
   background-color: #a9202a;
 }
+#twosome_body .footer #btntop {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
 #twosome_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_twosome.png) no-repeat;
+  background-size: 80px;
 }
-
 #twosome_body #media .contentswrap img {
   width: 40%;
   margin: 0 auto;
@@ -1763,12 +1796,18 @@ section {
 #donga_body .footer {
   background-color: #00a0c9;
 }
+#donga_body .footer #btntop {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
 #donga_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_donga.png) no-repeat;
+  background-size: 80px;
 }
-
 #donga_body #media .contentswrap .go {
   top: 230px;
 }
@@ -1825,12 +1864,18 @@ section {
 #dongbu_body .footer {
   background-color: #00a88e;
 }
+#dongbu_body .footer #btntop {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
 #dongbu_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_dongbu.png) no-repeat;
+  background-size: 80px;
 }
-
 #dongbu_body #media .contentswrap .go {
   top: 180px;
 }
@@ -1885,11 +1930,11 @@ section {
   background-color: #e48f03;
 }
 #overwatch_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_overwatch.png) no-repeat;
+  background-size: 80px;
 }
-
 #overwatch_body #media .contentswrap .go {
   top: 230px;
 }

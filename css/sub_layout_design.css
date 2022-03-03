@@ -377,6 +377,7 @@ div#menu > ul > li:hover > a > .back {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 100px 0;
   width: 80%;
   margin: 0 auto;
   padding: 50px 0;
@@ -385,13 +386,13 @@ div#menu > ul > li:hover > a > .back {
   padding: 10px;
 }
 #cardnews_1_detail ul li img {
+  width: 350px;
   box-shadow: 0 0 20px 5px rgb(0, 0, 0, 10%);
 }
 
 /** SECTION3_#1_CARDNEWS_02_퀴즈이벤트 **/
 #cardnews_2 {
   width: 100%;
-  /* background: #c5e3fb; */
   background: #ddece8;
   text-align: center;
   margin-top: -2px;

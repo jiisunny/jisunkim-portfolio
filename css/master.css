@@ -488,7 +488,8 @@ section {
 @media screen and (min-width: 1490px) {
   .bg_minpc,
   .bg_tablet,
-  .bg_mobile {
+  .bg_mobile,
+  .answer_mobile {
     display: none;
   }
 }
@@ -1091,6 +1092,7 @@ section {
     margin-top: 10px;
     border-top: 2px solid #fff;
     line-height: 20px;
+    letter-spacing: 1px;
   }
   /* SECTION2 PROJECTS */
   #portfolio > .wrap_align > .brandlist {
@@ -1172,16 +1174,18 @@ section {
   #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
     padding: 5px 0;
     line-height: 20px;
+    letter-spacing: 1px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.question > li {
     padding: 5px 0;
     line-height: 20px;
+    letter-spacing: 1px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
-    margin-top: 80px;
+    margin-top: 40px;
   }
   /* SECTION4 ART WORKS */
   #artwork > .wrap_align > .artlist > li > a > div {
@@ -1219,11 +1223,11 @@ section {
   #contact > .wrap_align > .address > p.first {
     margin-top: 30px;
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 0;
   }
   #contact > .wrap_align > .address > p.second {
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 0;
   }
   #contact > .wrap_align > .address > ul.contactme {
     margin-top: -204px;
