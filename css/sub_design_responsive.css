@@ -1168,7 +1168,28 @@
     width: 100%;
   }
  
-
+  /**** FOOTER ****/
+  .graphic_footer #btntop {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .graphic_footer #btntop > a {
+    width: 80px;
+    height: 70px;
+    background: url(../images/btn_top_starbucks.png) no-repeat;
+    background-size: 80px;
+  }
+  .graphic_footer {
+    height: 80px;
+    letter-spacing: 1px;
+  }
+  .graphic_body .copyright {
+    font-size: 13px;
+    letter-spacing: 0;
+    padding-top: 38px;
+  }
 
 
 
