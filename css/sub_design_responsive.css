@@ -52,6 +52,52 @@
   #main_webpage > .contentswrap > ul.period {
     top: 77%;
   }
+
+  /* GRAPHIC DESIGN */
+  .graphic_body #main .contentswrap img {
+    width: 32%;
+    top: 22%;
+  }
+  .graphic_body #main .contentswrap .title {
+    width: 34%;
+  }
+  .graphic_body #graphic_1 ul {
+    padding: 100px 0;
+  }
+  .graphic_1_02 {
+    width: 80%;
+  }
+  .graphic_1_03 {
+    width: 50%;
+    margin: 0 50px;
+  }
+  #main_brochure > .contentswrap > .title {
+    width: 40%;
+    left: 8%;
+  }
+  #main_brochure > .contentswrap > ul.period {
+    left: 8%;
+  }
+  #main_brochure .contentswrap img {
+    top: 27%;
+    right: -4%;
+  }
+  #main_book > .contentswrap > .title {
+    width: 40%;
+    left: 8%;
+  }
+  #main_book > .contentswrap > ul.period {
+    left: 8%;
+  }
+  #main_book .contentswrap img {
+    top: 17%;
+    right: -6%;
+    width: 49%;
+  }
+
+
+
+
 }
 
 /* TABLET 가로 MIN */
@@ -224,6 +270,99 @@
   #webbanner_3 .contentswrap ul li {
     width: 90%;
   }
+
+  /* GRAPHIC DESIGN */
+  .graphic_body #graphic_1 {
+    margin-top: 650px;
+  }
+  .graphic_body #main .contentswrap img {
+    width: 32%;
+    top: 22%;
+  }
+  .graphic_body #main .contentswrap .title {
+    width: 34%;
+  }
+  .graphic_body #graphic_1 ul {
+    padding: 100px 0;
+  }
+  .graphic_1_02 {
+    width: 80%;
+  }
+  .graphic_1_03 {
+    width: 50%;
+    margin: 0 50px;
+  }
+  #main_brochure .contentswrap {
+    height: 650px;
+  }
+  #main_brochure > .contentswrap > .title {
+    width: 40%;
+    left: 4%;
+  }
+  #main_brochure > .contentswrap > .title > .logo {
+    font-size: 30px;
+    width: 240px;
+  }
+  #main_brochure > .contentswrap > .title > h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main_brochure > .contentswrap > .title > h3 {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 29%;
+  }
+  #main_brochure > .contentswrap > .title > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main_brochure > .contentswrap > ul.period {
+    left: 4%;
+    top: 69%;
+    font-size: 16px;
+  }
+  #main_brochure .contentswrap img {
+    top: 27%;
+    right: -4%;
+  }
+  #main_book .contentswrap {
+    height: 650px;
+  }
+  #main_book > .contentswrap > .title {
+    width: 40%;
+    left: 4%;
+  }
+  #main_book > .contentswrap > .title > .logo {
+    font-size: 30px;
+    width: 240px;
+  }
+  #main_book > .contentswrap > .title > h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main_book > .contentswrap > .title > h3 {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 29%;
+  }
+  #main_book > .contentswrap > .title > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main_book > .contentswrap > ul.period {
+    left: 4%;
+    top: 69%;
+    font-size: 16px;
+  }
+  #main_book .contentswrap img {
+    top: 13%;
+    right: -3%;
+    width: 49%;
+  }
+  #graphic_3 ul {
+    padding: 20px 0;
+  }
+
 }
 
 /* TABLET 세로, MOBILE 가로 */
@@ -439,6 +578,162 @@
   #webdesign .contentswrap ul {
     padding: 100px 0 0 0;
   }
+
+  /* GRAPHIC DESIGN */
+
+  .graphic_body #main .contentswrap img {
+    width: 300px;
+    top: 90px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .graphic_body #main > .contentswrap > .title {
+    width: 70%;
+    top: 500px;
+  }
+  .graphic_body #main > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 260px;
+    font-size: 30px;
+  }
+  .graphic_body #main .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .graphic_body #main .contentswrap .title h3 {
+    margin-top: 50px;
+  }
+  .graphic_body #main .contentswrap .title p {
+    font-size: 16px;
+  }
+  .graphic_body #main .contentswrap ul.period {
+    left: 50%;
+    top: 870px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  .graphic_body #graphic_1 {
+    margin-top: 1000px;
+  }
+  .graphic_body #graphic_1 ul {
+    padding: 50px 0 100px 0;
+  }
+  .graphic_1_02 {
+    width: 90%;
+  }
+  .graphic_1_03 {
+    width: 60%;
+  }
+  .graphic_1_06 {
+    margin-top: 50px;
+  }
+  #main_brochure .contentswrap {
+    text-align: center;
+    height: 900px;
+  }
+  #main_brochure .contentswrap img {
+    top: 50px;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+  }
+  #main_brochure > .contentswrap > .title {
+    width: 85%;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_brochure > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 240px;
+    font-size: 30px;
+  }
+  #main_brochure .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main_brochure .contentswrap .title h3 {
+    margin-top: 50px;
+    padding: 0;
+  }
+  #main_brochure .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main_brochure .contentswrap ul.period {
+    left: 50%;
+    top: 720px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+
+
+
+
+
+  #main_book .contentswrap {
+    text-align: center;
+    height: 900px;
+  }
+  #main_book .contentswrap img {
+    top: 50px;
+    left: 50%;
+    width: 360px;
+    margin-left: -180px;
+  }
+  #main_book > .contentswrap > .title {
+    width: 85%;
+    top: 470px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_book > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 240px;
+    font-size: 30px;
+  }
+  #main_book .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main_book .contentswrap .title h3 {
+    margin-top: 50px;
+    padding: 0;
+  }
+  #main_book .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main_book .contentswrap ul.period {
+    left: 50%;
+    top: 780px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  #graphic_3 ul {
+    padding: 50px 0;
+  }
+  #graphic_3 ul li:first-child {
+    margin-bottom: 0;
+  }
+  .book_1_01,
+  .book_1_02 {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* MOBILE 세로 */
@@ -708,61 +1003,175 @@
     padding-top: 38px;
   }
 
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* WEB-MIDIUM 1440px */
-@media screen and (max-width:1459px) {
   /* GRAPHIC DESIGN */
-  .graphic_body #main .contentswrap .title {
-    width: 28%;
+  .hide {
+    display: none;
+  }
+  .graphic_body #main .contentswrap {
+    text-align: center;
+    height: 600px;
+  }
+  .graphic_body #main > .contentswrap > .title {
+    width: 70%;
+    top: 120px;
+  }
+  .graphic_body #main > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 210px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .graphic_body #main .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  .graphic_body #main .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .graphic_body #main .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .graphic_body #main .contentswrap ul.period {
+    left: 50%;
+    top: 500px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 80%;
+  }
+  .graphic_body #graphic_1 {
+    margin-top: 600px;
+  }
+  .graphic_body #graphic_1 ul {
+    padding: 50px 0;
+  }
+  .graphic_1_02 {
+    width: 95%;
+  }
+  .graphic_1_03 {
+    width: 70%;
+    margin: 0  ;
+  }
+  .graphic_1_04,
+  .graphic_1_05 {
+    width: 90%;
+    margin: 40px 2% 0 2%;
   }
   .graphic_1_06 {
+    width: 89%;
+    margin-top: 50px;
+  }
+  #main_brochure .contentswrap {
+    height: 500px;
+    text-align: center;
+  }
+  #main_brochure > .contentswrap > .title {
+    width: 90%;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_brochure > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main_brochure .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main_brochure .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 0;
+  }
+  #main_brochure .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main_brochure .contentswrap ul.period {
+    left: 50%;
+    top: 380px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 70%;
+  }
+  #graphic_2 ul li {
+    margin-bottom: 40px;
+  }
+  #graphic_2 ul li img {
+    width: 100%;
+  }
+  #graphic_2 ul {
+    padding: 0 0 50px 0;
+  }
+  #graphic_2 ul li:nth-child(4) img,
+  #graphic_2 ul li:last-child img {
     width: 90%;
   }
-  #main_brochure .contentswrap img {
-    top: 23%;
-    right: -3%;
+
+  #main_book .contentswrap {
+    height: 500px;
+    text-align: center;
   }
+  #main_book > .contentswrap > .title {
+    width: 90%;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_book > .contentswrap > .title > .logo {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main_book .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main_book .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 0;
+  }
+  #main_book .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main_book .contentswrap ul.period {
+    left: 50%;
+    top: 370px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 70%;
+  }
+  #graphic_3 ul {
+    padding: 20px 0;
+  }
+  #graphic_3 ul li {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  .book_1_01 {
+    width: 95%;
+  }
+  .book_1_02 {
+    width: 100%;
+  }
+ 
+
+
+
+
+
+
 }

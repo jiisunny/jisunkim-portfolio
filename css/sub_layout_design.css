@@ -804,21 +804,22 @@ div#menu > ul > li:hover > a > .back {
   align-items: center;
 }
 .graphic_1_02 {
-  width: 700px;
-  height: 495px;
+  width: 50%;
+  height: auto;
   margin: 20px 50px;
 }
 .graphic_1_03 {
-  width: 400px;
-  height: 744px;
+  width: 30%;
+  height: auto;
   margin: 20px 50px;
 }
 .graphic_1_04, .graphic_1_05 {
-  width: 550px;
+  width: 40%;
   margin: 100px 2% 0 2%;
   box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
 }
 .graphic_1_06 {
+  width: 84%;
   margin-top: 100px;
   box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
 }
@@ -978,6 +979,12 @@ div#menu > ul > li:hover > a > .back {
   align-items: center;
   margin-bottom: 80px;
   padding: 50px 0;
+}
+.book_1_02 {
+  width: 85%;
+}
+.book_1_01 {
+  width: 70%;
 }
 
 /** FOOTER_GRAPHIC DESIGN **/
