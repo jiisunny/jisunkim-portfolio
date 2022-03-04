@@ -69,21 +69,22 @@ body{
   transition-delay: 1.2s;
 }
 
-/**** GO HOME ****/
+/**** GOMAIN ****/
 .myname {
   position: fixed;
-  top: 30px;
+  top: 20px;
   left: 30px;
-  width: 120px; height: 120px;
+  width: 100px; height: 100px;
   z-index: 300;
 }
 .myname a {
-  width: 120px; height: 120px;
+  width: 100px; height: 100px;
   background: url(../images/sunny_logo.png);
   text-indent: -6000px;
   overflow: hidden;
   animation: rotate_image 15s linear infinite;
   transform-origin: 50% 50%;
+  background-size: 100px;
 }
 @keyframes rotate_image {
   100% {
@@ -150,7 +151,7 @@ ul#main_nav > li > h3  {
   padding-left: 30px;
   line-height: 54px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   color: #8081d9;
   cursor: pointer;
 }
@@ -196,11 +197,11 @@ ul#main_nav > li.active > ul.sub_nav > li {
   height: 50px;
 }
 ul#main_nav > li > ul.sub_nav > li > a {
-  padding-left: 60px;
+  padding-left: 50px;
   line-height: 50px;
   height: 50px;
   color: #fff;
-  font-size: 20px;
+  font-size: 17px;
   background-color: #9b9ce8;
   transition-duration: 0.3s;
 }
@@ -236,7 +237,7 @@ input#toggle:checked + #main_nav_wrap > label.bg_close {
 
 /***** 고정 메뉴 *****/
 div#menu {
-  width: 80px; height: 500px;
+  width: 100px; height: 300px;
   position: absolute;
   left: 2%;
   z-index: 200;
@@ -244,19 +245,19 @@ div#menu {
   transition-timing-function: ease-out;
 }
 div#menu ul li {
-  width: 120px; height: 120px;
+  width: 100px; height: 100px;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 div#menu ul li:last-child {
   margin-bottom: 0;
 }
 div#menu ul li a {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 div#menu ul li a div img {
-  width: 120px;
+  width: 100px;
 }
 
 /** 고정 메뉴 hover효과 **/
@@ -289,7 +290,7 @@ div#menu ul li:hover a .back {
 }
 #main .contentswrap {
   width: 100%;
-  height: 750px;
+  height: 600px;
   position: fixed;
   top: 0;
   z-index: -100;
@@ -303,7 +304,7 @@ div#menu ul li:hover a .back {
 }
 #main .contentswrap .title {
   position: absolute;
-  width: 25%;
+  width: 28%;
   top: 12%;
   left: 16%;
 }
@@ -321,7 +322,7 @@ div#menu ul li:hover a .back {
 }
 #main .contentswrap .title h3 {
   font-size: 20px;
-  margin-top: 25%;
+  margin-top: 22%;
 }
 #main .contentswrap .title p {
   font-size: 24px;
@@ -331,7 +332,7 @@ div#menu ul li:hover a .back {
 }
 #main .contentswrap ul.period {
   position: absolute;
-  top: 72%;
+  top: 78%;
   left: 16%;
   font-size: 20px;
   line-height: 30px;
@@ -341,7 +342,7 @@ div#menu ul li:hover a .back {
 #cardnews_1 {
   width: 100%;
   background: #ddece8;
-  margin-top: 750px;
+  margin-top: 600px;
   text-align: center;
 }
 #cardnews_1 h3 {
@@ -502,7 +503,7 @@ div#menu ul li:hover a .back {
 }
 #main_webbanner .contentswrap {
   width: 80%;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -644,7 +645,7 @@ div#menu ul li:hover a .back {
 }
 #main_webpage .contentswrap {
   width: 80%;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -656,8 +657,8 @@ div#menu ul li:hover a .back {
 }
 #main_webpage .contentswrap .title {
   position: absolute;
-  width: 28%;
-  top: 12%;
+  width: 38%;
+  top: 10%;
   left: 8%;
 }
 #main_webpage .contentswrap .title .logo {
@@ -674,7 +675,7 @@ div#menu ul li:hover a .back {
 }
 #main_webpage .contentswrap .title h3 {
   font-size: 20px;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 #main_webpage .contentswrap .title p {
   font-size: 24px;
@@ -708,7 +709,7 @@ div#menu ul li:hover a .back {
   position: relative;
 }
 #webdesign .contentswrap ul {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   text-align: center;
 }
 #webdesign .contentswrap ul li {
@@ -773,16 +774,16 @@ div#menu ul li:hover a .back {
   width: 27%;
 }
 .graphic_body #main .contentswrap .title {
-  width: 21%;
+  width: 28%;
 }
 .graphic_body #main .contentswrap .title h3 {
-  margin-top: 25%;
+  margin-top: 50px;
 }
 .graphic_body #main .contentswrap .title .logo {
   width: 320px;
 }
 .graphic_body #main .contentswrap ul.period {
-  top: 77%;
+  top: 480px;
 }
 
 /** SECTION1_#1_한국인터넷진흥원교재 **/
@@ -790,12 +791,12 @@ div#menu ul li:hover a .back {
   position: relative;
   width: 100%;
   background: #ececec;
-  margin-top: 750px;
+  margin-top: 600px;
   text-align: center;
 }
 .graphic_body #graphic_1 ul {
   margin: 0 10%;
-  padding: 100px 0 200px 0;
+  padding: 80px 0 200px 0;
 }
 .graphic_body #graphic_1 ul li {
   display: flex;
@@ -832,7 +833,7 @@ div#menu ul li:hover a .back {
 }
 #main_brochure .contentswrap {
   width: 80%;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -844,9 +845,9 @@ div#menu ul li:hover a .back {
 }
 #main_brochure .contentswrap .title {
   position: absolute;
-  width: 25%;
+  width: 33%;
   top: 12%;
-  left: 14%;
+  left: 7%;
 }
 #main_brochure .contentswrap .title .logo {
   font-size: 40px;
@@ -861,9 +862,8 @@ div#menu ul li:hover a .back {
   margin-top: 5px;
 }
 #main_brochure .contentswrap .title h3 {
-  padding: 30px 0;
   font-size: 20px;
-  margin-top: 15%;
+  margin-top: 70px;
 }
 #main_brochure .contentswrap .title p {
   font-size: 24px;
@@ -873,8 +873,8 @@ div#menu ul li:hover a .back {
 }
 #main_brochure .contentswrap ul.period {
   position: absolute;
-  top: 72%;
-  left: 14%;
+  top: 460px;
+  left: 7%;
   font-size: 20px;
   line-height: 25px;
 }
@@ -915,7 +915,7 @@ div#menu ul li:hover a .back {
 }
 #main_book .contentswrap {
   width: 80%;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -927,9 +927,9 @@ div#menu ul li:hover a .back {
 }
 #main_book .contentswrap .title {
   position: absolute;
-  width: 25%;
+  width: 32%;
   top: 12%;
-  left: 14%;
+  left: 7%;
 }
 #main_book .contentswrap .title .logo {
   font-size: 40px;
@@ -944,9 +944,8 @@ div#menu ul li:hover a .back {
   margin-top: 5px;
 }
 #main_book .contentswrap .title h3 {
-  padding: 30px 0;
   font-size: 20px;
-  margin-top: 15%;
+  margin-top: 70px;
 }
 #main_book .contentswrap .title p {
   font-size: 24px;
@@ -956,8 +955,8 @@ div#menu ul li:hover a .back {
 }
 #main_book .contentswrap ul.period {
   position: absolute;
-  top: 72%;
-  left: 14%;
+  top: 460px;
+  left: 7%;
   font-size: 20px;
   line-height: 25px;
 }
@@ -1039,7 +1038,7 @@ div#menu ul li:hover a .back {
 .digital_body #illust_1 {
   width: 100%;
   background: #71a38a;
-  margin-top: 750px;
+  margin-top: 600px;
   text-align: center;
 }
 .digital_body #illust_1 ul {
@@ -1107,7 +1106,7 @@ div#menu ul li:hover a .back {
 }
 #main_character .contentswrap {
   width: 80%;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -1119,9 +1118,9 @@ div#menu ul li:hover a .back {
 }
 #main_character .contentswrap .title {
   position: absolute;
-  width: 25%;
+  width: 32%;
   top: 12%;
-  left: 14%;
+  left: 7%;
 }
 #main_character .contentswrap .title .logo {
   font-size: 40px;
@@ -1138,10 +1137,9 @@ div#menu ul li:hover a .back {
   margin-top: 5px;
 }
 #main_character .contentswrap .title h3 {
-  padding: 30px 0;
   font-size: 20px;
   color: #484848;
-  margin-top: 15%;
+  margin-top: 80px;
 }
 #main_character .contentswrap .title p {
   font-size: 24px;
@@ -1152,8 +1150,8 @@ div#menu ul li:hover a .back {
 }
 #main_character .contentswrap ul.period {
   position: absolute;
-  top: 72%;
-  left: 14%;
+  top: 490px;
+  left: 7%;
   font-size: 20px;
   color: #484848;
   line-height: 25px;
@@ -1175,8 +1173,12 @@ div#menu ul li:hover a .back {
   padding-bottom: 100px;
 }
 #character_1 .contentswrap ul li img {
+  width: 80%;
   margin: 0 auto;
   padding-top: 70px;
+}
+#character_1 .contentswrap ul li:last-child img{
+  width: 70%;
 }
 
 /** SECTION6_#2_CHARACTER_02 **/
@@ -1192,6 +1194,7 @@ div#menu ul li:hover a .back {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 80px 0;
 }
 #character_2 .contentswrap ul li:first-child,
 #character_2 .contentswrap ul li:last-child {
@@ -1213,7 +1216,7 @@ div#menu ul li:hover a .back {
 }
 #main_drawing .contentswrap {
   width: 80%;
-  height: 750px;
+  height: 600px;
   margin: 0 auto;
   position: relative;
 }
@@ -1225,7 +1228,7 @@ div#menu ul li:hover a .back {
 }
 #main_drawing .contentswrap .title {
   position: absolute;
-  width: 25%;
+  width: 31%;
   top: 12%;
   left: 14%;
 }
@@ -1242,9 +1245,8 @@ div#menu ul li:hover a .back {
   margin-top: 5px;
 }
 #main_drawing .contentswrap .title h3 {
-  padding: 30px 0;
   font-size: 20px;
-  margin-top: 15%;
+  margin-top: 100px;
 }
 #main_drawing .contentswrap .title p {
   font-size: 24px;
@@ -1254,7 +1256,7 @@ div#menu ul li:hover a .back {
 }
 #main_drawing .contentswrap ul.period {
   position: absolute;
-  top: 72%;
+  top: 470px;
   left: 14%;
   font-size: 20px;
   line-height: 25px;
@@ -1336,7 +1338,7 @@ div#menu ul li:hover a .back {
   position: relative;
   width: 100%;
   background: #fcf8e5;
-  margin-top: 750px;
+  margin-top: 600px;
   text-align: center;
 }
 .project_body #project_1 ul {
@@ -1358,8 +1360,8 @@ div#menu ul li:hover a .back {
   padding: 0 50px;
 }
 .project_body #project_1 ul li:last-child img {
-  width: 400px;
-  margin: 0 20px;
+  width: 30%;
+  margin: 0 10px;
   box-shadow: -10px 13px 20px 5px rgb(0, 0, 0, 10%);
 }
 .leaf_left {

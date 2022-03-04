@@ -59,21 +59,22 @@ body {
   transition-delay: .9s;
 }
 
-/** GO HOME **/
+/**** GOMAIN ****/
 .myname {
   position: fixed;
-  top: 30px;
+  top: 20px;
   left: 30px;
-  width: 120px; height: 120px;
+  width: 100px; height: 100px;
   z-index: 300;
 }
 .myname a {
-  width: 120px; height: 120px;
+  width: 100px; height: 100px;
   background: url(../images/sunny_logo.png);
   text-indent: -6000px;
   overflow: hidden;
   animation: rotate_image 15s linear infinite;
   transform-origin: 50% 50%;
+  background-size: 100px;
 }
 @keyframes rotate_image {
   100% {
@@ -140,7 +141,7 @@ ul#main_nav > li > h3  {
   padding-left: 30px;
   line-height: 54px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   color: #8081d9;
   cursor: pointer;
 }
@@ -186,11 +187,11 @@ ul#main_nav > li.active > ul.sub_nav > li {
   height: 50px;
 }
 ul#main_nav > li > ul.sub_nav > li > a {
-  padding-left: 60px;
+  padding-left: 50px;
   line-height: 50px;
   height: 50px;
   color: #fff;
-  font-size: 20px;
+  font-size: 17px;
   background-color: #9b9ce8;
   transition-duration: 0.3s;
 }
@@ -226,7 +227,7 @@ input#toggle:checked + #main_nav_wrap > label.bg_close {
 
 /***** 고정 메뉴 *****/
 div#menu {
-  width: 80px; height: 500px;
+  width: 70px; height: 500px;
   position: absolute;
   left: 2%;
   z-index: 200;
@@ -234,19 +235,19 @@ div#menu {
   transition-timing-function: ease-out;
 }
 div#menu ul li {
-  width: 80px; height: 80px;
+  width: 70px; height: 70px;
   position: relative;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 }
 div#menu ul li:last-child {
   margin-bottom: 0;
 }
 div#menu ul li a {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 div#menu ul li a div img {
-  width: 80px;
+  width: 70px;
 }
 
 /** 고정 메뉴 hover효과 **/
@@ -375,7 +376,6 @@ section {
   margin-top: 70px;
 }
 #intro .contentswrap p {
-  padding-top: 20px;
   color: #484848;
   font-size: 19px;
   line-height: 30px;
@@ -476,7 +476,7 @@ section {
 #guide .contentswrap dl dd {
   padding-top: 15px;
   font-size: 19px;
-  line-height: 24px;
+  line-height: 30px;
   font-weight: 500;
 }
 
@@ -1580,15 +1580,15 @@ section {
 }
 #uriage_body .footer #btntop {
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 #uriage_body .footer #btntop a {
-  width: 80px;
+  width: 100px;
   height: 70px;
   background: url(../images/btn_top_uriage.png) no-repeat;
-  background-size: 80px;
+  background-size: 100px;
 }
 #uriage_body #media .contentswrap .go {
   top: 230px;
@@ -1645,15 +1645,15 @@ section {
 }
 #yuhan_body .footer #btntop {
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 #yuhan_body .footer #btntop a {
-  width: 80px;
+  width: 100px;
   height: 70px;
   background: url(../images/btn_top_yuhan.png) no-repeat;
-  background-size: 80px;
+  background-size: 100px;
 }
 #yuhan_body #media .contentswrap .go {
   top: 180px;
@@ -1707,15 +1707,15 @@ section {
 }
 #twosome_body .footer #btntop {
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 #twosome_body .footer #btntop a {
-  width: 80px;
+  width: 100px;
   height: 70px;
   background: url(../images/btn_top_twosome.png) no-repeat;
-  background-size: 80px;
+  background-size: 100px;
 }
 #twosome_body #media .contentswrap img {
   width: 40%;
@@ -1798,15 +1798,15 @@ section {
 }
 #donga_body .footer #btntop {
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 #donga_body .footer #btntop a {
-  width: 80px;
+  width: 100px;
   height: 70px;
   background: url(../images/btn_top_donga.png) no-repeat;
-  background-size: 80px;
+  background-size: 100px;
 }
 #donga_body #media .contentswrap .go {
   top: 230px;
@@ -1866,15 +1866,15 @@ section {
 }
 #dongbu_body .footer #btntop {
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: 50%;
-  margin-left: -40px;
+  margin-left: -50px;
 }
 #dongbu_body .footer #btntop a {
-  width: 80px;
+  width: 100px;
   height: 70px;
   background: url(../images/btn_top_dongbu.png) no-repeat;
-  background-size: 80px;
+  background-size: 100px;
 }
 #dongbu_body #media .contentswrap .go {
   top: 180px;
@@ -1929,11 +1929,17 @@ section {
 #overwatch_body .footer {
   background-color: #e48f03;
 }
+#overwatch_body .footer #btntop {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  margin-left: -50px;
+}
 #overwatch_body .footer #btntop a {
-  width: 80px;
+  width: 100px;
   height: 70px;
   background: url(../images/btn_top_overwatch.png) no-repeat;
-  background-size: 80px;
+  background-size: 100px;
 }
 #overwatch_body #media .contentswrap .go {
   top: 230px;
