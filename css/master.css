@@ -36,7 +36,7 @@
   width: 120px; height: 120px;
   z-index: 300;
 }
-.myname > a {
+.myname a {
   width: 120px; height: 120px;
   background: url(../images/sunny_logo.png);
   text-indent: -6000px;
@@ -49,7 +49,7 @@
   transform: rotate(360deg);
   }
 }
-.myname:hover > a {
+.myname:hover a {
   transform: rotate(-1440deg);
 }
 
@@ -202,7 +202,7 @@ section {
   position: relative;
   background-color: #e5bfe3;
 }
-#home > img {
+#home img {
   width: 100%;
 }
 #maintitle {
@@ -210,7 +210,7 @@ section {
   top: 13%;
   right: 12%;
 }
-#home > .wrap_align > #maintitle > .logo {
+#home .wrap_align #maintitle .logo {
   font-size: 70px;
   height: 160px;
   text-align: left;
@@ -218,7 +218,7 @@ section {
   letter-spacing: 5px;
   min-width: 450px;
 }
-#home > .wrap_align > #maintitle > h2 {
+#home .wrap_align #maintitle h2 {
   font-size: 30px;
   text-align: left;
   letter-spacing: 20px;
@@ -249,18 +249,18 @@ section {
   position: relative;
   background: linear-gradient( #e3c5e4, #c5b0eb);
 }
-#portfolio > .wrap_align > .brandlist {
+#portfolio .wrap_align .brandlist {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   margin: 0 10%;
 }
-#portfolio > .wrap_align > .brandlist > ul > li {
+#portfolio .wrap_align .brandlist ul li {
   display: inline-block;
   padding: 0 30px;
   margin-top: 50px;
 }
-#portfolio > .wrap_align > .brandlist > ul > li > a {
+#portfolio .wrap_align .brandlist ul li a {
   width: 250px;
   height: 250px;
 }
@@ -268,14 +268,14 @@ section {
   margin-top: 25px;
   font-size: 22px;
 }
-.brandlist > ul > li > a > div > img {
+.brandlist ul li a div img {
   opacity: 0;
   transition-duration: 0.4s;
 }
-.brandlist > ul > li > a > div > img:hover {
+.brandlist ul li a div img:hover {
   opacity: 1;
 }
-.brandlist > ul > li > a > div > div {
+.brandlist ul li a div div {
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -322,16 +322,16 @@ section {
   position: relative;
   background: linear-gradient(#c5b0eb, #acc1f9);
 }
-#me > .wrap_align {
+#me .wrap_align {
   position: relative;
   height: 100%;
 }
-#me > .wrap_align > .profile_wrap{
+#me .wrap_align .profile_wrap{
   position: relative;
   height: 100%;
   margin: 0 10%;
 }
-#me > .wrap_align > .profile_wrap > #profile {
+#me .wrap_align .profile_wrap #profile {
   position: relative;
   height: 280px;
 }
@@ -341,35 +341,35 @@ section {
   top: 320px;
   left: 7%;
 }
-#me > .wrap_align > .profile_wrap > .info {
+#me .wrap_align .profile_wrap .info {
   position: absolute;
   top: 31%;
   left: 35%;
   font-size: 23px;
 }
-#me > .wrap_align > .profile_wrap > .info > ul.question {
+#me .wrap_align .profile_wrap .info ul.question {
   position: absolute;
   left: 0; top: 0;
   text-align: right;
 }
-#me > .wrap_align > .profile_wrap > .info > ul.question > li {
+#me .wrap_align .profile_wrap .info ul.question li {
   padding: 5px 0;
   line-height: 50px;
 }
-#me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+#me .wrap_align .profile_wrap .info ul.question li:nth-child(4) {
   margin-top: 50px;
 }
-#me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+#me .wrap_align .profile_wrap .info ul.question li:last-child {
   margin-top: 100px;
 }
-#me > .wrap_align > .profile_wrap > .info > ul.answer {
+#me .wrap_align .profile_wrap .info ul.answer {
   position: absolute;
   left: 200px;
   top: 0;
   text-align: left;
   width: 544px;
 }
-#me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+#me .wrap_align .profile_wrap .info ul.answer li {
   padding: 5px 0;
   line-height: 50px;
 }
@@ -381,30 +381,30 @@ section {
   position: relative;
   background: linear-gradient(#acc1f9, #bfb3ee);
 }
-#artwork > .wrap_align > ul.artlist {
+#artwork .wrap_align ul.artlist {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
   margin-top: 30px;
 }
-#artwork > .wrap_align > ul.artlist > li {
+#artwork .wrap_align ul.artlist li {
   display: inline-block;
   padding: 0 30px;
   margin-top: 50px;
 }
-#artwork > .wrap_align > ul.artlist > li > a > div {
+#artwork .wrap_align ul.artlist li a div {
   transform: scale(1.0);
   margin: 0 auto;
 }
-#artwork > .wrap_align > ul.artlist > li > a:hover > div {
+#artwork .wrap_align ul.artlist li a:hover div {
   transform: scale(1.05);
   transition-duration: 0.4s
 }
-.artlist > li > a > div > img {
+.artlist li a div img {
   width: 250px;
 }
-.artlist > li > a > h2 {
+.artlist li a h2 {
   margin-top: 45px;
   font-size: 25px;
 }
@@ -415,16 +415,16 @@ section {
   height: 100%;
   background: linear-gradient(#bfb3ee, #e5b9e4);
 }
-#contact > .wrap_align > .address > h2 {
+#contact .wrap_align .address h2 {
   font-size: 60px;
   margin-top: 6%;
   letter-spacing: 3px;
 }
-#contact > .wrap_align > .address > p.first {
+#contact .wrap_align .address p.first {
   margin-top: 50px;
   font-size: 23px;
 }
-#contact > .wrap_align > .address > p.second {
+#contact .wrap_align .address p.second {
   font-size: 23px;
 }
 .circle {
@@ -433,20 +433,20 @@ section {
   border-radius: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
-#contact > .wrap_align > .address > ul.contactme {
+#contact .wrap_align .address ul.contactme {
   margin-top: -285px;
   margin-bottom: 200px;
 }
-#contact > .wrap_align > .address > ul.contactme > li {
+#contact .wrap_align .address ul.contactme li {
   font-size: 20px;
   padding: 5px 0;
 }
-#contact > .wrap_align > .address > ul.contactme > li:nth-of-type(3) {
+#contact .wrap_align .address ul.contactme li:nth-of-type(3) {
   margin-top: 40px;
 }
 
 /**** FOOTER ****/
-#contact > .wrap_align > .footer {
+#contact .wrap_align .footer {
   width: 100%; height: 100px;
   position: absolute;
   bottom: 0;
@@ -454,22 +454,22 @@ section {
   background-color: #fff;
   letter-spacing: 1px;
 }
-#contact > .wrap_align > .footer > #btntop {
+#contact .wrap_align .footer #btntop {
   position: absolute;
   top: -50px;
   left: 50%;
   margin-left: -50px;
 }
-#contact > .wrap_align > .footer > #btntop > a {
+#contact .wrap_align .footer #btntop a {
   width: 100px;
   height: 70px;
   background: url(../images/btn_top.png) no-repeat;
 }
-#contact > .wrap_align > .footer > #btntop > a:hover {
+#contact .wrap_align .footer #btntop a:hover {
   margin-top: -7px;
   transition-duration: 0.3s;
 }
-#contact > .wrap_align > .footer > .copyright {
+#contact .wrap_align .footer .copyright {
   font-size: 18px;
   color: #6e6e6e;
   padding-top: 35px;
@@ -479,7 +479,7 @@ section {
 
 /* RESPONSIVE */
 @media screen and (min-width: 1490px) and (max-width: 1580px) {
-  #portfolio > .wrap_align > .brandlist {
+  #portfolio .wrap_align .brandlist {
     margin: 3% 5% 0;
   }
 }
@@ -508,7 +508,7 @@ section {
     display: visible;
   }
   /**** SECTION1 HOME ****/
-  #home > .wrap_align > #maintitle > .logo {
+  #home .wrap_align #maintitle .logo {
     font-size: 40px;
     height: 100px;
     text-align: left;
@@ -516,7 +516,7 @@ section {
     letter-spacing: 5px;
     min-width: 100px;
   }
-  #home > .wrap_align > #maintitle > h2 {
+  #home .wrap_align #maintitle h2 {
     font-size: 20px;
     text-align: left;
     letter-spacing: 15px;
@@ -540,17 +540,17 @@ section {
     border-top: 2px solid #fff;
   }
   /* SECTION2 PROJECTS */
-  #portfolio > .wrap_align > .brandlist {
+  #portfolio .wrap_align .brandlist {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     margin: 0 40px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li {
+  #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
     padding: 0 60px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li > a {
+  #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
     height: 150px;
   }
@@ -558,11 +558,11 @@ section {
     margin-top: 25px;
     font-size: 22px;
   }
-  .brandlist > ul > li > a > div > img {
+  .brandlist ul li a div img {
     width: 150px;
     height: 150px;
   }
-  .brandlist > ul > li > a > div > div {
+  .brandlist ul li a div div {
     width: 150px;
     height: 150px;
     margin-top: -150px;
@@ -570,7 +570,7 @@ section {
   }
 
   /* SECTION3 ABOUT ME */
-  #profile > img {
+  #profile img {
     width: 200px;
     height: 200px;
   }
@@ -580,45 +580,45 @@ section {
     left: 50%;
     margin-left: -100px;
   }
-  #me > .wrap_align > .profile_wrap > .info {
+  #me .wrap_align .profile_wrap .info {
     position: absolute;
     top: 50%;
     left: 22%;
     font-size: 16px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+  #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
     line-height: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+  #me .wrap_align .profile_wrap .info ul.question li {
     padding: 5px 0;
     line-height: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+  #me .wrap_align .profile_wrap .info ul.question li:nth-child(4) {
     margin-top: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+  #me .wrap_align .profile_wrap .info ul.question li:last-child {
     margin-top: 30px;
   }
 
   /* SECTION4 ART WORKS */
-  #artwork > .wrap_align > .artlist > li > a > div {
+  #artwork .wrap_align .artlist li a div {
     width: 180px;
     height: 180px;
   }
-  .artlist > li > a > div > img {
+  .artlist li a div img {
     width: 180px;
     margin: 0 auto;
   }
-  .artlist > li > a > h2 {
+  .artlist li a h2 {
     font-size: 22px;
   }
-  #artwork > .wrap_align > ul.artlist > li {
+  #artwork .wrap_align ul.artlist li {
     display: inline-block;
     padding: 0 10px;
     margin-top: 25px;
   }
-  #artwork > .wrap_align > ul.artlist > li > a > div {
+  #artwork .wrap_align ul.artlist li a div {
     transform: scale(1.0);
     margin: 0 auto;
     width: 250px;
@@ -626,16 +626,16 @@ section {
   }
 
   /* SECTION5 CONTACT */
-  #contact > .wrap_align > .address > h2 {
+  #contact .wrap_align .address h2 {
     font-size: 40px;
     margin-top: 6%;
     letter-spacing: 3px;
   }
-  #contact > .wrap_align > .address > p.first {
+  #contact .wrap_align .address p.first {
     margin-top: 30px;
     font-size: 18px;
   }
-  #contact > .wrap_align > .address > p.second {
+  #contact .wrap_align .address p.second {
     font-size: 18px;
   }
   .circle {
@@ -660,7 +660,7 @@ section {
     display: visible;
   }
   /**** SECTION1 HOME ****/
-  #home > .wrap_align > #maintitle > .logo {
+  #home .wrap_align #maintitle .logo {
     font-size: 40px;
     height: 100px;
     text-align: left;
@@ -668,7 +668,7 @@ section {
     letter-spacing: 5px;
     min-width: 100px;
   }
-  #home > .wrap_align > #maintitle > h2 {
+  #home .wrap_align #maintitle h2 {
     font-size: 20px;
     text-align: left;
     letter-spacing: 15px;
@@ -692,17 +692,17 @@ section {
     border-top: 2px solid #fff;
   }
   /* SECTION2 PROJECTS */
-  #portfolio > .wrap_align > .brandlist {
+  #portfolio .wrap_align .brandlist {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     margin: 0 40px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li {
+  #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
     padding: 0 30px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li > a {
+  #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
     height: 150px;
   }
@@ -710,11 +710,11 @@ section {
     margin-top: 25px;
     font-size: 18px;
   }
-  .brandlist > ul > li > a > div > img {
+  .brandlist ul li a div img {
     width: 150px;
     height: 150px;
   }
-  .brandlist > ul > li > a > div > div {
+  .brandlist ul li a div div {
     width: 150px;
     height: 150px;
     margin-top: -150px;
@@ -722,7 +722,7 @@ section {
   }
 
   /* SECTION3 ABOUT ME */
-  #profile > img {
+  #profile img {
     width: 200px;
     height: 200px;
   }
@@ -732,45 +732,45 @@ section {
     left: 50%;
     margin-left: -100px;
   }
-  #me > .wrap_align > .profile_wrap > .info {
+  #me .wrap_align .profile_wrap .info {
     position: absolute;
     top: 50%;
     left: 10%;
     font-size: 16px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+  #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
     line-height: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+  #me .wrap_align .profile_wrap .info ul.question li {
     padding: 5px 0;
     line-height: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+  #me .wrap_align .profile_wrap .info ul.question li:nth-child(4) {
     margin-top: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+  #me .wrap_align .profile_wrap .info ul.question li:last-child {
     margin-top: 30px;
   }
   /* SECTION4 ART WORKS */
-  #artwork > .wrap_align > .artlist > li > a > div {
+  #artwork .wrap_align .artlist li a div {
     width: 180px;
     height: 180px;
   }
-  .artlist > li > a > div > img {
+  .artlist li a div img {
     width: 180px;
     margin: 0 auto;
   }
-  .artlist > li > a > h2 {
+  .artlist li a h2 {
     font-size: 18px;
     margin-top: 25px;
   }
-  #artwork > .wrap_align > ul.artlist > li {
+  #artwork .wrap_align ul.artlist li {
     display: inline-block;
     padding: 0 10px;
     margin-top: 50px;
   }
-  #artwork > .wrap_align > ul.artlist > li > a > div {
+  #artwork .wrap_align ul.artlist li a div {
     transform: scale(1.0);
     margin: 0 auto;
     width: 250px;
@@ -778,16 +778,16 @@ section {
   }
   
   /* SECTION5 CONTACT */
-  #contact > .wrap_align > .address > h2 {
+  #contact .wrap_align .address h2 {
     font-size: 40px;
     margin-top: 6%;
     letter-spacing: 3px;
   }
-  #contact > .wrap_align > .address > p.first {
+  #contact .wrap_align .address p.first {
     margin-top: 30px;
     font-size: 18px;
   }
-  #contact > .wrap_align > .address > p.second {
+  #contact .wrap_align .address p.second {
     font-size: 18px;
   }
   .circle {
@@ -811,7 +811,7 @@ section {
     display: visible;
   }
   /**** SECTION1 HOME ****/
-  #home > .wrap_align > #maintitle > .logo {
+  #home .wrap_align #maintitle .logo {
     font-size: 40px;
     height: 100px;
     text-align: left;
@@ -819,7 +819,7 @@ section {
     letter-spacing: 5px;
     min-width: 100px;
   }
-  #home > .wrap_align > #maintitle > h2 {
+  #home .wrap_align #maintitle h2 {
     font-size: 20px;
     text-align: left;
     letter-spacing: 15px;
@@ -844,17 +844,17 @@ section {
     line-height: 25px;
   }
   /* SECTION2 PROJECTS */
-  #portfolio > .wrap_align > .brandlist {
+  #portfolio .wrap_align .brandlist {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     margin: 50px 40px 0;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li {
+  #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
     padding: 0 30px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li > a {
+  #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
     height: 150px;
   }
@@ -862,7 +862,7 @@ section {
     margin-top: 20px;
     font-size: 18px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li > a {
+  #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
     height: 150px;
   }
@@ -870,11 +870,11 @@ section {
     margin-top: 25px;
     font-size: 22px;
   }
-  .brandlist > ul > li > a > div > img {
+  .brandlist ul li a div img {
     width: 150px;
     height: 150px;
   }
-  .brandlist > ul > li > a > div > div {
+  .brandlist ul li a div div {
     width: 150px;
     height: 150px;
     margin-top: -150px;
@@ -882,7 +882,7 @@ section {
   }
 
   /* SECTION3 ABOUT ME */
-  #profile > img {
+  #profile img {
     width: 200px;
     height: 200px;
   }
@@ -892,77 +892,77 @@ section {
     left: 50%;
     margin-left: -100px;
   }
-  #me > .wrap_align > .profile_wrap{
+  #me .wrap_align .profile_wrap{
     position: relative;
     height: 100%;
     margin: 0;
   }
-  #me > .wrap_align > .profile_wrap > .info {
+  #me .wrap_align .profile_wrap .info {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-left: -300px;
     font-size: 16px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.answer {
+  #me .wrap_align .profile_wrap .info ul.answer {
     position: absolute;
     left: 140px;
     top: 0;
     text-align: left;
     width: 544px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+  #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
     line-height: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+  #me .wrap_align .profile_wrap .info ul.question li {
     padding: 5px 0;
     line-height: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+  #me .wrap_align .profile_wrap .info ul.question li:nth-child(4) {
     margin-top: 30px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+  #me .wrap_align .profile_wrap .info ul.question li:last-child {
     margin-top: 30px;
   }
 
   /* SECTION4 ART WORKS */
-  #artwork > .wrap_align > ul.artlist > li > a > div {
+  #artwork .wrap_align ul.artlist li a div {
     transform: scale(1.0);
     margin: 0 auto;
     width: 180px;
     height: 180px;
   }
-  .artlist > li > a > div {
+  .artlist li a div {
     width: 180px;
     margin: 0 auto;
     height: auto;
   }
-  .artlist > li > a > div > img {
+  .artlist li a div img {
     width: 180px;
     margin: 0 auto;
   }
-  .artlist > li > a > h2 {
+  .artlist li a h2 {
     font-size: 18px;
     margin-top: 25px;
   }
-  #artwork > .wrap_align > ul.artlist > li {
+  #artwork .wrap_align ul.artlist li {
     display: inline-block;
     padding: 0 10px;
     margin-top: 50px;
   }
 
   /* SECTION5 CONTACT */
-  #contact > .wrap_align > .address > h2 {
+  #contact .wrap_align .address h2 {
     font-size: 40px;
     margin-top: 25%;
     letter-spacing: 3px;
   }
-  #contact > .wrap_align > .address > p.first {
+  #contact .wrap_align .address p.first {
     margin-top: 30px;
     font-size: 18px;
   }
-  #contact > .wrap_align > .address > p.second {
+  #contact .wrap_align .address p.second {
     font-size: 18px;
   }
   .circle {
@@ -986,7 +986,7 @@ section {
   .answer_mobile {
     display : visible;
   }
-  ul#main_nav > li:first-child {
+  ul#main_nav li:first-child {
     margin-top: 103px;
   }
   /* NAV */
@@ -999,7 +999,7 @@ section {
     bottom: 0;
     overflow: auto;
   }
-  ul#main_nav > li > h3 {
+  ul#main_nav li h3 {
     height: 45px;
     padding-left: 30px;
     line-height: 50px;
@@ -1008,13 +1008,13 @@ section {
     color: #8081d9;
     cursor: pointer;
   }
-  ul#main_nav > li > h3 > button {
+  ul#main_nav li h3 button {
     font-size: 18px;
   }
-  ul#main_nav > li.active > ul.sub_nav > li{
+  ul#main_nav li.active ul.sub_nav li{
     height: 40px;
   }
-  ul#main_nav > li > ul.sub_nav > li > a{
+  ul#main_nav li ul.sub_nav li a{
     padding-left: 60px;
     line-height: 40px;
     height: 40px;
@@ -1023,7 +1023,7 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
-  #main_nav_wrap > label.bg_close {
+  #main_nav_wrap label.bg_close {
     width: 30%;
     height: 100%;
     position: absolute;
@@ -1046,7 +1046,7 @@ section {
     width: 80px; height: 80px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 80px; height: 80px;
     background: url(../images/sunny_logo_m.png);
     text-indent: -6000px;
@@ -1061,7 +1061,7 @@ section {
     right: 50%;
     transform: translateX(50%);
   }
-  #home > .wrap_align > #maintitle > .logo {
+  #home .wrap_align #maintitle .logo {
     font-size: 30px;
     height: 70px;
     text-align: center;
@@ -1069,7 +1069,7 @@ section {
     letter-spacing: 5px;
     min-width: 250px;
   }
-  #home > .wrap_align > #maintitle > h2 {
+  #home .wrap_align #maintitle h2 {
     font-size: 16px;
     text-align: center;
     letter-spacing: 13px;
@@ -1095,19 +1095,19 @@ section {
     letter-spacing: 1px;
   }
   /* SECTION2 PROJECTS */
-  #portfolio > .wrap_align > .brandlist {
+  #portfolio .wrap_align .brandlist {
     position: absolute;
     top: 55%;
     transform: translateY(-50%);
     margin: 0 10px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li {
+  #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
     padding: 0 2%;
     margin-top: 3%;
     width: 75%;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li > a {
+  #portfolio .wrap_align .brandlist ul li a {
     width: 100%;
     height: 45px;
   }
@@ -1119,21 +1119,21 @@ section {
     border: 1px solid #fff;
     letter-spacing: 2px;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li > a:hover > h3 {
+  #portfolio .wrap_align .brandlist ul li a:hover h3 {
     background-color: #8081d9;
     color: #fff;
     transition-duration: 0.3s;
     border: 1px solid #8081d9;
   }
   /***** 크리스피크림 *****/
-  #krispykreme > img {
+  #krispykreme img {
     opacity: 0;
     transition-duration: 0.4s;
   }
-  #krispykreme > img:hover {
+  #krispykreme img:hover {
     opacity: 1;
   }
-  #krispykreme > .krispykremebg_m {
+  #krispykreme .krispykremebg_m {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -1141,7 +1141,7 @@ section {
     margin-top: -100px;
   }
   /* SECTION3 ABOUT ME */
-  #profile > img {
+  #profile img {
     width: 120px;
     height: 120px;
   }
@@ -1151,12 +1151,12 @@ section {
     left: 50%;
     margin-left: -50px;
   }
-  #me > .wrap_align > .profile_wrap{
+  #me .wrap_align .profile_wrap{
     position: relative;
     height: 100%;
     margin: 0;
   }
-  #me > .wrap_align > .profile_wrap > .info {
+  #me .wrap_align .profile_wrap .info {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1164,77 +1164,77 @@ section {
     font-size: 12px;
     letter-spacing: 2px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.answer {
+  #me .wrap_align .profile_wrap .info ul.answer {
     position: absolute;
     left: 103px;
     top: 0;
     text-align: left;
     width: 220px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.answer > li {
+  #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
     line-height: 20px;
     letter-spacing: 1px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li {
+  #me .wrap_align .profile_wrap .info ul.question li {
     padding: 5px 0;
     line-height: 20px;
     letter-spacing: 1px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:nth-child(4) {
+  #me .wrap_align .profile_wrap .info ul.question li:nth-child(4) {
     margin-top: 20px;
   }
-  #me > .wrap_align > .profile_wrap > .info > ul.question > li:last-child {
+  #me .wrap_align .profile_wrap .info ul.question li:last-child {
     margin-top: 40px;
   }
   /* SECTION4 ART WORKS */
-  #artwork > .wrap_align > .artlist > li > a > div {
+  #artwork .wrap_align .artlist li a div {
     transform: scale(1.0);
     margin: 0 auto;
     width: 130px;
     height: 130px;
   }
-  .artlist > li > a > div {
+  .artlist li a div {
     width: 130px;
     margin: 0 auto;
     height: 130px;
   }
-  .artlist > li > a > div > img {
+  .artlist li a div img {
     width: 130px;
     margin: 0 auto;
   }
-  .artlist > li > a > h2 {
+  .artlist li a h2 {
     margin-top: 20px;
     font-size: 14px;
     letter-spacing: 2px;
   }
-  #artwork > .wrap_align > ul.artlist > li {
+  #artwork .wrap_align ul.artlist li {
     display: inline-block;
     padding: 0 5px;
     margin-top: 30px;
   }
 
   /* SECTION5 CONTACT */
-  #contact > .wrap_align > .address > h2 {
+  #contact .wrap_align .address h2 {
     font-size: 30px;
     margin-top: 14%;
     letter-spacing: 3px;
   }
-  #contact > .wrap_align > .address > p.first {
+  #contact .wrap_align .address p.first {
     margin-top: 30px;
     font-size: 13px;
     letter-spacing: 0;
   }
-  #contact > .wrap_align > .address > p.second {
+  #contact .wrap_align .address p.second {
     font-size: 13px;
     letter-spacing: 0;
   }
-  #contact > .wrap_align > .address > ul.contactme {
+  #contact .wrap_align .address ul.contactme {
     margin-top: -204px;
     margin-bottom: 200px;
     letter-spacing: 2px;
   }
-  #contact > .wrap_align > .address > ul.contactme > li {
+  #contact .wrap_align .address ul.contactme li {
     font-size: 13px;
     padding: 5px 0;
   }
@@ -1252,20 +1252,20 @@ section {
     background-color: #fff;
     letter-spacing: 1px;
   }
-  #contact > .wrap_align > .footer > #btntop {
+  #contact .wrap_align .footer #btntop {
     position: absolute;
     top: -40px;
     left: 50%;
     margin-left: -40px;
   }
-  #contact > .wrap_align > .footer > #btntop > a {
+  #contact .wrap_align .footer #btntop a {
     width: 80px;
     height: 70px;
     background: url(../images/btn_top.png) no-repeat;
     background-size: 80px;
   }
   /**** FOOTER ****/
-  #contact > .wrap_align > .footer {
+  #contact .wrap_align .footer {
     width: 100%; height: 80px;
     position: absolute;
     bottom: 0;
@@ -1273,7 +1273,7 @@ section {
     background-color: #fff;
     letter-spacing: 1px;
   }
-  #contact > .wrap_align > .footer > .copyright {
+  #contact .wrap_align .footer .copyright {
     font-size: 13px;
     color: #6e6e6e;
     padding-top: 0;
@@ -1287,11 +1287,11 @@ section {
   .floating1 {
     top: 50%;
   }
-  #portfolio > .wrap_align > .brandlist > ul > li {
+  #portfolio .wrap_align .brandlist ul li {
     width: 40%;
     margin: 5% 0 2% -2%;
   }
-  #artwork > .wrap_align > ul.artlist {
+  #artwork .wrap_align ul.artlist {
     top: 55%;
   }
   .circle {

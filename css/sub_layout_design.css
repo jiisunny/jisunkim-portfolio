@@ -77,7 +77,7 @@ body{
   width: 120px; height: 120px;
   z-index: 300;
 }
-.myname > a {
+.myname a {
   width: 120px; height: 120px;
   background: url(../images/sunny_logo.png);
   text-indent: -6000px;
@@ -90,7 +90,7 @@ body{
     transform: rotate(360deg);
   }
 }
-.myname:hover > a {
+.myname:hover a {
   transform: rotate(-1440deg);
 }
 
@@ -243,41 +243,41 @@ div#menu {
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
-div#menu > ul > li {
+div#menu ul li {
   width: 120px; height: 120px;
   position: relative;
   margin-bottom: 20px;
 }
-div#menu > ul > li:last-child {
+div#menu ul li:last-child {
   margin-bottom: 0;
 }
-div#menu > ul > li > a {
+div#menu ul li a {
   width: 120px;
   height: 120px;
 }
-div#menu > ul > li > a > div > img {
+div#menu ul li a div img {
   width: 120px;
 }
 
 /** 고정 메뉴 hover효과 **/
-div#menu > ul > li > a > .front {
+div#menu ul li a .front {
   position: absolute;
   left: 0; top: 0;
   transform: rotateY(0deg);
   backface-visibility: hidden;
   transition-duration: 0.3s;
 }
-div#menu > ul > li:hover > a > .front {
+div#menu ul li:hover a .front {
   transform: rotateY(180deg);
 }
-div#menu > ul > li > a > .back {
+div#menu ul li a .back {
   position: absolute;
   left: 0; top: 0;
   transform: rotateY(180deg);
   backface-visibility: hidden;
   transition-duration: 0.3s;
 }
-div#menu > ul > li:hover > a > .back {
+div#menu ul li:hover a .back {
   transform: rotateY(360deg);
 }
 
@@ -301,35 +301,35 @@ div#menu > ul > li:hover > a > .back {
   right: 2%;
   width: 47%;
 }
-#main > .contentswrap > .title {
+#main .contentswrap .title {
   position: absolute;
   width: 25%;
   top: 12%;
   left: 16%;
 }
-#main > .contentswrap > .title > .logo {
+#main .contentswrap .title .logo {
   font-size: 40px;
   width: 274px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main > .contentswrap > .title > h2 {
+#main .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 5px;
 }
-#main > .contentswrap > .title > h3 {
+#main .contentswrap .title h3 {
   font-size: 20px;
   margin-top: 25%;
 }
-#main > .contentswrap > .title > p {
+#main .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   line-height: 30px;
 }
-#main > .contentswrap > ul.period {
+#main .contentswrap ul.period {
   position: absolute;
   top: 72%;
   left: 16%;
@@ -512,35 +512,35 @@ div#menu > ul > li:hover > a > .back {
   right: 2%;
   width: 45%;
 }
-#main_webbanner > .contentswrap > .title {
+#main_webbanner .contentswrap .title {
   position: absolute;
   width: 28%;
   top: 12%;
   left: 8%;
 }
-#main_webbanner > .contentswrap > .title > .logo {
+#main_webbanner .contentswrap .title .logo {
   font-size: 40px;
   width: 250px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main_webbanner > .contentswrap > .title > h2 {
+#main_webbanner .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 5px;
 }
-#main_webbanner > .contentswrap > .title > h3 {
+#main_webbanner .contentswrap .title h3 {
   font-size: 20px;
   margin-top: 25%;
 }
-#main_webbanner > .contentswrap > .title > p {
+#main_webbanner .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   line-height: 30px;
 }
-#main_webbanner > .contentswrap > ul.period {
+#main_webbanner .contentswrap ul.period {
   position: absolute;
   top: 72%;
   left: 8%;
@@ -654,35 +654,35 @@ div#menu > ul > li:hover > a > .back {
   right: 2%;
   width: 40%;
 }
-#main_webpage > .contentswrap > .title {
+#main_webpage .contentswrap .title {
   position: absolute;
   width: 28%;
   top: 12%;
   left: 8%;
 }
-#main_webpage > .contentswrap > .title > .logo {
+#main_webpage .contentswrap .title .logo {
   font-size: 40px;
   width: 240px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main_webpage > .contentswrap > .title > h2 {
+#main_webpage .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 5px;
 }
-#main_webpage > .contentswrap > .title > h3 {
+#main_webpage .contentswrap .title h3 {
   font-size: 20px;
   margin-top: 25%;
 }
-#main_webpage > .contentswrap > .title > p {
+#main_webpage .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   line-height: 30px;
 }
-#main_webpage > .contentswrap > ul.period {
+#main_webpage .contentswrap ul.period {
   position: absolute;
   top: 80%;
   left: 8%;
@@ -738,22 +738,22 @@ div#menu > ul > li:hover > a > .back {
   background-color: #2c2a29;
   letter-spacing: 1px;
 }
-.webdesign_body .footer > #btntop {
+.webdesign_body .footer #btntop {
   position: absolute;
   top: -50px;
   left: 50%;
   margin-left: -50px;
 }
-.webdesign_body .footer > #btntop > a {
+.webdesign_body .footer #btntop a {
   width: 100px;
   height: 100px;
   background: url(../images/btn_top_starbucks.png) no-repeat;
 }
-.webdesign_body .footer > #btntop > a:hover {
+.webdesign_body .footer #btntop a:hover {
   margin-top: -7px;
   transition-duration: 0.3s;
 }
-.webdesign_body .footer > .copyright {
+.webdesign_body .footer .copyright {
   font-size: 18px;
   color: #fff;
   padding-top: 50px;
@@ -842,36 +842,36 @@ div#menu > ul > li:hover > a > .back {
   right: 1%;
   width: 52%;
 }
-#main_brochure > .contentswrap > .title {
+#main_brochure .contentswrap .title {
   position: absolute;
   width: 25%;
   top: 12%;
   left: 14%;
 }
-#main_brochure > .contentswrap > .title > .logo {
+#main_brochure .contentswrap .title .logo {
   font-size: 40px;
   width: 320px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main_brochure > .contentswrap > .title > h2 {
+#main_brochure .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 5px;
 }
-#main_brochure > .contentswrap > .title > h3 {
+#main_brochure .contentswrap .title h3 {
   padding: 30px 0;
   font-size: 20px;
   margin-top: 15%;
 }
-#main_brochure > .contentswrap > .title > p {
+#main_brochure .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   line-height: 30px;
 }
-#main_brochure > .contentswrap > ul.period {
+#main_brochure .contentswrap ul.period {
   position: absolute;
   top: 72%;
   left: 14%;
@@ -925,36 +925,36 @@ div#menu > ul > li:hover > a > .back {
   right: 1%;
   width: 36%;
 }
-#main_book > .contentswrap > .title {
+#main_book .contentswrap .title {
   position: absolute;
   width: 25%;
   top: 12%;
   left: 14%;
 }
-#main_book > .contentswrap > .title > .logo {
+#main_book .contentswrap .title .logo {
   font-size: 40px;
   width: 320px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main_book > .contentswrap > .title > h2 {
+#main_book .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 5px;
 }
-#main_book > .contentswrap > .title > h3 {
+#main_book .contentswrap .title h3 {
   padding: 30px 0;
   font-size: 20px;
   margin-top: 15%;
 }
-#main_book > .contentswrap > .title > p {
+#main_book .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   line-height: 30px;
 }
-#main_book > .contentswrap > ul.period {
+#main_book .contentswrap ul.period {
   position: absolute;
   top: 72%;
   left: 14%;
@@ -1001,16 +1001,16 @@ div#menu > ul > li:hover > a > .back {
   left: 50%;
   margin-left: -50px;
 }
-.graphic_footer > #btntop > a {
+.graphic_footer #btntop a {
   width: 100px;
   height: 70px;
   background: url(../images/btn_top_starbucks.png) no-repeat;
 }
-.graphic_footer > #btntop > a:hover {
+.graphic_footer #btntop a:hover {
   margin-top: -7px;
   transition-duration: 0.3s;
 }
-.graphic_footer > .copyright {
+.graphic_footer .copyright {
   font-size: 18px;
   color: #fff;
   padding-top: 50px;
@@ -1117,40 +1117,40 @@ div#menu > ul > li:hover > a > .back {
   right: 2%;
   width: 34%;
 }
-#main_character > .contentswrap > .title {
+#main_character .contentswrap .title {
   position: absolute;
   width: 25%;
   top: 12%;
   left: 14%;
 }
-#main_character > .contentswrap > .title > .logo {
+#main_character .contentswrap .title .logo {
   font-size: 40px;
   color: #484848;
   width: 340px;
   padding-bottom: 15px;
   border-bottom: 3px solid #484848;
 }
-#main_character > .contentswrap > .title > h2 {
+#main_character .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   color: #484848;
   line-height: 30px;
   margin-top: 5px;
 }
-#main_character > .contentswrap > .title > h3 {
+#main_character .contentswrap .title h3 {
   padding: 30px 0;
   font-size: 20px;
   color: #484848;
   margin-top: 15%;
 }
-#main_character > .contentswrap > .title > p {
+#main_character .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   color: #484848;
   line-height: 30px;
 }
-#main_character > .contentswrap > ul.period {
+#main_character .contentswrap ul.period {
   position: absolute;
   top: 72%;
   left: 14%;
@@ -1158,7 +1158,7 @@ div#menu > ul > li:hover > a > .back {
   color: #484848;
   line-height: 25px;
 }
-#main_character > .contentswrap > ul.period li {
+#main_character .contentswrap ul.period li {
   color: #484848;
 }
 
@@ -1202,7 +1202,6 @@ div#menu > ul > li:hover > a > .back {
 }
 #character_2 .contentswrap ul li img {
   margin: 0 auto;
-  padding-top: 70px;
   width: 100%;
 }
 
@@ -1224,36 +1223,36 @@ div#menu > ul > li:hover > a > .back {
   right: 2%;
   width: 42%;
 }
-#main_drawing > .contentswrap > .title {
+#main_drawing .contentswrap .title {
   position: absolute;
   width: 25%;
   top: 12%;
   left: 14%;
 }
-#main_drawing > .contentswrap > .title > .logo {
+#main_drawing .contentswrap .title .logo {
   font-size: 40px;
   width: 340px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main_drawing > .contentswrap > .title > h2 {
+#main_drawing .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
   line-height: 30px;
   margin-top: 5px;
 }
-#main_drawing > .contentswrap > .title > h3 {
+#main_drawing .contentswrap .title h3 {
   padding: 30px 0;
   font-size: 20px;
   margin-top: 15%;
 }
-#main_drawing > .contentswrap > .title > p {
+#main_drawing .contentswrap .title p {
   font-size: 24px;
   padding-top: 1%;
   font-size: 20px;
   line-height: 30px;
 }
-#main_drawing > .contentswrap > ul.period {
+#main_drawing .contentswrap ul.period {
   position: absolute;
   top: 72%;
   left: 14%;
@@ -1292,22 +1291,22 @@ div#menu > ul > li:hover > a > .back {
   background-color: #2c2a29;
   letter-spacing: 1px;
 }
-.digital_body .footer > #btntop {
+.digital_body .footer #btntop {
   position: absolute;
   top: -50px;
   left: 50%;
   margin-left: -50px;
 }
-.digital_body .footer > #btntop > a {
+.digital_body .footer #btntop a {
   width: 100px;
   height: 70px;
   background: url(../images/btn_top_starbucks.png) no-repeat;
 }
-.digital_body .footer > #btntop > a:hover {
+.digital_body .footer #btntop a:hover {
   margin-top: -7px;
   transition-duration: 0.3s;
 }
-.digital_body .footer > .copyright {
+.digital_body .footer .copyright {
   font-size: 18px;
   color: #fff;
   padding-top: 50px;
@@ -1384,22 +1383,22 @@ div#menu > ul > li:hover > a > .back {
   background-color: #2c2a29;
   letter-spacing: 1px;
 }
-.project_body .footer > #btntop {
+.project_body .footer #btntop {
   position: absolute;
   top: -50px;
   left: 50%;
   margin-left: -50px;
 }
-.project_body .footer > #btntop > a {
+.project_body .footer #btntop a {
   width: 100px;
   height: 70px;
   background: url(../images/btn_top_starbucks.png) no-repeat;
 }
-.project_body .footer > #btntop > a:hover {
+.project_body .footer #btntop a:hover {
   margin-top: -7px;
   transition-duration: 0.3s;
 }
-.project_body .footer > .copyright {
+.project_body .footer .copyright {
   font-size: 18px;
   color: #fff;
   padding-top: 50px;

@@ -46,10 +46,10 @@
   #main_webpage .contentswrap img {
     width: 40%;
   }
-  #main_webpage > .contentswrap > .title {
+  #main_webpage .contentswrap .title {
     width: 43%;
   }
-  #main_webpage > .contentswrap > ul.period {
+  #main_webpage .contentswrap ul.period {
     top: 77%;
   }
 
@@ -71,22 +71,22 @@
     width: 50%;
     margin: 0 50px;
   }
-  #main_brochure > .contentswrap > .title {
+  #main_brochure .contentswrap .title {
     width: 40%;
     left: 8%;
   }
-  #main_brochure > .contentswrap > ul.period {
+  #main_brochure .contentswrap ul.period {
     left: 8%;
   }
   #main_brochure .contentswrap img {
     top: 27%;
     right: -4%;
   }
-  #main_book > .contentswrap > .title {
+  #main_book .contentswrap .title {
     width: 40%;
     left: 8%;
   }
-  #main_book > .contentswrap > ul.period {
+  #main_book .contentswrap ul.period {
     left: 8%;
   }
   #main_book .contentswrap img {
@@ -132,12 +132,17 @@
     margin: 0 auto;
     padding: 10px;
   }
-  #main_character > .contentswrap > .title {
+  #main_character .contentswrap .title {
     width: 41%;
     left: 8%;
   }
-  #main_character > .contentswrap > ul.period {
+  #main_character .contentswrap .title h3 {
+    padding: 0;
+    margin-top: 40%;
+  }
+  #main_character .contentswrap ul.period {
     left: 8%;
+    top: 75%;
   }
   #main_character .contentswrap img {
     top: 14%;
@@ -150,28 +155,69 @@
   #character_1 .contentswrap ul li img {
     width: 90%;
   }
+  #main_drawing .contentswrap .title {
+    width: 41%;
+    left: 8%;
+  }
+  #main_drawing .contentswrap .title h3 {
+    margin-top: 45%;
+  }
+  #main_drawing .contentswrap ul.period {
+    left: 8%;
+  }
+  #main_drawing .contentswrap img {
+    top: 17%;
+    right: -4%;
+    width: 50%;
+  }
+  #main_drawing .contentswrap .title h3 {
+    padding: 0;
+    margin-top: 39%;
+  }
+  #drawing .contentswrap ul li {
+    width: 100%;
+  }
+  #drawing .contentswrap ul li img {
+    width: 42%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* DESIGN PROJECT */
+  .project_body #main .contentswrap {
+    height: 650px;
+  }
+  .project_body #main .contentswrap img {
+    top: 19%;
+    right: 6%;
+    width: 42%;
+  }
+  .project_body #main .contentswrap .title {
+    width: 32%;
+  }
+  .project_body #main .contentswrap .title h3 {
+    margin-top: 30%;
+  }
+  #main .contentswrap ul.period {
+    top: 83%;
+  }
+  .project_body #project_1 {
+    margin-top: 650px;
+  }
+  .project_body #project_1 ul li:first-child img {
+    width: 42%;
+  }
+  .project_body #project_1 ul li:nth-child(2) img {
+    width: 70%;
+  }
+  .leaf_right {
+    top: 31%;
+  }
+  .leaf_left {
+    bottom: 44%;
+  }
+  .project_body #project_1 ul li:last-child img {
+    width: 30%;
+    margin: 0 10px;
+  }
 }
 
 /* TABLET 가로 MIN */
@@ -197,67 +243,67 @@
 
   /* WEB DESIGN */
   #main .contentswrap {
-    height: 650px;
+    height: 550px;
   }
   #main .contentswrap img {
     top: 18%;
   }
   #main .contentswrap .title {
     left: 14%;
-  }
-  #main .contentswrap > .title {
-    left: 14%;
     width: 33%;
   }
-  #main .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     font-size: 30px;
     width: 210px;
   }
-  #main .contentswrap > .title > h2 {
+  #main .contentswrap .title h2 {
     font-size: 18px;
     margin-top: 0;
   }
-  #main .contentswrap > .title > h3 {
+  #main .contentswrap .title h3 {
     font-size: 16px;
   }
-  #main .contentswrap > .title > p {
+  #main .contentswrap .title p {
     font-size: 16px;
     line-height: 25px;
   }
   #main .contentswrap ul.period {
     left: 14%;
-    top: 69%;
+    top: 78%;
     font-size: 16px;
   }
   #cardnews_1 {
-    margin-top: 650px;
+    margin-top: 550px;
   }
   #main_webbanner .contentswrap {
-    height: 650px;
+    height: 550px;
   }
-  #main_webbanner > .contentswrap > .title {
+  #main_webbanner .contentswrap .title {
     left: 4%;
     width: 42%;
   }
-  #main_webbanner > .contentswrap > .title > .logo {
+  #main_webbanner .contentswrap .title .logo {
     font-size: 30px;
     width: 190px;
   }
-  #main_webbanner > .contentswrap > .title > h2 {
+  #main_webbanner .contentswrap .title h2 {
     font-size: 18px;
     margin-top: 0;
   }
-  #main_webbanner > .contentswrap > .title > h3 {
+  #main_webbanner .contentswrap .title h3 {
     font-size: 16px;
   }
-  #main_webbanner > .contentswrap > .title > p {
+  #main_webbanner .contentswrap .title p {
     font-size: 16px;
     line-height: 25px;
   }
   #main_webbanner .contentswrap ul.period {
     left: 4%;
-    top: 63%;
+    top: 70%;
     font-size: 16px;
+  }
+  #main_webbanner .contentswrap img {
+    top: 24%;
   }
   #webbanner_1 h3 {
     font-size: 16px;
@@ -285,21 +331,21 @@
   #main_webpage .contentswrap img {
     top: 22%;
   }
-  #main_webpage > .contentswrap > .title {
+  #main_webpage .contentswrap .title {
     left: 4%;
     width: 42%;
   }
-  #main_webpage > .contentswrap > .title > .logo {
+  #main_webpage .contentswrap .title .logo {
   font-size: 30px;
   }
-  #main_webpage > .contentswrap > .title > h2 {
+  #main_webpage .contentswrap .title h2 {
     font-size: 18px;
     margin-top: 0;
   }
-  #main_webpage > .contentswrap > .title > h3 {
+  #main_webpage .contentswrap .title h3 {
     font-size: 16px;
   }
-  #main_webpage > .contentswrap > .title > p {
+  #main_webpage .contentswrap .title p {
     font-size: 16px;
     line-height: 25px;
   }
@@ -320,7 +366,7 @@
   .webdesign_body .footer {
     height: 80px;
   }
-  .webdesign_body .footer > .copyright {
+  .webdesign_body .footer .copyright {
     font-size: 16px;
     padding-top: 38px;
   }
@@ -367,32 +413,32 @@
     margin: 0 50px;
   }
   #main_brochure .contentswrap {
-    height: 650px;
+    height: 550px;
   }
-  #main_brochure > .contentswrap > .title {
+  #main_brochure .contentswrap .title {
     width: 40%;
     left: 4%;
   }
-  #main_brochure > .contentswrap > .title > .logo {
+  #main_brochure .contentswrap .title .logo {
     font-size: 30px;
     width: 240px;
   }
-  #main_brochure > .contentswrap > .title > h2 {
+  #main_brochure .contentswrap .title h2 {
     font-size: 18px;
     margin-top: 0;
   }
-  #main_brochure > .contentswrap > .title > h3 {
+  #main_brochure .contentswrap .title h3 {
     font-size: 16px;
     padding: 0;
     margin-top: 29%;
   }
-  #main_brochure > .contentswrap > .title > p {
+  #main_brochure .contentswrap .title p {
     font-size: 16px;
     line-height: 25px;
   }
-  #main_brochure > .contentswrap > ul.period {
+  #main_brochure .contentswrap ul.period {
     left: 4%;
-    top: 69%;
+    top: 79%;
     font-size: 16px;
   }
   #main_brochure .contentswrap img {
@@ -400,32 +446,32 @@
     right: -4%;
   }
   #main_book .contentswrap {
-    height: 650px;
+    height: 550px;
   }
-  #main_book > .contentswrap > .title {
+  #main_book .contentswrap .title {
     width: 40%;
     left: 4%;
   }
-  #main_book > .contentswrap > .title > .logo {
+  #main_book .contentswrap .title .logo {
     font-size: 30px;
     width: 240px;
   }
-  #main_book > .contentswrap > .title > h2 {
+  #main_book .contentswrap .title h2 {
     font-size: 18px;
     margin-top: 0;
   }
-  #main_book > .contentswrap > .title > h3 {
+  #main_book .contentswrap .title h3 {
     font-size: 16px;
     padding: 0;
-    margin-top: 29%;
+    margin-top: 23%;
   }
-  #main_book > .contentswrap > .title > p {
+  #main_book .contentswrap .title p {
     font-size: 16px;
     line-height: 25px;
   }
-  #main_book > .contentswrap > ul.period {
+  #main_book .contentswrap ul.period {
     left: 4%;
-    top: 69%;
+    top: 77%;
     font-size: 16px;
   }
   #main_book .contentswrap img {
@@ -436,7 +482,188 @@
   #graphic_3 ul {
     padding: 20px 0;
   }
+  #graphic_3 ul li {
+    margin-bottom: 0;
+  }
 
+  /* DIGITAL DRAWING */
+  .digital_body #main .contentswrap {
+    height: 550px;
+  }
+  .digital_body #main .contentswrap img {
+    top: 18%;
+  }
+  .digital_body #main .contentswrap .title {
+    left: 14%;
+    width: 33%;
+  }
+  .digital_body #main .contentswrap .title .logo {
+    font-size: 30px;
+    width: 260px;
+  }
+  .digital_body #main .contentswrap .title h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  .digital_body #main .contentswrap .title h3 {
+    font-size: 16px;
+    margin-top: 35%;
+  }
+  .digital_body #main .contentswrap .title p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .digital_body #main .contentswrap ul.period {
+    left: 14%;
+    top: 78%;
+    font-size: 16px;
+  }
+  .digital_body #illust_1 {
+    margin-top: 550px;
+  }
+  .digital_body #illust_2 ul {
+    padding-bottom: 100px;
+  }
+  .digital_body #illust_1 ul li,
+  .digital_body #illust_2 ul li,
+  .digital_body #illust_3 ul li {
+    width: 50%;
+    padding: 0;
+  }
+  .digital_body #illust_1 ul li img,
+  .digital_body #illust_2 ul li img,
+  .digital_body #illust_3 ul li img {
+    width: 97%;
+  }
+
+  #main_character .contentswrap {
+    height: 550px;
+  }
+  #main_character .contentswrap img {
+    top: 9%;
+    width: 50%;
+  }
+  #main_character .contentswrap .title {
+    width: 40%;
+    left: 4%;
+  }
+  #main_character .contentswrap .title .logo {
+    font-size: 30px;
+    width: 260px;
+  }
+  #main_character .contentswrap .title h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main_character .contentswrap .title h3 {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 32%;
+  }
+  #main_character .contentswrap .title p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main_character .contentswrap ul.period {
+    left: 4%;
+    top: 80%;
+    font-size: 16px;
+  }
+  #character_1 .contentswrap ul li {
+    width: 100%;
+  }
+  #character_1 .contentswrap ul li img {
+    width: 90%;
+  }
+  #character_2 {
+    padding: 50px 0;
+  }
+  #main_drawing .contentswrap {
+    height: 550px;
+  }
+  #main_drawing .contentswrap img {
+    top: 14%;
+    right: -6%;
+    width: 58%;
+  }
+  #main_drawing .contentswrap .title {
+    width: 40%;
+    left: 4%;
+  }
+  #main_drawing .contentswrap .title .logo {
+    font-size: 30px;
+    width: 260px;
+  }
+  #main_drawing .contentswrap .title h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  #main_drawing .contentswrap .title h3 {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 38%;
+  }
+  #main_drawing .contentswrap .title p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #main_drawing .contentswrap ul.period {
+    left: 4%;
+    top: 74%;
+    font-size: 16px;
+  }
+  #drawing .contentswrap ul li {
+    width: 100%;
+    padding: 30px 0;
+  }
+  #drawing .contentswrap ul li img {
+    width: 41%;
+    padding: 0 10px;
+  }
+
+  /* DESIGN PROJECT */
+  .project_body #main .contentswrap {
+    height: 500px;
+  }
+  .project_body #main .contentswrap img {
+    top: 19%;
+    right: 6%;
+    width: 42%;
+  }
+  .project_body #main .contentswrap .title {
+    width: 32%;
+  }
+  .project_body #main .contentswrap .title .logo {
+    width: 240px;
+  }
+  .project_body #main .contentswrap .title h3 {
+    margin-top: 17%;
+  }
+  #main .contentswrap ul.period {
+    top: 83%;
+  }
+  .project_body #project_1 {
+    margin-top: 500px;
+  }
+  .project_body #project_1 ul li:first-child img {
+    width: 40%;
+  }
+  .project_body #project_1 ul li:nth-child(2) img {
+    width: 70%;
+  }
+  .leaf_right {
+    top: 31%;
+  }
+  .leaf_left {
+    bottom: 44%;
+  }
+  .project_body #project_1 ul li:last-child img {
+    width: 30%;
+    margin: 0 10px;
+  }
+  .project_body #project_1 ul {
+    padding: 50px 0 120px 0;
+  }
 }
 
 /* TABLET 세로, MOBILE 가로 */
@@ -476,7 +703,7 @@
     width: 60px; height: 60px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 60px; height: 60px;
     background: url(../images/sunny_logo.png);
     text-indent: -6000px;
@@ -490,18 +717,18 @@
   ul#main_nav {
     width: 70%;
   }
-  ul#main_nav > li > h3  {
+  ul#main_nav li h3  {
     height: 45px;
     line-height: 50px;
     font-size: 18px;
   }
-  ul#main_nav > li > h3 > button {
+  ul#main_nav li h3 button {
     font-size: 18px;
   }
-  ul#main_nav > li.active > ul.sub_nav > li{
+  ul#main_nav li.active ul.sub_nav li{
     height: 40px;
   }
-  ul#main_nav > li > ul.sub_nav > li > a {
+  ul#main_nav li ul.sub_nav li a {
     padding-left: 60px;
     line-height: 40px;
     height: 40px;
@@ -517,7 +744,7 @@
     font-size: 30px;
     transform: rotateZ(0deg);
   }
-  #main_nav_wrap > label.bg_close {
+  #main_nav_wrap label.bg_close {
     width: 30%;
   }
 
@@ -532,11 +759,11 @@
     left: 50%;
     margin-left: -250px;
   }
-  #main > .contentswrap > .title {
+  #main .contentswrap .title {
     width: 70%;
     top: 500px;
   }
-  #main > .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     margin: 0 auto;
     width: 190px;
     font-size: 30px;
@@ -582,13 +809,13 @@
     width: 500px;
     margin-left: -250px;
   }
-  #main_webbanner > .contentswrap > .title {
+  #main_webbanner .contentswrap .title {
     width: 85%;
     top: 430px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_webbanner > .contentswrap > .title > .logo {
+  #main_webbanner .contentswrap .title .logo {
     margin: 0 auto;
     width: 190px;
     font-size: 30px;
@@ -619,13 +846,13 @@
     left: 50%;
     margin-left: -220px;
   }
-  #main_webpage > .contentswrap > .title {
+  #main_webpage .contentswrap .title {
     width: 85%;
     top: 470px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_webpage > .contentswrap > .title > .logo {
+  #main_webpage .contentswrap .title .logo {
     margin: 0 auto;
     width: 190px;
     font-size: 30px;
@@ -654,18 +881,17 @@
   }
 
   /* GRAPHIC DESIGN */
-
   .graphic_body #main .contentswrap img {
     width: 300px;
     top: 90px;
     left: 50%;
     margin-left: -150px;
   }
-  .graphic_body #main > .contentswrap > .title {
+  .graphic_body #main .contentswrap .title {
     width: 70%;
     top: 500px;
   }
-  .graphic_body #main > .contentswrap > .title > .logo {
+  .graphic_body #main .contentswrap .title .logo {
     margin: 0 auto;
     width: 260px;
     font-size: 30px;
@@ -703,7 +929,7 @@
   }
   #main_brochure .contentswrap {
     text-align: center;
-    height: 900px;
+    height: 850px;
   }
   #main_brochure .contentswrap img {
     top: 50px;
@@ -711,13 +937,13 @@
     width: 500px;
     margin-left: -250px;
   }
-  #main_brochure > .contentswrap > .title {
+  #main_brochure .contentswrap .title {
     width: 85%;
     top: 380px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_brochure > .contentswrap > .title > .logo {
+  #main_brochure .contentswrap .title .logo {
     margin: 0 auto;
     width: 240px;
     font-size: 30px;
@@ -739,11 +965,6 @@
     transform: translateX(-50%);
     font-size: 16px;
   }
-
-
-
-
-
   #main_book .contentswrap {
     text-align: center;
     height: 900px;
@@ -754,13 +975,13 @@
     width: 360px;
     margin-left: -180px;
   }
-  #main_book > .contentswrap > .title {
+  #main_book .contentswrap .title {
     width: 85%;
     top: 470px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_book > .contentswrap > .title > .logo {
+  #main_book .contentswrap .title .logo {
     margin: 0 auto;
     width: 240px;
     font-size: 30px;
@@ -793,21 +1014,220 @@
     width: 100%;
   }
 
+  /* DIGITAL DRAWING */
+  .digital_body #main .contentswrap img {
+    width: 300px;
+    top: 90px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .digital_body #main .contentswrap {
+    height: 850px;
+  }
+  .digital_body #main .contentswrap .title {
+    width: 70%;
+    top: 450px;
+  }
+  .digital_body #main .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 260px;
+    font-size: 30px;
+  }
+  .digital_body #main .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .digital_body #main .contentswrap .title h3 {
+    margin-top: 50px;
+  }
+  .digital_body #main .contentswrap .title p {
+    font-size: 16px;
+  }
+  .digital_body #main .contentswrap ul.period {
+    left: 50%;
+    top: 760px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  .digital_body #illust_1 {
+    margin-top: 850px;
+  }
+  .digital_body #illust_1 {
+    margin-top: 850px;
+  }
+  .digital_body #illust_2 ul {
+    padding-bottom: 100px;
+  }
+  .digital_body #illust_1 ul li,
+  .digital_body #illust_2 ul li,
+  .digital_body #illust_3 ul li {
+    width: 50%;
+    padding: 0;
+  }
+  .digital_body #illust_1 ul li img,
+  .digital_body #illust_2 ul li img,
+  .digital_body #illust_3 ul li img {
+    width: 97%;
+  }
+  #main_character .contentswrap {
+    text-align: center;
+    height: 850px;
+  }
+  #main_character .contentswrap img {
+    top: 30px;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+  }
+  #main_character .contentswrap .title {
+    width: 85%;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_character .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 260px;
+    font-size: 30px;
+  }
+  #main_character .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main_character .contentswrap .title h3 {
+    margin-top: 50px;
+    padding: 0;
+  }
+  #main_character .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main_character .contentswrap ul.period {
+    left: 50%;
+    top: 780px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  #character_1 .contentswrap ul li {
+    width: 100%;
+  }
+  #character_1 .contentswrap ul li img {
+    width: 100%;
+  }
+  #character_2 {
+    padding: 50px 0;
+  }
+  #main_drawing .contentswrap {
+    text-align: center;
+    height: 750px;
+  }
+  #main_drawing .contentswrap img {
+    top: 30px;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+  }
+  #main_drawing .contentswrap .title {
+    width: 85%;
+    top: 360px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_drawing .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 260px;
+    font-size: 30px;
+  }
+  #main_drawing .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  #main_drawing .contentswrap .title h3 {
+    margin-top: 50px;
+    padding: 0;
+  }
+  #main_drawing .contentswrap .title p {
+    font-size: 16px;
+  }
+  #main_drawing .contentswrap ul.period {
+    left: 50%;
+    top: 650px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  #drawing .contentswrap ul li {
+    width: 100%;
+    padding: 30px 0;
+  }
+  #drawing .contentswrap ul li img {
+    width: 41%;
+    padding: 0 10px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* DESIGN PROJECT */
+  .project_body #main .contentswrap img {
+    width: 300px;
+    top: 90px;
+    left: 50%;
+    margin-left: -150px;
+  }
+  .project_body #main .contentswrap {
+    height: 850px;
+  }
+  .project_body #main .contentswrap .title {
+    width: 70%;
+    top: 350px;
+  }
+  .project_body #main .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 260px;
+    font-size: 30px;
+  }
+  .project_body #main .contentswrap .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .project_body #main .contentswrap .title h3 {
+    margin-top: 50px;
+  }
+  .project_body #main .contentswrap .title p {
+    font-size: 16px;
+  }
+  .project_body #main .contentswrap ul.period {
+    left: 50%;
+    top: 680px;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  .project_body #project_1 ul li:first-child img {
+    width: 45%;
+    margin: 10px;
+  }
+  .project_body #project_1 ul li:nth-child(2) img {
+    width: 70%;
+  }
+  .leaf_right {
+    top: 31%;
+  }
+  .leaf_left {
+    bottom: 44%;
+  }
+  .project_body #project_1 ul li:last-child img {
+    width: 30%;
+    margin: 0 10px;
+  }
+  .project_body #project_1 ul {
+    padding: 50px 0 120px 0;
+  }
+  .project_body #project_1 ul li:last-child img {
+    width: 29%;
+  }
+  .leaf_right {
+    top: 30%;
+    width: 26%;
+  }
+  .leaf_left {
+    width: 26%;
+  }
 }
 
 /* MOBILE 세로 */
@@ -847,7 +1267,7 @@
     width: 60px; height: 60px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 60px; height: 60px;
     background: url(../images/sunny_logo.png);
     text-indent: -6000px;
@@ -861,7 +1281,7 @@
   ul#main_nav {
     width: 70%;
   }
-  ul#main_nav > li > h3  {
+  ul#main_nav li h3  {
     height: 45px;
     padding-left: 30px;
     line-height: 50px;
@@ -870,13 +1290,13 @@
     color: #8081d9;
     cursor: pointer;
   }
-  ul#main_nav > li > h3 > button {
+  ul#main_nav li h3 button {
     font-size: 18px;
   }
-  ul#main_nav > li.active > ul.sub_nav > li{
+  ul#main_nav li.active ul.sub_nav li{
     height: 40px;
   }
-  ul#main_nav > li > ul.sub_nav > li > a{
+  ul#main_nav li ul.sub_nav li a{
     padding-left: 60px;
     line-height: 40px;
     height: 40px;
@@ -885,7 +1305,7 @@
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
-  #main_nav_wrap > label.bg_close {
+  #main_nav_wrap label.bg_close {
     width: 30%;
   }
   .arrow-down {
@@ -904,11 +1324,11 @@
     text-align: center;
     height: 600px;
   }
-  #main > .contentswrap > .title {
+  #main .contentswrap .title {
     width: 70%;
     top: 140px;
   }
-  #main > .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     margin: 0 auto;
     width: 190px;
     font-size: 24px;
@@ -961,13 +1381,13 @@
     height: 500px;
     text-align: center;
   }
-  #main_webbanner > .contentswrap > .title {
+  #main_webbanner .contentswrap .title {
     width: 90%;
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_webbanner > .contentswrap > .title > .logo {
+  #main_webbanner .contentswrap .title .logo {
     margin: 0 auto;
     width: 170px;
     font-size: 24px;
@@ -1012,13 +1432,13 @@
     height: 550px;
     text-align: center;
   }
-  #main_webpage > .contentswrap > .title {
+  #main_webpage .contentswrap .title {
     width: 90%;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_webpage > .contentswrap > .title > .logo {
+  #main_webpage .contentswrap .title .logo {
     margin: 0 auto;
     width: 160px;
     font-size: 24px;
@@ -1054,13 +1474,13 @@
   }
 
   /**** FOOTER ****/
-  .webdesign_body > .footer > #btntop {
+  .webdesign_body .footer #btntop {
     position: absolute;
     top: -40px;
     left: 50%;
     margin-left: -40px;
   }
-  .webdesign_body > .footer > #btntop > a {
+  .webdesign_body .footer #btntop a {
     width: 80px;
     height: 70px;
     background: url(../images/btn_top_starbucks.png) no-repeat;
@@ -1085,11 +1505,11 @@
     text-align: center;
     height: 600px;
   }
-  .graphic_body #main > .contentswrap > .title {
+  .graphic_body #main .contentswrap .title {
     width: 70%;
     top: 120px;
   }
-  .graphic_body #main > .contentswrap > .title > .logo {
+  .graphic_body #main .contentswrap .title .logo {
     margin: 0 auto;
     width: 210px;
     font-size: 24px;
@@ -1142,13 +1562,13 @@
     height: 500px;
     text-align: center;
   }
-  #main_brochure > .contentswrap > .title {
+  #main_brochure .contentswrap .title {
     width: 90%;
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_brochure > .contentswrap > .title > .logo {
+  #main_brochure .contentswrap .title .logo {
     margin: 0 auto;
     width: 200px;
     font-size: 24px;
@@ -1194,13 +1614,13 @@
     height: 500px;
     text-align: center;
   }
-  #main_book > .contentswrap > .title {
+  #main_book .contentswrap .title {
     width: 90%;
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
   }
-  #main_book > .contentswrap > .title > .logo {
+  #main_book .contentswrap .title .logo {
     margin: 0 auto;
     width: 200px;
     font-size: 24px;
@@ -1249,7 +1669,7 @@
     left: 50%;
     margin-left: -40px;
   }
-  .graphic_footer #btntop > a {
+  .graphic_footer #btntop a {
     width: 80px;
     height: 70px;
     background: url(../images/btn_top_starbucks.png) no-repeat;
@@ -1265,8 +1685,279 @@
     padding-top: 38px;
   }
 
+  /* DIGITAL DRAWING */
+  .hide {
+    display: none;
+  }
+  .digital_body #main .contentswrap {
+    text-align: center;
+    height: 500px;
+  }
+  .digital_body #main .contentswrap .title {
+    width: 70%;
+    top: 120px;
+  }
+  .digital_body #main .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 210px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .digital_body #main .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  .digital_body #main .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .digital_body #main .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .digital_body #main .contentswrap ul.period {
+    left: 50%;
+    top: 400px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 80%;
+  }
+  .digital_body #illust_1 {
+    margin-top: 500px;
+  }
+  .digital_body #illust_1 ul li {
+    width: 100%;
+  }
+  .digital_body #illust_1 ul li img {
+    width: 100%;
+  }
+  .digital_body #illust_1 ul {
+    padding: 50px 0;
+  }
+  .digital_body #illust_2 ul li,
+  .digital_body #illust_3 ul li  {
+    width: 100%;
+    padding: 0;
+  }
+  .digital_body #illust_2 ul li img,
+  .digital_body #illust_3 ul li img {
+    width: 98%;
+  }
+  #main_character .contentswrap {
+    height: 480px;
+    text-align: center;
+  }
+  #main_character .contentswrap .title {
+    width: 90%;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_character .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 210px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main_character .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main_character .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 0;
+  }
+  #main_character .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main_character .contentswrap ul.period {
+    left: 50%;
+    top: 380px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 70%;
+  }
+  #character_1 .contentswrap ul li {
+    width: 100%;
+  }
+  #character_1 .contentswrap ul li img {
+    width: 104%;
+  }
+  #character_1 .contentswrap ul {
+    padding-bottom: 70px;
+  }
+  #character_2 .contentswrap {
+    width: 90%;
+  }
+  #character_2 .contentswrap {
+    padding: 40px 0;
+  }
+  #main_drawing .contentswrap {
+    height: 440px;
+    text-align: center;
+  }
+  #main_drawing .contentswrap .title {
+    width: 90%;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #main_drawing .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 210px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  #main_drawing .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  #main_drawing .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 0;
+  }
+  #main_drawing .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #main_drawing .contentswrap ul.period {
+    left: 50%;
+    top: 340px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 70%;
+  }
+  #drawing .contentswrap ul li {
+    width: 100%;
+    padding: 30px 0;
+  }
+  #drawing .contentswrap ul li img {
+    width: 95%;
+    padding: 0 10px;
+  }
+  /**** FOOTER ****/
+  .digital_body .footer {
+    height: 80px;
+    letter-spacing: 1px;
+  }
+  .digital_body .footer #btntop {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .digital_body .footer #btntop a {
+    width: 80px;
+    height: 70px;
+    background: url(../images/btn_top_starbucks.png) no-repeat;
+    background-size: 80px;
+  }
+  .digital_body .footer .copyright {
+    font-size: 13px;
+    letter-spacing: 0;
+    padding-top: 38px;
+  }
 
+  /* DESIGN PROJECT */
+  .hide {
+    display: none;
+  }
+  .project_body #main .contentswrap {
+    text-align: center;
+    height: 500px;
+  }
+  .project_body #main .contentswrap .title {
+    width: 71%;
+    top: 120px;
+  }
+  .project_body #main .contentswrap .title .logo {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .project_body #main .contentswrap .title h2 {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 10px;
+  }
+  .project_body #main .contentswrap .title h3 {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  .project_body #main .contentswrap .title p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .project_body #main .contentswrap ul.period {
+    left: 50%;
+    top: 430px;
+    transform: translateX(-50%);
+    font-size: 14px;
+    line-height: 22px;
+    width: 80%;
+  }
+  .project_body #project_1 {
+    margin-top: 500px;
+  }
+  .project_body #project_1 ul li:first-child img {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .project_body #project_1 ul li:nth-child(2) img {
+    width: 88%;
+  }
+  .leaf_right {
+    top: 31%;
+  }
+  .leaf_left {
+    bottom: 44%;
+  }
+  .project_body #project_1 ul li:last-child img {
+    width: 90%;
+    margin: 20px 0;
+  }
+  .project_body #project_1 ul {
+    padding: 50px 0 120px 0;
+  }
+  .leaf_left {
+    bottom: 47%;
+    width: 29%;
+  }
+  .leaf_right {
+    top: 33%;
+    width: 29%;
+  }
 
-
-
+  /**** FOOTER ****/
+  .project_body .footer {
+    height: 80px;
+    letter-spacing: 1px;
+  }
+  .project_body .footer #btntop {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .project_body .footer #btntop a {
+    width: 80px;
+    height: 70px;
+    background: url(../images/btn_top_starbucks.png) no-repeat;
+    background-size: 80px;
+  }
+  .project_body .footer .copyright {
+    font-size: 13px;
+    letter-spacing: 0;
+    padding-top: 38px;
+  }
 }

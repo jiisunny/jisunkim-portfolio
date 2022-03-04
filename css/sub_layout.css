@@ -67,7 +67,7 @@ body {
   width: 120px; height: 120px;
   z-index: 300;
 }
-.myname > a {
+.myname a {
   width: 120px; height: 120px;
   background: url(../images/sunny_logo.png);
   text-indent: -6000px;
@@ -80,7 +80,7 @@ body {
     transform: rotate(360deg);
   }
 }
-.myname:hover > a {
+.myname:hover a {
   transform: rotate(-1440deg);
 }
 
@@ -233,41 +233,41 @@ div#menu {
   transition-duration: 0.4s;
   transition-timing-function: ease-out;
 }
-div#menu > ul > li {
+div#menu ul li {
   width: 80px; height: 80px;
   position: relative;
   margin-bottom: 7px;
 }
-div#menu > ul > li:last-child {
+div#menu ul li:last-child {
   margin-bottom: 0;
 }
-div#menu > ul > li > a {
+div#menu ul li a {
   width: 80px;
   height: 80px;
 }
-div#menu > ul > li > a > div > img {
+div#menu ul li a div img {
   width: 80px;
 }
 
 /** 고정 메뉴 hover효과 **/
-div#menu > ul > li > a > .front {
+div#menu ul li a .front {
   position: absolute;
   left: 0; top: 0;
   transform: rotateY(0deg);
   backface-visibility: hidden;
   transition-duration: 0.3s;
 }
-div#menu > ul > li:hover > a > .front {
+div#menu ul li:hover a .front {
   transform: rotateY(180deg);
 }
-div#menu > ul > li > a > .back {
+div#menu ul li a .back {
   position: absolute;
   left: 0; top: 0;
   transform: rotateY(180deg);
   backface-visibility: hidden;
   transition-duration: 0.3s;
 }
-div#menu > ul > li:hover > a > .back {
+div#menu ul li:hover a .back {
   transform: rotateY(360deg);
 }
   
@@ -276,7 +276,7 @@ div#menu > ul > li:hover > a > .back {
   width: 100%;
   position: relative;
 }
-#main > .contentswrap {
+#main .contentswrap {
   width: 100%;
   position: fixed;
   top: 0;
@@ -288,37 +288,37 @@ div#menu > ul > li:hover > a > .back {
 .bg_wrap img {
   width: 100%;
 }
-#main > .contentswrap > .title {
+#main .contentswrap .title {
   position: absolute;
   top: 15%;
   left: 14%;
 }
-#main > .contentswrap > .title > .logo {
+#main .contentswrap .title .logo {
   font-size: 40px;
   padding-bottom: 15px;
   border-bottom: 3px solid #fff;
 }
-#main > .contentswrap > .title > h2 {
+#main .contentswrap .title h2 {
   padding-top: 15px;
   font-size: 24px;
 }
-#main > .contentswrap > .title > h2:first-child {
+#main .contentswrap .title h2:first-child {
   margin-top: 5px;
 }
-#main > .contentswrap > .title > p {
+#main .contentswrap .title p {
   font-size: 24px;
 }
-#main > .contentswrap > .title > p:nth-of-type(1) {
+#main .contentswrap .title p:nth-of-type(1) {
   padding-top: 30px;
 }
-#main > .contentswrap > ul.period {
+#main .contentswrap ul.period {
   position: absolute;
   top: 37%;
   left: 14%;
   font-size: 20px;
   padding-top: 150px;
 }
-#main > .contentswrap > ul.period > li {
+#main .contentswrap ul.period li {
   padding: 8px 0;
 }
 
@@ -340,41 +340,41 @@ section {
   margin-top: 40%;
   background: #fff;
 }
-#intro > .contentswrap {
+#intro .contentswrap {
   width: 930px;
   margin: 0 auto;
   text-align: left;
 }
-#intro > .contentswrap > h2 {
+#intro .contentswrap h2 {
   color: #077451;
   font-size: 40px;
 }
-#intro > .contentswrap > .summary {
+#intro .contentswrap .summary {
   margin-top: 50px;
 }
-#intro > .contentswrap > .summary > li {
+#intro .contentswrap .summary li {
   display: inline-block;
   width: 200px;
   padding-right: 20px;
 }
-#intro > .contentswrap > .summary > li > h3 {
+#intro .contentswrap .summary li h3 {
   color: #484848;
   font-size: 24px;
   border-bottom: 3px solid #484848;
   padding-bottom: 12px;
 }
-#intro > .contentswrap > .summary > li > p {
+#intro .contentswrap .summary li p {
   color: #484848;
   font-size: 20px;
   margin-top: 15px;
 }
 
-#intro > .contentswrap > h3 {
+#intro .contentswrap h3 {
   color: #077451;
   font-size: 24px;
   margin-top: 70px;
 }
-#intro > .contentswrap > p {
+#intro .contentswrap p {
   padding-top: 20px;
   color: #484848;
   font-size: 19px;
@@ -387,23 +387,23 @@ section {
   background-color: #f8f8f8;
   /* background: url(../images/media_bg.png); */
 }
-#media > .contentswrap {
+#media .contentswrap {
   position: relative;
   width: 930px;
   margin: 0 auto;
   padding-bottom: 20px;
 }
-#media > .contentswrap > h3 {
+#media .contentswrap h3 {
   color: #077451;
   font-size: 24px;
   padding: 50px 0;
 }
-#media > .contentswrap > .media_query {
+#media .contentswrap .media_query {
   position: absolute;
   top: 120px;
   right: 0;
 }
-#media > .contentswrap > ul > li {
+#media .contentswrap ul li {
   color: #484848;
   font-size: 20px;
   padding-bottom: 10px;
@@ -413,11 +413,11 @@ section {
   top: 200px;
   right: 0;
 }
-.go > li {
+.go li {
   padding: 5px 0;
 }
-.go > .gosite > a,
-.go > .gomobile > a {
+.go .gosite a,
+.go .gomobile a {
   width: 210px;
   height: 50px;
   background: #077451;
@@ -428,8 +428,8 @@ section {
   border-radius: 25px;
   border: 1px solid transparent;
 }
-.go > .gosite > a:hover,
-.go > .gomobile > a:hover {
+.go .gosite a:hover,
+.go .gomobile a:hover {
   color: #077451;
   background: #fff;
   transition-duration: 0.4s;
@@ -441,39 +441,39 @@ section {
   width: 100%;
   background: #fff;
 }
-#guide > .contentswrap {
+#guide .contentswrap {
   width: 930px;
   margin: 0 auto;
 }
-#guide > .contentswrap > h3 {
+#guide .contentswrap h3 {
   color: #077451;
   font-size: 24px;
   padding-top: 50px;
 }
-#guide > .contentswrap > ul {
+#guide .contentswrap ul {
   padding: 30px 0;
 }
-#guide > .contentswrap > ul > li {
+#guide .contentswrap ul li {
   display: inline-block;
   padding-top: 20px;
   width: 430px;
 }
-#guide > .contentswrap > ul > li > h3 {
+#guide .contentswrap ul li h3 {
   color: #484848;
   font-size: 22px;
   padding-bottom: 12px;
 }
-#guide > .contentswrap > ul > li:first-child {
+#guide .contentswrap ul li:first-child {
   padding-right: 50px;
 }
-#guide > .contentswrap > dl {
+#guide .contentswrap dl {
   color: #484848;
 }
-#guide > .contentswrap > dl > dt {
+#guide .contentswrap dl dt {
   padding-top: 50px;
   font-size: 22px;
 }
-#guide > .contentswrap > dl > dd {
+#guide .contentswrap dl dd {
   padding-top: 15px;
   font-size: 19px;
   line-height: 24px;
@@ -486,16 +486,16 @@ section {
   background: #fff;
   padding-bottom: 50px;
 }
-#detail > .conentswrap {
+#detail .conentswrap {
   width: 1200px;
   margin: 0 auto;
 }
-#detail > .contentswrap > img {
+#detail .contentswrap img {
   padding-top: 100px;
   margin: 0 auto;
   width: 930px;
 }
-#detail > .contentswrap > img:nth-of-type(2) {
+#detail .contentswrap img:nth-of-type(2) {
   width: 1000px;
   margin: 0 auto;
   padding: 100px 0;
@@ -509,22 +509,22 @@ section {
   background-color: #077451;
   letter-spacing: 1px;
 }
-.footer > #btntop {
+.footer #btntop {
   position: absolute;
   top: -50px;
   left: 50%;
   margin-left: -50px;
 }
-.footer > #btntop > a {
+.footer #btntop a {
   width: 100px;
   height: 100px;
   background: url(../images/btn_top_kkd.png) no-repeat;
 }
-.footer > #btntop > a:hover {
+.footer #btntop a:hover {
   margin-top: -7px;
   transition-duration: 0.3s;
 }
-.footer > .copyright {
+.footer .copyright {
   font-size: 18px;
   color: #fff;
   padding-top: 50px;
@@ -559,7 +559,7 @@ section {
     width: 100px; height: 100px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 100px; height: 100px;
     background: url(../images/sunny_logo.png);
     text-indent: -6000px;
@@ -570,24 +570,24 @@ section {
   }
 
   /** MAIN **/
-  #main > .contentswrap > .title {
+  #main .contentswrap .title {
     position: absolute;
     top: 19%;
     left: 14%;
   }
-  #main > .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     font-size: 35px;
     padding-bottom: 15px;
     border-bottom: 3px solid #fff;
   }
-  #main > .contentswrap > .title > h2 {
+  #main .contentswrap .title h2 {
     padding-top: 15px;
     font-size: 20px;
   }
-  #main > .contentswrap > .title > p {
+  #main .contentswrap .title p {
     font-size: 20px;
   }
-  #main > .contentswrap > ul.period {
+  #main .contentswrap ul.period {
     position: absolute;
     top: 37%;
     left: 14%;
@@ -603,22 +603,22 @@ section {
     margin-top: 55%;
     background: #fff;
   }
-  #intro > .contentswrap {
+  #intro .contentswrap {
     width: 830px;
     margin: 0 auto;
     text-align: left;
   }
-  #intro > .contentswrap > h2 {
+  #intro .contentswrap h2 {
     color: #077451;
     font-size: 30px;
   }
-  #intro > .contentswrap > .summary > li > h3 {
+  #intro .contentswrap .summary li h3 {
     color: #484848;
     font-size: 20px;
     border-bottom: 3px solid #484848;
     padding-bottom: 12px;
   }
-  #intro > .contentswrap > .summary > li > p {
+  #intro .contentswrap .summary li p {
     color: #484848;
     font-size: 18px;
     margin-top: 15px;
@@ -631,44 +631,44 @@ section {
     position: relative;
     /* background: url(../imaes/media_bg.png); */
   }
-  #media > .contentswrap {
+  #media .contentswrap {
     position: relative;
     width: 830px;
     margin: 0 auto;
     padding-bottom: 20px;
   }
-  #media > .contentswrap > h3 {
+  #media .contentswrap h3 {
     color: #077451;
     font-size: 24px;
     padding: 50px 0;
   }
-  #guide > .contentswrap > ul > li:nth-of-type(1) {
+  #guide .contentswrap ul li:nth-of-type(1) {
     padding-right: 23px;
   }
-  #media > .contentswrap > img {
+  #media .contentswrap img {
     width: 830px;
   }
 
   /** SECTION3 DETAIL IMG **/
-  #guide > .contentswrap {
+  #guide .contentswrap {
     width: 830px;
     margin: 0 auto;
   }
-  #guide > .contentswrap > ul > li {
+  #guide .contentswrap ul li {
     display: inline-block;
     padding-top: 20px;
     width: 390px;
   }
-  #guide > .contentswrap > ul > li img {
+  #guide .contentswrap ul li img {
     width: 390px;
   }
-  #guide > .contentswrap > ul {
+  #guide .contentswrap ul {
     padding: 30px 0;
     margin-bottom: 35px;
   }
 
   /** SECTION4 DETAIL IMG **/
-  #detail > .contentswrap > img:nth-of-type(2) {
+  #detail .contentswrap img:nth-of-type(2) {
     width: 830px;
     margin: 0 auto;
     padding: 100px 0;
@@ -694,7 +694,7 @@ section {
     width: 80px; height: 80px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 80px; height: 80px;
     background: url(../images/sunny_logo.png);
     text-indent: -6000px;
@@ -705,24 +705,24 @@ section {
   }
 
   /** MAIN **/
-  #main > .contentswrap > .title {
+  #main .contentswrap .title {
     position: absolute;
     top: 15%;
     left: 16%;
   }
-  #main > .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     font-size: 35px;
     padding-bottom: 15px;
     border-bottom: 3px solid #fff;
   }
-  #main > .contentswrap > .title > h2 {
+  #main .contentswrap .title h2 {
     padding-top: 15px;
     font-size: 20px;
   }
-  #main > .contentswrap > .title > p {
+  #main .contentswrap .title p {
     font-size: 20px;
   }
-  #main > .contentswrap > ul.period {
+  #main .contentswrap ul.period {
     position: absolute;
     top: 35%;
     left: 16%;
@@ -734,64 +734,64 @@ section {
   #intro {
     margin-top: 60%;
   }
-  #intro > .contentswrap {
+  #intro .contentswrap {
     width: 630px;
     margin: 0 auto;
     text-align: left;
   }
-  #intro > .contentswrap > h2 {
+  #intro .contentswrap h2 {
     color: #077451;
     font-size: 30px;
   }
-  #intro > .contentswrap > h3 {
+  #intro .contentswrap h3 {
     color: #077451;
     font-size: 22px;
     margin-top: 70px;
   }
-  #intro > .contentswrap > p {
+  #intro .contentswrap p {
     padding-top: 20px;
     color: #484848;
     font-size: 16px;
     line-height: 24px;
   }
-  #intro > .contentswrap > .summary > li {
+  #intro .contentswrap .summary li {
     display: inline-block;
     width: 180px;
     padding-right: 20px;
   }
-  #intro > .contentswrap > .summary > li > h3 {
+  #intro .contentswrap .summary li h3 {
     color: #484848;
     font-size: 18px;
     border-bottom: 3px solid #484848;
     padding-bottom: 12px;
   }
-  #intro > .contentswrap > .summary > li > p {
+  #intro .contentswrap .summary li p {
     color: #484848;
     font-size: 16px;
     margin-top: 15px;
   }
 
   /** SECTION2 MEDIA QUERY **/
-  #media > .contentswrap {
+  #media .contentswrap {
     position: relative;
     width: 630px;
     margin: 0 auto;
     padding-bottom: 20px;
   }
-  #media > .contentswrap > h3 {
+  #media .contentswrap h3 {
     color: #077451;
     font-size: 22px;
     padding: 50px 0;
   }
-  #media > .contentswrap > img {
+  #media .contentswrap img {
     width: 630px;
   }
-  #media > .contentswrap > .media_query {
+  #media .contentswrap .media_query {
     position: absolute;
     top: 60px;
     right: 0;
   }
-  #media > .contentswrap > .media_query > li {
+  #media .contentswrap .media_query li {
     color: #484848;
     font-size: 18px;
     padding-bottom: 10px;
@@ -801,11 +801,11 @@ section {
     top: 130px;
     right: 0;
   }
-  .go > li {
+  .go li {
     font-size: 18px;
   }
-  .go > .gosite > a,
-  .go > .gomobile > a {
+  .go .gosite a,
+  .go .gomobile a {
     width: 190px;
     height: 50px;
     background: #077451;
@@ -818,39 +818,39 @@ section {
   }
 
   /** SECTION3 DETAIL IMG **/
-  #guide > .contentswrap {
+  #guide .contentswrap {
     width: 630px;
     margin: 0 auto;
   }
-  #guide > .contentswrap > h3 {
+  #guide .contentswrap h3 {
     color: #077451;
     font-size: 22px;
     padding-top: 50px;
   }
-  #guide > .contentswrap > ul {
+  #guide .contentswrap ul {
     padding: 15px 0 30px 0;
     margin-bottom: 0;
   }
-  #guide > .contentswrap > ul > li {
+  #guide .contentswrap ul li {
     display: inline-block;
     width: 290px;
   }
-  #guide > .contentswrap > ul > li:first-child {
+  #guide .contentswrap ul li:first-child {
     padding-right: 30px;
   }
-  #guide > .contentswrap > ul > li > h3 {
+  #guide .contentswrap ul li h3 {
     color: #484848;
     font-size: 18px;
     padding-bottom: 12px;
   }
-  #guide > .contentswrap > ul > li img {
+  #guide .contentswrap ul li img {
     width: 290px;
   }
-  #guide > .contentswrap > dl > dt {
+  #guide .contentswrap dl dt {
     padding-top: 25px;
     font-size: 18px;
   }
-  #guide > .contentswrap > dl > dd {
+  #guide .contentswrap dl dd {
     padding-top: 15px;
     font-size: 16px;
     line-height: 24px;
@@ -858,12 +858,12 @@ section {
   }
 
   /** SECTION4 DETAIL IMG **/
-  #detail > .contentswrap > img {
+  #detail .contentswrap img {
     padding-top: 100px;
     margin: 0 auto;
     width: 680px;
   }
-  #detail > .contentswrap > img:nth-of-type(2) {
+  #detail .contentswrap img:nth-of-type(2) {
     width: 670px;
     margin: 0 auto;
     padding: 100px 0;
@@ -877,18 +877,18 @@ section {
     background-color: #077451;
     letter-spacing: 1px;
   }
-  .footer > #btntop {
+  .footer #btntop {
     position: absolute;
     top: -47px;
     left: 50%;
     margin-left: -50px;
   }
-  .footer > #btntop > a {
+  .footer #btntop a {
     width: 100px;
     height: 70px;
     background: url(../images/btn_top_kkd.png) no-repeat;
   }
-  .footer > .copyright {
+  .footer .copyright {
     font-size: 16px;
     color: #fff;
     padding-top: 38px;
@@ -934,7 +934,7 @@ section {
     width: 60px; height: 60px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 60px; height: 60px;
     background: url(../images/sunny_logo.png);
     text-indent: -6000px;
@@ -955,10 +955,10 @@ section {
     overflow: auto;
     box-shadow: 0 0 14px 13px rgba(0, 0, 0, 0.1);
   }
-  ul#main_nav > li:first-child  {
+  ul#main_nav li:first-child  {
     margin-top: 70px;
   }
-  ul#main_nav > li > h3  {
+  ul#main_nav li h3  {
     height: 45px;
     padding-left: 30px;
     line-height: 50px;
@@ -967,13 +967,13 @@ section {
     color: #8081d9;
     cursor: pointer;
   }
-  ul#main_nav > li > h3 > button {
+  ul#main_nav li h3 button {
     font-size: 18px;
   }
-  ul#main_nav > li.active > ul.sub_nav > li{
+  ul#main_nav li.active ul.sub_nav li{
     height: 40px;
   }
-  ul#main_nav > li > ul.sub_nav > li > a {
+  ul#main_nav li ul.sub_nav li a {
     padding-left: 60px;
     line-height: 40px;
     height: 40px;
@@ -982,7 +982,7 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
-  #main_nav_wrap > label.bg_close {
+  #main_nav_wrap label.bg_close {
     width: 30%;
     height: 100%;
     position: absolute;
@@ -999,40 +999,40 @@ section {
   }
 
   /** MAIN **/
-  #main > .contentswrap {
+  #main .contentswrap {
     width: 100%;
     position: fixed;
     top: 70px;
     z-index: -100;
   }
-  #main > .contentswrap > .title {
+  #main .contentswrap .title {
     position: absolute;
     top: 13%;
     left: 9%;
   }
-  #main > .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     font-size: 26px;
     padding-bottom: 10px;
     border-bottom: 3px solid #fff;
   }
-  #main > .contentswrap > .title > h2 {
+  #main .contentswrap .title h2 {
     padding-top: 10px;
     font-size: 16px;
   }
-  #main > .contentswrap > .title > p {
+  #main .contentswrap .title p {
     font-size: 16px;
   }
-  #main > .contentswrap > .title > p:nth-of-type(1) {
+  #main .contentswrap .title p:nth-of-type(1) {
     padding-top: 10px;
   }
-  #main > .contentswrap > ul.period {
+  #main .contentswrap ul.period {
     position: absolute;
     top: 25%;
     left: 9%;
     font-size: 14px;
     padding-top: 150px;
   }
-  #main > .contentswrap > ul.period > li {
+  #main .contentswrap ul.period li {
     padding: 4px 0;
   }
 
@@ -1044,61 +1044,61 @@ section {
     margin-top: 70%;
     background: #fff;
   }
-  #intro > .contentswrap {
+  #intro .contentswrap {
     width: 500px;
     margin: 0 auto;
     text-align: left;
   }
-  #intro > .contentswrap > h2 {
+  #intro .contentswrap h2 {
     color: #077451;
     font-size: 30px;
   }
-  #intro > .contentswrap > p {
+  #intro .contentswrap p {
     padding-top: 20px;
     color: #484848;
     font-size: 16px;
     line-height: 24px;
   }
-  #intro > .contentswrap > .summary > li {
+  #intro .contentswrap .summary li {
     display: inline-block;
     width: 145px;
     padding-right: 15px;
   }
-  #intro > .contentswrap > .summary > li > h3 {
+  #intro .contentswrap .summary li h3 {
     color: #484848;
     font-size: 17px;
     border-bottom: 3px solid #484848;
     padding-bottom: 7px;
   }
-  #intro > .contentswrap > .summary > li > p {
+  #intro .contentswrap .summary li p {
     color: #484848;
     font-size: 15px;
     margin-top: 7px;
   }
 
   /** SECTION2 MEDIA QUERY **/
-  #media > .contentswrap {
+  #media .contentswrap {
     position: relative;
     width: 500px;
     margin: 0 auto;
     padding-bottom: 20px;
   }
-  #media > .contentswrap > ul > li {
+  #media .contentswrap ul li {
     color: #484848;
     font-size: 20px;
     padding-bottom: 5px;
   }
-  #media > .contentswrap > .media_query {
+  #media .contentswrap .media_query {
     position: absolute;
     top: 50px;
     right: 0;
   }
-  #media > .contentswrap > .media_query > li {
+  #media .contentswrap .media_query li {
     color: #484848;
     font-size: 14px;
     padding-bottom: 10px;
   }
-  #media > .contentswrap > img {
+  #media .contentswrap img {
     width: 550px;
     margin-top: 20px;
     padding-bottom: 200px;
@@ -1108,8 +1108,8 @@ section {
     top: 500px;
     left: 0;
   }
-  .go > .gosite > a,
-  .go > .gomobile > a {
+  .go .gosite a,
+  .go .gomobile a {
     width: 100%;
     height: 50px;
     background: #077451;
@@ -1122,30 +1122,30 @@ section {
   }
 
   /** SECTION3 DETAIL IMG **/
-  #guide > .contentswrap {
+  #guide .contentswrap {
     width: 500px;
     margin: 0 auto;
   }
-  #guide > .contentswrap > ul > li {
+  #guide .contentswrap ul li {
     display: inline-block;
     width: 240px;
   }
-  #guide > .contentswrap > ul > li:first-child {
+  #guide .contentswrap ul li:first-child {
     padding-right: 11px;
   }
-  #guide > .contentswrap > ul > li > h3 {
+  #guide .contentswrap ul li h3 {
     color: #484848;
     font-size: 16px;
     padding-bottom: 12px;
   }
-  #guide > .contentswrap > ul > li img {
+  #guide .contentswrap ul li img {
     width: 240px;
   }
-  #guide > .contentswrap > dl > dt {
+  #guide .contentswrap dl dt {
     padding-top: 25px;
     font-size: 18px;
   }
-  #guide > .contentswrap > dl > dd {
+  #guide .contentswrap dl dd {
     padding-top: 15px;
     font-size: 16px;
     line-height: 24px;
@@ -1153,12 +1153,12 @@ section {
   }
 
   /** SECTION4 DETAIL IMG **/
-  #detail > .contentswrap > img {
+  #detail .contentswrap img {
     padding-top: 50px;
     margin: 0 auto;
     width: 550px;
   }
-  #detail > .contentswrap > img:nth-of-type(2) {
+  #detail .contentswrap img:nth-of-type(2) {
     width: 550px;
     margin: 0 auto;
     padding: 50px 0;
@@ -1172,12 +1172,12 @@ section {
     background-color: #077451;
     letter-spacing: 1px;
   }
-  .footer > #btntop > a {
+  .footer #btntop a {
     width: 100px;
     height: 70px;
     background: url(../images/btn_top_kkd.png) no-repeat;
   }
-  .footer > .copyright {
+  .footer .copyright {
     font-size: 18px;
     color: #fff;
     padding-top: 35px;
@@ -1224,7 +1224,7 @@ section {
     width: 60px; height: 60px;
     z-index: 300;
   }
-  .myname > a {
+  .myname a {
     width: 60px; height: 60px;
     background: url(../images/sunny_logo.png);
     text-indent: -6000px;
@@ -1245,10 +1245,10 @@ section {
     overflow: auto;
     box-shadow: 0 0 14px 13px rgba(0, 0, 0, 0.1);
   }
-  ul#main_nav > li:first-child  {
+  ul#main_nav li:first-child  {
     margin-top: 70px;
   }
-  ul#main_nav > li > h3  {
+  ul#main_nav li h3  {
     height: 45px;
     padding-left: 30px;
     line-height: 50px;
@@ -1257,13 +1257,13 @@ section {
     color: #8081d9;
     cursor: pointer;
   }
-  ul#main_nav > li > h3 > button {
+  ul#main_nav li h3 button {
     font-size: 18px;
   }
-  ul#main_nav > li.active > ul.sub_nav > li{
+  ul#main_nav li.active ul.sub_nav li{
     height: 40px;
   }
-  ul#main_nav > li > ul.sub_nav > li > a{
+  ul#main_nav li ul.sub_nav li a{
     padding-left: 60px;
     line-height: 40px;
     height: 40px;
@@ -1272,7 +1272,7 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
-  #main_nav_wrap > label.bg_close {
+  #main_nav_wrap label.bg_close {
     width: 30%;
     height: 100%;
     position: absolute;
@@ -1289,7 +1289,7 @@ section {
   }
 
   /** MAIN **/
-  #main > .contentswrap {
+  #main .contentswrap {
     width: 100%;
     position: fixed;
     top: 70px;
@@ -1298,32 +1298,32 @@ section {
   .bg_wrap {
     width: 100%;
   }
-  .bg_wrap > img {
+  .bg_wrap img {
     width: 100%;
   }
-  #main > .contentswrap > .title {
+  #main .contentswrap .title {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
   }
-  #main > .contentswrap > .title > .logo {
+  #main .contentswrap .title .logo {
     font-size: 35px;
     padding-bottom: 15px;
     border-bottom: 3px solid #fff;
   }
-  #main > .contentswrap > .title > h2 {
+  #main .contentswrap .title h2 {
     padding-top: 15px;
     font-size: 20px;
   }
-  #main > .contentswrap > .title > p {
+  #main .contentswrap .title p {
     font-size: 20px;
   }
-  #main > .contentswrap > .title > p:nth-of-type(1) {
+  #main .contentswrap .title p:nth-of-type(1) {
     padding-top: 20px;
   }
-  #main > .contentswrap > ul.period {
+  #main .contentswrap ul.period {
     position: absolute;
     top: 37%;
     left: 50%;
@@ -1332,7 +1332,7 @@ section {
     padding-top: 150px;
     text-align: center;
   }
-  #main > .contentswrap > ul.period > li {
+  #main .contentswrap ul.period li {
     padding: 8px 0;
     width: 200px;
   }
@@ -1345,42 +1345,42 @@ section {
     margin-top: 580px;
     background: #fff;
   }
-  #intro > .contentswrap {
+  #intro .contentswrap {
     width: 80%;
     margin: 0 auto;
     text-align: center;
   }
-  #intro > .contentswrap > h2 {
+  #intro .contentswrap h2 {
     color: #077451;
     font-size: 24px;
     line-height: 30px;
   }
-  #intro > .contentswrap > .summary {
+  #intro .contentswrap .summary {
     margin-top: 50px;
     text-align: center;
   }
-  #intro > .contentswrap > .summary > li {
+  #intro .contentswrap .summary li {
     display: inline-block;
     width: 160px;
     margin-bottom: 40px;
   }
-  #intro > .contentswrap > .summary > li > h3 {
+  #intro .contentswrap .summary li h3 {
     color: #484848;
     font-size: 20px;
     border-bottom: 3px solid #484848;
     padding-bottom: 7px;
   }
-  #intro > .contentswrap > .summary > li > p {
+  #intro .contentswrap .summary li p {
     color: #484848;
     font-size: 18px;
     margin-top: 10px;
   }
-  #intro > .contentswrap > h3 {
+  #intro .contentswrap h3 {
     color: #077451;
     font-size: 24px;
     margin-top: 50px;
   }
-  #intro > .contentswrap > p {
+  #intro .contentswrap p {
     padding-top: 20px;
     color: #484848;
     font-size: 16px;
@@ -1388,23 +1388,23 @@ section {
   }
 
   /** SECTION2 MEDIA QUERY **/
-  #media > .contentswrap {
+  #media .contentswrap {
     position: relative;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 20px;
     text-align: center;
   }
-  #media > .contentswrap > .media_query {
+  #media .contentswrap .media_query {
     position: relative;
     top: 0;
   }
-  #media > .contentswrap > ul > li {
+  #media .contentswrap ul li {
     color: #484848;
     font-size: 16px;
     padding-bottom: 10px;
   }
-  #media > .contentswrap > img {
+  #media .contentswrap img {
     width: 97%;
     padding: 50px 0;
   }
@@ -1413,8 +1413,8 @@ section {
     top: 0;
     margin-bottom: 40px;
   }
-  .go > .gosite > a,
-  .go > .gomobile > a {
+  .go .gosite a,
+  .go .gomobile a {
     width: auto;
     height: 50px;
     background: #077451;
@@ -1427,31 +1427,31 @@ section {
   }
 
   /** SECTION3 DETAIL IMG **/
-  #guide > .contentswrap {
+  #guide .contentswrap {
     width: 80%;
     margin: 0 auto;
     text-align: center;
   }
-  #guide > .contentswrap > ul > li {
+  #guide .contentswrap ul li {
     width: 100%;
     margin-bottom: 30px;
   }
-  #guide > .contentswrap > ul > li:first-child {
+  #guide .contentswrap ul li:first-child {
     padding-right: 0px;
   }
-  #guide > .contentswrap > ul > li > h3 {
+  #guide .contentswrap ul li h3 {
     color: #484848;
     font-size: 16px;
     padding-bottom: 12px;
   }
-  #guide > .contentswrap > ul > li > img {
+  #guide .contentswrap ul li img {
     width: 100%;
   }
-  #guide > .contentswrap > dl > dt {
+  #guide .contentswrap dl dt {
     padding-top: 50px;
     font-size: 18px;
   }
-  #guide > .contentswrap > dl > dd {
+  #guide .contentswrap dl dd {
     padding-top: 15px;
     font-size: 16px;
     line-height: 24px;
@@ -1459,7 +1459,7 @@ section {
   }
 
   /** SECTION4 DETAIL IMG **/
-  #detail > .contentswrap > img {
+  #detail .contentswrap img {
     padding: 40px 0;
     margin: 0 auto;
     width: 95%;
@@ -1476,19 +1476,19 @@ section {
     background-color: #077451;
     letter-spacing: 1px;
   }
-  .footer > #btntop {
+  .footer #btntop {
     position: absolute;
     top: -40px;
     left: 50%;
     margin-left: -40px;
   }
-  .footer > #btntop > a {
+  .footer #btntop a {
     width: 80px;
     height: 70px;
     background: url(../images/btn_top_kkd.png) no-repeat;
     background-size: 80px;
   }
-  .footer > .copyright {
+  .footer .copyright {
     font-size: 13px;
     color: #fff;
     padding-top: 35px;
@@ -1542,13 +1542,13 @@ section {
   #starbucks_body #detail .contentswrap img {
     padding-top: 30px;
   }
-  #starbucks_body > .footer > #btntop {
+  #starbucks_body .footer #btntop {
     position: absolute;
     top: -40px;
     left: 50%;
     margin-left: -40px;
   }
-  #starbucks_body > .footer > #btntop > a {
+  #starbucks_body .footer #btntop a {
     width: 80px;
     height: 70px;
     background: url(../images/btn_top_starbucks.png) no-repeat;
@@ -1578,7 +1578,7 @@ section {
 #uriage_body .footer {
   background-color: #1da2dd;
 }
-#uriage_body > .footer > #btntop {
+#uriage_body .footer #btntop {
   position: absolute;
   top: -40px;
   left: 50%;
