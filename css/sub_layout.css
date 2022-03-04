@@ -1245,10 +1245,10 @@ section {
     overflow: auto;
     box-shadow: 0 0 14px 13px rgba(0, 0, 0, 0.1);
   }
-  ul#main_nav li:first-child  {
+  ul#main_nav > li:first-child  {
     margin-top: 70px;
   }
-  ul#main_nav li h3  {
+  ul#main_nav > li > h3  {
     height: 45px;
     padding-left: 30px;
     line-height: 50px;
@@ -1257,13 +1257,13 @@ section {
     color: #8081d9;
     cursor: pointer;
   }
-  ul#main_nav li h3 button {
+  ul#main_nav > li > h3 > button {
     font-size: 18px;
   }
-  ul#main_nav li.active ul.sub_nav li{
+  ul#main_nav > li.active > ul.sub_nav > li{
     height: 40px;
   }
-  ul#main_nav li ul.sub_nav li a{
+  ul#main_nav > li > ul.sub_nav > li > a{
     padding-left: 60px;
     line-height: 40px;
     height: 40px;
@@ -1272,7 +1272,7 @@ section {
     background-color: #9b9ce8;
     transition-duration: 0.3s;
   }
-  #main_nav_wrap label.bg_close {
+  #main_nav_wrap > label.bg_close {
     width: 30%;
     height: 100%;
     position: absolute;
