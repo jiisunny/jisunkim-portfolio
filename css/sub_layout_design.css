@@ -1050,15 +1050,11 @@ div#menu > ul > li:hover > a > .back {
   justify-content: center;
 }
 .digital_body #illust_1 ul li {
-  flex-grow: 1;
+  width: 45%;
 }
-.digital_1_01 {
-  width: 450px;
-  padding: 2% 0 0 30%;
-}
-.digital_1_02 {
-  width: 450px;
-  padding: 2% 0 0 17%;
+.digital_body #illust_1 ul li img {
+  width: 70%;
+  margin: 0 auto;
 }
 
 /** SECTION2_#1_ILLUST_02_비니쿤카 **/
@@ -1072,11 +1068,10 @@ div#menu > ul > li:hover > a > .back {
   display: flex;
   flex-wrap: wrap;
   margin: 0 10%;
-  padding-bottom: 100px;
   justify-content: center;
 }
 .digital_body #illust_2 ul li {
-  padding: 0 40px;
+  padding: 40px;
 }
 .digital_body #illust_2 ul li img {
   width: 370px;
@@ -1097,7 +1092,7 @@ div#menu > ul > li:hover > a > .back {
   justify-content: center;
 }
 .digital_body #illust_3 ul li {
-  padding: 0 40px;
+  padding: 40px;
 }
 .digital_body #illust_3 ul li img {
   width: 370px;
@@ -1195,12 +1190,20 @@ div#menu > ul > li:hover > a > .back {
 }
 #character_2 .contentswrap ul {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+}
+#character_2 .contentswrap ul li:first-child,
+#character_2 .contentswrap ul li:last-child {
+  width: 10%;
+}
+#character_2 .contentswrap ul li:nth-child(2) {
+  width: 80%;
 }
 #character_2 .contentswrap ul li img {
   margin: 0 auto;
   padding-top: 70px;
+  width: 100%;
 }
 
 /** SECTION7_#3_TABLET DRAWING_MAIN **/

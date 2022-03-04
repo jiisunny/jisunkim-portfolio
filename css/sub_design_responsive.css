@@ -95,6 +95,80 @@
     width: 49%;
   }
 
+  /* DIGITAL DRAWING */
+  .digital_body #main .contentswrap {
+    height: 650px;
+  }
+  .digital_body #main .contentswrap img {
+    top: 20%;
+  }
+  .digital_body #main .contentswrap .title {
+    width: 34%;
+  }
+  .digital_body #main .contentswrap ul.period {
+    top: 76%;
+  }
+  .digital_body #illust_1 {
+    margin-top: 650px;
+  }
+  .digital_body #illust_1 ul li {
+    width: 50%;
+  }
+  .digital_body #illust_1 ul li img {
+    width: 90%;
+  }
+  .digital_body #illust_2 ul,
+  .digital_body #illust_3 ul {
+    padding-bottom: 100px;
+  }
+  .digital_body #illust_2 ul li,
+  .digital_body #illust_3 ul li {
+    width: 50%;
+    padding: 0;
+  }
+  .digital_body #illust_2 ul li img,
+  .digital_body #illust_3 ul li img {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  #main_character > .contentswrap > .title {
+    width: 41%;
+    left: 8%;
+  }
+  #main_character > .contentswrap > ul.period {
+    left: 8%;
+  }
+  #main_character .contentswrap img {
+    top: 14%;
+    right: -1%;
+    width: 48%;
+  }
+  #character_1 .contentswrap ul li {
+    width: 100%;
+  }
+  #character_1 .contentswrap ul li img {
+    width: 90%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
