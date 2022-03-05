@@ -1137,7 +1137,7 @@ section {
     text-align: center;
   }
   .title {
-    font-size: 30px;
+    font-size: 22px;
   }
   .subtitle {
     font-size: 14px;
@@ -1248,7 +1248,7 @@ section {
   }
   /* SECTION4 DESIGN WORKS */
   .design_works {
-    font-size: 23px;
+    font-size: 22px;
   }
   #artwork .wrap_align .artlist li a div {
     transform: scale(1.0);
@@ -1268,7 +1268,7 @@ section {
   .artlist li a h2 {
     margin-top: 20px;
     font-size: 14px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   #artwork .wrap_align ul.artlist li {
     display: inline-block;
