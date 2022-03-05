@@ -351,7 +351,7 @@ section {
   font-size: 40px;
 }
 #intro .contentswrap .summary {
-  margin-top: 50px;
+  margin-top: 5px;
 }
 #intro .contentswrap .summary li {
   display: inline-block;
@@ -373,7 +373,7 @@ section {
 #intro .contentswrap h3 {
   color: #077451;
   font-size: 24px;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 #intro .contentswrap p {
   color: #484848;
@@ -462,6 +462,7 @@ section {
   color: #484848;
   font-size: 22px;
   padding-bottom: 12px;
+  padding-top: 0;
 }
 #guide .contentswrap ul li:first-child {
   padding-right: 50px;
@@ -540,6 +541,40 @@ section {
 }
 
 /* RESPONSIVE */
+/* WEB MIDIUM */
+@media screen and (max-width:1440px) {
+  #main .contentswrap .title .logo {
+    font-size: 35px;
+  }
+  #main .contentswrap .title h2 {
+    font-size: 20px;
+  }
+  #main .contentswrap .title p {
+    font-size: 20px;
+  }
+  #main .contentswrap ul.period {
+    font-size: 18px;
+  }
+
+  #intro {
+    padding: 70px 0;
+  }
+  #intro .contentswrap h2 {
+    font-size: 30px;
+  }
+  #intro .contentswrap h3 {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  #intro .contentswrap .summary li h3 {
+    font-size: 20px;
+  }
+  #intro .contentswrap .summary li p {
+    margin-top: 11px;
+  }
+}
+
+
 /* TABLET 가로 */
 @media screen and (min-width:1191px) and (max-width:1230px) {
   .bg_pc,
@@ -708,7 +743,7 @@ section {
   #main .contentswrap .title {
     position: absolute;
     top: 15%;
-    left: 16%;
+    left: 14%;
   }
   #main .contentswrap .title .logo {
     font-size: 35px;
@@ -725,14 +760,14 @@ section {
   #main .contentswrap ul.period {
     position: absolute;
     top: 35%;
-    left: 16%;
+    left: 14%;
     font-size: 18px;
     padding-top: 150px;
   }
 
   /** SECTION1 INTRO **/
   #intro {
-    margin-top: 60%;
+    margin-top: 58%;
   }
   #intro .contentswrap {
     width: 630px;
@@ -746,17 +781,15 @@ section {
   #intro .contentswrap h3 {
     color: #077451;
     font-size: 22px;
-    margin-top: 70px;
   }
   #intro .contentswrap p {
-    padding-top: 20px;
     color: #484848;
     font-size: 16px;
     line-height: 24px;
   }
   #intro .contentswrap .summary li {
     display: inline-block;
-    width: 180px;
+    width: 150px;
     padding-right: 20px;
   }
   #intro .contentswrap .summary li h3 {
@@ -768,7 +801,7 @@ section {
   #intro .contentswrap .summary li p {
     color: #484848;
     font-size: 16px;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   /** SECTION2 MEDIA QUERY **/
@@ -1352,7 +1385,7 @@ section {
   }
   #intro .contentswrap h2 {
     color: #077451;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 30px;
   }
   #intro .contentswrap .summary {
@@ -1362,26 +1395,26 @@ section {
   #intro .contentswrap .summary li {
     display: inline-block;
     width: 160px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   #intro .contentswrap .summary li h3 {
     color: #484848;
-    font-size: 20px;
+    font-size: 18px;
     border-bottom: 3px solid #484848;
     padding-bottom: 7px;
+    margin-top: 0;
   }
   #intro .contentswrap .summary li p {
     color: #484848;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 10px;
   }
   #intro .contentswrap h3 {
     color: #077451;
-    font-size: 24px;
-    margin-top: 50px;
+    font-size: 21px;
+    margin-top: 30px;
   }
   #intro .contentswrap p {
-    padding-top: 20px;
     color: #484848;
     font-size: 16px;
     line-height: 24px;
@@ -1394,6 +1427,9 @@ section {
     margin: 0 auto;
     padding-bottom: 20px;
     text-align: center;
+  }
+  #media .contentswrap h3 {
+    font-size: 21px;
   }
   #media .contentswrap .media_query {
     position: relative;
@@ -1432,6 +1468,12 @@ section {
     margin: 0 auto;
     text-align: center;
   }
+  #guide .contentswrap h3 {
+    font-size: 21px;
+  }
+  #guide .contentswrap ul {
+    padding: 20px 0 30px 0;
+  }
   #guide .contentswrap ul li {
     width: 100%;
     margin-bottom: 30px;
@@ -1448,7 +1490,7 @@ section {
     width: 100%;
   }
   #guide .contentswrap dl dt {
-    padding-top: 50px;
+    padding-top: 40px;
     font-size: 18px;
   }
   #guide .contentswrap dl dd {
@@ -1462,7 +1504,7 @@ section {
   #detail .contentswrap img {
     padding: 40px 0;
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
   }
   .bg_normal {
     display: none;
@@ -1727,7 +1769,7 @@ section {
 }
 #twosome_body #detail .contentswrap img {
   padding: 100px 0;
-  width: 85%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -1784,6 +1826,9 @@ section {
 #donga_body #intro .contentswrap .summary li h3,
 #donga_body #guide .contentswrap ul li h3 {
   color: #484848;
+}
+#donga_body #detail .contentswrap img:nth-of-type(2) {
+  width: 55%;
 }
 #donga_body #media .contentswrap .go .gosite a {
   background: #00a0c9;

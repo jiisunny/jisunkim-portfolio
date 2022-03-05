@@ -1,7 +1,7 @@
 /* sub_design_responsive */
 
 /* WEB-MIDIUM 1440px */
-@media screen and (min-width: 1025px) and (max-width:1230px) {
+@media screen and (min-width: 1025px) and (max-width:1440px) {
   
   /* SIDE MENU */
   #menu {
@@ -27,7 +27,7 @@
     width: 32%;
   }
   #main .contentswrap .title h3 {
-    margin-top: 30%;
+    margin-top: 80px;
   }
 
   #main_webbanner .contentswrap {
@@ -41,7 +41,7 @@
     right: 0;
   }
   #main_webbanner .contentswrap ul.period {
-    top: 66%;
+    top: 500px;
   }
   #main_webpage .contentswrap img {
     width: 40%;
@@ -55,8 +55,8 @@
 
   /* GRAPHIC DESIGN */
   .graphic_body #main .contentswrap img {
-    width: 32%;
-    top: 22%;
+    width: 26%;
+    top: 6%;
   }
   .graphic_body #main .contentswrap .title {
     width: 34%;
@@ -90,14 +90,14 @@
     left: 8%;
   }
   #main_book .contentswrap img {
-    top: 17%;
-    right: -6%;
-    width: 49%;
+    top: 9%;
+    right: 0;
+    width: 38%;
   }
 
   /* DIGITAL DRAWING */
   .digital_body #main .contentswrap {
-    height: 650px;
+    height: 600px;
   }
   .digital_body #main .contentswrap img {
     top: 20%;
@@ -106,16 +106,16 @@
     width: 34%;
   }
   .digital_body #main .contentswrap ul.period {
-    top: 76%;
+    top: 450px;
   }
   .digital_body #illust_1 {
-    margin-top: 650px;
+    margin-top: 600px;
   }
   .digital_body #illust_1 ul li {
-    width: 50%;
+    width: 45%;
   }
   .digital_body #illust_1 ul li img {
-    width: 90%;
+    width: 70%;
   }
   .digital_body #illust_2 ul,
   .digital_body #illust_3 ul {
@@ -123,7 +123,7 @@
   }
   .digital_body #illust_2 ul li,
   .digital_body #illust_3 ul li {
-    width: 50%;
+    width: 33%;
     padding: 0;
   }
   .digital_body #illust_2 ul li img,
@@ -138,23 +138,31 @@
   }
   #main_character .contentswrap .title h3 {
     padding: 0;
-    margin-top: 40%;
+    margin-top: 80px;
   }
   #main_character .contentswrap ul.period {
     left: 8%;
     top: 75%;
   }
   #main_character .contentswrap img {
-    top: 14%;
-    right: -1%;
-    width: 48%;
+    top: 8%;
+    right: 4%;
+    width: 32%;
   }
   #character_1 .contentswrap ul li {
     width: 100%;
   }
   #character_1 .contentswrap ul li img {
-    width: 90%;
+    width: 80%;
   }
+  #character_2 .contentswrap ul li img {
+    width: 80%;
+  }
+  #character_2 .contentswrap ul li:first-child ,
+  #character_2 .contentswrap ul li:last-child {
+    width: 14%;
+  }
+
   #main_drawing .contentswrap .title {
     width: 41%;
     left: 8%;
@@ -164,15 +172,16 @@
   }
   #main_drawing .contentswrap ul.period {
     left: 8%;
+    top: 420px;
   }
   #main_drawing .contentswrap img {
-    top: 17%;
-    right: -4%;
-    width: 50%;
+    top: 6%;
+    right: 1%;
+    width: 43%;
   }
   #main_drawing .contentswrap .title h3 {
     padding: 0;
-    margin-top: 39%;
+    margin-top: 90px;
   }
   #drawing .contentswrap ul li {
     width: 100%;
@@ -183,30 +192,30 @@
 
   /* DESIGN PROJECT */
   .project_body #main .contentswrap {
-    height: 650px;
+    height: 600px;
   }
   .project_body #main .contentswrap img {
-    top: 19%;
-    right: 6%;
-    width: 42%;
+    top: 13%;
+    right: 8%;
+    width: 39%;
   }
   .project_body #main .contentswrap .title {
     width: 32%;
   }
   .project_body #main .contentswrap .title h3 {
-    margin-top: 30%;
+    margin-top: 70px;
   }
   #main .contentswrap ul.period {
-    top: 83%;
+    top: 470px;
   }
   .project_body #project_1 {
-    margin-top: 650px;
+    margin-top: 600px;
   }
   .project_body #project_1 ul li:first-child img {
-    width: 42%;
+    width: 37%;
   }
   .project_body #project_1 ul li:nth-child(2) img {
-    width: 70%;
+    width: 65%;
   }
   .leaf_right {
     top: 31%;
@@ -329,7 +338,8 @@
     height: 650px;
   }
   #main_webpage .contentswrap img {
-    top: 22%;
+    top: 26%;
+    width: 40%;
   }
   #main_webpage .contentswrap .title {
     left: 4%;
@@ -344,6 +354,7 @@
   }
   #main_webpage .contentswrap .title h3 {
     font-size: 16px;
+    margin-top: 90px;
   }
   #main_webpage .contentswrap .title p {
     font-size: 16px;
@@ -352,7 +363,7 @@
   #main_webpage .contentswrap ul.period {
     left: 4%;
     font-size: 16px;
-    top: 76%;
+    top: 480px;
   }
   #webdesign h3 {
     font-size: 16px;
@@ -393,11 +404,12 @@
 
   /* GRAPHIC DESIGN */
   .graphic_body #graphic_1 {
-    margin-top: 650px;
+    margin-top: 550px;
   }
   .graphic_body #main .contentswrap img {
     width: 32%;
-    top: 22%;
+    top: 13%;
+    right: 12%;
   }
   .graphic_body #main .contentswrap .title {
     width: 34%;
@@ -438,7 +450,7 @@
   }
   #main_brochure .contentswrap ul.period {
     left: 4%;
-    top: 79%;
+    top: 430px;
     font-size: 16px;
   }
   #main_brochure .contentswrap img {
@@ -484,6 +496,9 @@
   }
   #graphic_3 ul li {
     margin-bottom: 0;
+  }
+  .graphic_body #main .contentswrap ul.period {
+    top: 430px;
   }
 
   /* DIGITAL DRAWING */
@@ -533,7 +548,8 @@
   .digital_body #illust_1 ul li img,
   .digital_body #illust_2 ul li img,
   .digital_body #illust_3 ul li img {
-    width: 97%;
+    width: 80%;
+    margin: 0 auto;
   }
 
   #main_character .contentswrap {
@@ -541,7 +557,8 @@
   }
   #main_character .contentswrap img {
     top: 9%;
-    width: 50%;
+    width: 43%;
+    right: 4%;
   }
   #main_character .contentswrap .title {
     width: 40%;
@@ -582,9 +599,9 @@
     height: 550px;
   }
   #main_drawing .contentswrap img {
-    top: 14%;
+    top: 6%;
     right: -6%;
-    width: 58%;
+    width: 55%;
   }
   #main_drawing .contentswrap .title {
     width: 40%;
@@ -601,7 +618,7 @@
   #main_drawing .contentswrap .title h3 {
     font-size: 16px;
     padding: 0;
-    margin-top: 38%;
+    margin-top: 100px;
   }
   #main_drawing .contentswrap .title p {
     font-size: 16px;
@@ -640,7 +657,7 @@
     margin-top: 17%;
   }
   #main .contentswrap ul.period {
-    top: 83%;
+    top: 400px;
   }
   .project_body #project_1 {
     margin-top: 500px;
@@ -751,17 +768,17 @@
   /* WEB DESIGN */
   #main .contentswrap {
     text-align: center;
-    height: 1000px;
+    height: 800px;
   }
   #main .contentswrap img {
-    width: 500px;
+    width: 400px;
     top: 90px;
     left: 50%;
-    margin-left: -250px;
+    margin-left: -200px;
   }
   #main .contentswrap .title {
     width: 70%;
-    top: 500px;
+    top: 410px;
   }
   #main .contentswrap .title .logo {
     margin: 0 auto;
@@ -773,19 +790,19 @@
     margin-top: 0;
   }
   #main .contentswrap .title h3 {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   #main .contentswrap .title p {
     font-size: 16px;
   }
   #main .contentswrap ul.period {
     left: 50%;
-    top: 820px;
+    top: 700px;
     transform: translateX(-50%);
     font-size: 16px;
   }
   #cardnews_1 {
-    margin-top: 1000px;
+    margin-top: 800px;
   }
   #cardnews_1_detail ul li,
   #cardnews_2 ul li,
@@ -806,8 +823,8 @@
   #main_webbanner .contentswrap img {
     top: 50px;
     left: 50%;
-    width: 500px;
-    margin-left: -250px;
+    width: 400px;
+    margin-left: -200px;
   }
   #main_webbanner .contentswrap .title {
     width: 85%;
@@ -841,10 +858,10 @@
     height: 950px;
   }
   #main_webpage .contentswrap img {
-    width: 440px;
+    width: 400px;
     top: 50px;
     left: 50%;
-    margin-left: -220px;
+    margin-left: -200px;
   }
   #main_webpage .contentswrap .title {
     width: 85%;
@@ -882,14 +899,14 @@
 
   /* GRAPHIC DESIGN */
   .graphic_body #main .contentswrap img {
-    width: 300px;
+    width: 200px;
     top: 90px;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -100px;
   }
   .graphic_body #main .contentswrap .title {
     width: 70%;
-    top: 500px;
+    top: 360px;
   }
   .graphic_body #main .contentswrap .title .logo {
     margin: 0 auto;
@@ -908,12 +925,12 @@
   }
   .graphic_body #main .contentswrap ul.period {
     left: 50%;
-    top: 870px;
+    top: 710px;
     transform: translateX(-50%);
     font-size: 16px;
   }
   .graphic_body #graphic_1 {
-    margin-top: 1000px;
+    margin-top: 800px;
   }
   .graphic_body #graphic_1 ul {
     padding: 50px 0 100px 0;
@@ -1197,6 +1214,9 @@
     top: 680px;
     transform: translateX(-50%);
     font-size: 16px;
+  }
+  .project_body #project_1 {
+    margin-top: 750px;
   }
   .project_body #project_1 ul li:first-child img {
     width: 45%;
