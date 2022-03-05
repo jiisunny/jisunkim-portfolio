@@ -205,7 +205,7 @@ section {
 }
 #home img {
   width: 100%;
-  margin-top: -100px;
+  margin-top: -50px;
 }
 #maintitle {
   position: absolute;
@@ -256,6 +256,9 @@ section {
   top: 50%;
   transform: translateY(-50%);
   margin: 0 10%;
+}
+#portfolio .wrap_align .brandlist ul {
+  margin-top: 100px;
 }
 #portfolio .wrap_align .brandlist ul li {
   display: inline-block;
@@ -345,13 +348,13 @@ section {
 }
 #me .wrap_align .profile_wrap .info {
   position: absolute;
-  top: 31%;
+  top: 37%;
   left: 35%;
   font-size: 23px;
 }
 #me .wrap_align .profile_wrap .info ul.question {
   position: absolute;
-  left: 0; top: 0;
+  left: 20px; top: 0;
   text-align: right;
 }
 #me .wrap_align .profile_wrap .info ul.question li {
@@ -362,18 +365,20 @@ section {
   margin-top: 50px;
 }
 #me .wrap_align .profile_wrap .info ul.question li:last-child {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 #me .wrap_align .profile_wrap .info ul.answer {
   position: absolute;
   left: 200px;
   top: 0;
   text-align: left;
-  width: 544px;
+  width: 600px;
+  letter-spacing: 1px;
 }
 #me .wrap_align .profile_wrap .info ul.answer li {
   padding: 5px 0;
   line-height: 50px;
+  letter-spacing: 2px;
 }
 
 /**** SECTION4 ARTWORKS ****/
@@ -431,17 +436,18 @@ section {
 }
 .circle {
   width: 350px; height: 350px;
-  margin: 5% auto 0 auto;
+  margin: 4% auto 0 auto;
   border-radius: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 #contact .wrap_align .address ul.contactme {
-  margin-top: -285px;
+  margin-top: -262px;
   margin-bottom: 200px;
 }
 #contact .wrap_align .address ul.contactme li {
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 0;
+  letter-spacing: 2px;
 }
 #contact .wrap_align .address ul.contactme li:nth-of-type(3) {
   margin-top: 40px;
@@ -472,7 +478,7 @@ section {
   transition-duration: 0.3s;
 }
 #contact .wrap_align .footer .copyright {
-  font-size: 18px;
+  font-size: 16px;
   color: #6e6e6e;
   padding-top: 24px;
   z-index: 10;
@@ -524,6 +530,10 @@ section {
     letter-spacing: 15px;
     padding-top: 20px;
   }
+  #home img {
+    width: 100%;
+    margin-top: -240px;
+  }
   /***** 메뉴 제목 *****/
   .menu {
     position: absolute;
@@ -545,15 +555,16 @@ section {
   #portfolio .wrap_align .brandlist {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     margin: 0 40px;
   }
   #portfolio .wrap_align .brandlist ul {
-    margin-top: 60px;
+    width: 70%;
+    margin: 0 auto;
   }
   #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
-    padding: 0 60px;
+    padding: 0 20px;
   }
   #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
@@ -561,7 +572,8 @@ section {
   }
   .brandname {
     margin-top: 25px;
-    font-size: 22px;
+    font-size: 18px;
+    letter-spacing: 2px;
   }
   .brandlist ul li a div img {
     width: 150px;
@@ -581,15 +593,18 @@ section {
   }
   .floating1 {
     position: absolute;
-    top: 70%;
+    top: 63%;
     left: 50%;
     margin-left: -100px;
   }
   #me .wrap_align .profile_wrap .info {
     position: absolute;
     top: 57%;
-    left: 22%;
+    left: 16%;
     font-size: 16px;
+  }
+  #me .wrap_align .profile_wrap .info ul.question {
+    left: 60px;
   }
   #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
@@ -616,7 +631,9 @@ section {
     margin: 0 auto;
   }
   .artlist li a h2 {
-    font-size: 22px;
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 2px;
   }
   #artwork .wrap_align ul.artlist li {
     display: inline-block;
@@ -626,11 +643,14 @@ section {
   #artwork .wrap_align ul.artlist li a div {
     transform: scale(1.0);
     margin: 0 auto;
-    width: 250px;
+    width: 200px;
     height: auto;
   }
 
   /* SECTION5 CONTACT */
+  #contact .wrap_align .address ul.contactme {
+    margin-top: -252px;
+  }
   #contact .wrap_align .address h2 {
     font-size: 40px;
     margin-top: 4%;
@@ -644,7 +664,7 @@ section {
     font-size: 18px;
   }
   .circle {
-    width: 350px; height: 350px;
+    width: 300px; height: 300px;
     margin: 3% auto 0 auto;
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.3);
@@ -665,6 +685,9 @@ section {
     display: visible;
   }
   /**** SECTION1 HOME ****/
+  #home img {
+    margin-top: -90px;
+  }
   #home .wrap_align #maintitle .logo {
     font-size: 40px;
     height: 100px;
@@ -682,16 +705,16 @@ section {
   /***** 메뉴 제목 *****/
   .menu {
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
   }
   .title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .subtitle {
-    font-size: 20px;
+    font-size: 14px;
     padding-top: 10px;
     margin-top: 10px;
     border-top: 2px solid #fff;
@@ -700,20 +723,26 @@ section {
   #portfolio .wrap_align .brandlist {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     margin: 0 40px;
+  }
+  #portfolio .wrap_align .brandlist ul {
+    width: 90%;
+    margin: 0 auto;
   }
   #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 10px;
+    margin-top: 30px;
   }
   #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
     height: 150px;
   }
   .brandname {
-    margin-top: 25px;
-    font-size: 18px;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
   }
   .brandlist ul li a div img {
     width: 150px;
@@ -728,24 +757,27 @@ section {
 
   /* SECTION3 ABOUT ME */
   #profile img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
   }
   .floating1 {
     position: absolute;
-    top: 80%;
+    top: 47%;
     left: 50%;
     margin-left: -100px;
   }
   #me .wrap_align .profile_wrap .info {
     position: absolute;
     top: 50%;
-    left: 10%;
-    font-size: 16px;
+    left: 14%;
+    font-size: 14px;
+  }
+  #me .wrap_align .profile_wrap .info ul.question {
+    letter-spacing: 2px;
   }
   #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
     line-height: 30px;
+    letter-spacing: 1px;
   }
   #me .wrap_align .profile_wrap .info ul.question li {
     padding: 5px 0;
@@ -757,50 +789,70 @@ section {
   #me .wrap_align .profile_wrap .info ul.question li:last-child {
     margin-top: 30px;
   }
+  #me .wrap_align .profile_wrap .info ul.answer {
+    width: 550px;
+    left: 140px;
+  } 
+
   /* SECTION4 ART WORKS */
   #artwork .wrap_align .artlist li a div {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
   }
   .artlist li a div img {
-    width: 180px;
+    width: 140px;
     margin: 0 auto;
   }
   .artlist li a h2 {
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 25px;
+    letter-spacing: 2px;
   }
   #artwork .wrap_align ul.artlist li {
     display: inline-block;
     padding: 0 10px;
-    margin-top: 50px;
+    margin-top: 0;
   }
   #artwork .wrap_align ul.artlist li a div {
     transform: scale(1.0);
     margin: 0 auto;
-    width: 250px;
+    width: 180px;
     height: auto;
   }
   
   /* SECTION5 CONTACT */
   #contact .wrap_align .address h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 6%;
     letter-spacing: 3px;
   }
+  #contact .wrap_align .address ul.contactme {
+    margin-top: -217px;
+  }
+  #contact .wrap_align .address ul.contactme li {
+    font-size: 14px;
+  }
   #contact .wrap_align .address p.first {
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
   #contact .wrap_align .address p.second {
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
   .circle {
-    width: 350px; height: 350px;
-    margin: 5% auto 0 auto;
+    width: 270px; height: 270px;
+    margin: 3% auto 0 auto;
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.3);
   }
+
+
+
+
+
+
 }
 
 /* TABLET */
@@ -1039,18 +1091,22 @@ section {
     position: absolute;
     top: 12px;
     left: 12px;
-    width: 80px; height: 80px;
+    width: 70px; height: 70px;
     z-index: 300;
   }
   .myname a {
-    width: 80px; height: 80px;
+    width: 70px; height: 70px;
     background: url(../images/sunny_logo_m.png);
+    background-size: 70px;
     text-indent: -6000px;
     overflow: hidden;
     animation: rotate_image 15s linear infinite;
     transform-origin: 50% 50%;
   }
   /**** SECTION1 HOME ****/
+  #home img {
+    margin-top: 0;
+  }
   #maintitle {
     position: absolute;
     top: 20%;
@@ -1077,7 +1133,7 @@ section {
     position: absolute;
     top: 5%;
     left: 50%;
-    transform: translateX(-45%);
+    transform: translateX(-50%);
     text-align: center;
   }
   .title {
@@ -1097,6 +1153,9 @@ section {
     top: 55%;
     transform: translateY(-50%);
     margin: 0 10px;
+  }
+  #portfolio .wrap_align .brandlist ul {
+    margin-top: 0;
   }
   #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
@@ -1166,12 +1225,15 @@ section {
     left: 85px;
     top: 0;
     text-align: left;
-    width: 220px;
+    width: 210px;
   }
   #me .wrap_align .profile_wrap .info ul.answer li {
     padding: 5px 0;
     line-height: 20px;
     letter-spacing: 0.5px;
+  }
+  #me .wrap_align .profile_wrap .info ul.question {
+    left: 0;
   }
   #me .wrap_align .profile_wrap .info ul.question li {
     padding: 5px 0;
