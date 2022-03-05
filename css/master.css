@@ -533,7 +533,7 @@ section {
   }
   #home img {
     width: 100%;
-    margin-top: -240px;
+    margin-top: -140px;
   }
   /***** 메뉴 제목 *****/
   .menu {
@@ -560,7 +560,7 @@ section {
     margin: 0 40px;
   }
   #portfolio .wrap_align .brandlist ul {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
   }
   #portfolio .wrap_align .brandlist ul li {
@@ -848,12 +848,6 @@ section {
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.3);
   }
-
-
-
-
-
-
 }
 
 /* TABLET */
@@ -908,9 +902,13 @@ section {
     transform: translateY(-50%);
     margin: 50px 40px 0;
   }
+  #portfolio .wrap_align .brandlist ul {
+    margin-top: 30px;
+  }
   #portfolio .wrap_align .brandlist ul li {
     display: inline-block;
-    padding: 0 30px;
+    padding: 0 10px;
+    margin-top: 12px;
   }
   #portfolio .wrap_align .brandlist ul li a {
     width: 150px;
@@ -925,8 +923,9 @@ section {
     height: 150px;
   }
   .brandname {
-    margin-top: 25px;
-    font-size: 22px;
+    margin-top: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
   }
   .brandlist ul li a div img {
     width: 150px;
@@ -946,7 +945,7 @@ section {
   }
   .floating1 {
     position: absolute;
-    top: 95%;
+    top: 180px;
     left: 50%;
     margin-left: -100px;
   }
@@ -1013,7 +1012,7 @@ section {
   /* SECTION5 CONTACT */
   #contact .wrap_align .address h2 {
     font-size: 40px;
-    margin-top: 25%;
+    margin-top: 60px;
     letter-spacing: 3px;
   }
   #contact .wrap_align .address p.first {
@@ -1025,7 +1024,7 @@ section {
   }
   .circle {
     width: 350px; height: 350px;
-    margin: 12% auto 0 auto;
+    margin: 40px auto 0 auto;
     border-radius: 100%;
     background-color: rgba(0, 0, 0, 0.3);
   }

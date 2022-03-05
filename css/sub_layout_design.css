@@ -1321,8 +1321,8 @@ div#menu ul li:hover a .back {
 }
 .project_body #main .contentswrap img {
   position: absolute;
-  top: 16%;
-  right: 12%;
+  top: 10%;
+  right: 15%;
   width: 600px;
 }
 .project_body #main .contentswrap .title {
