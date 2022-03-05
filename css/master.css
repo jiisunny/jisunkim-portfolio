@@ -119,6 +119,7 @@ ul#main_nav > li > h3 > button {
   text-align: left;
   color: #8081d9;
   font-size: 20px;
+  font-weight: 700;
   cursor: pointer;
 }
 ul#main_nav > li:hover > h3 > button {
