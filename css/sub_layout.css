@@ -977,7 +977,42 @@ section {
     background-size: 60px;
   }
 
-  /**** NAV ****/
+  /* MAIN NAV */
+  ul#main_nav {
+    width: 70%;
+  }
+  ul#main_nav li h3  {
+    height: 45px;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  ul#main_nav li h3 button {
+    font-size: 18px;
+  }
+  ul#main_nav li.active ul.sub_nav li{
+    height: 40px;
+  }
+  ul#main_nav li ul.sub_nav li a {
+    padding-left: 60px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #9b9ce8;
+    transition-duration: 0.3s;
+  }
+  .arrow-down {
+    position: absolute;
+    right: 10%;
+    line-height: 45px;
+    font-size: 30px;
+    transform: rotateZ(0deg);
+  }
+  #main_nav_wrap label.bg_close {
+    width: 30%;
+  }
+
+  /* *** NAV ***
   ul#main_nav {
     width: 70%;
     background: #fff;
@@ -1029,7 +1064,7 @@ section {
     line-height: 45px;
     font-size: 30px;
     transform: rotateZ(0deg);
-  }
+  } */
 
   /** MAIN **/
   #main .contentswrap {
