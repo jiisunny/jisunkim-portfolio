@@ -1654,18 +1654,22 @@ section {
 }
 #uriage_body .footer {
   background-color: #1da2dd;
+  position: relative;
+  width: 100%; height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 #uriage_body .footer #btntop {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 #uriage_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_uriage.png) no-repeat;
-  background-size: 100px;
+  background-size: 80px;
 }
 #uriage_body #media .contentswrap .go {
   top: 230px;
@@ -1673,6 +1677,14 @@ section {
 #uriage_body #media .contentswrap .go .gosite a {
   padding: 0 15px;
 }
+#uriage_body .footer .copyright {
+  font-size: 13px;
+  color: #fff;
+  padding-top: 35px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1190px) {
   #uriage_body #media .contentswrap .go {
@@ -1719,22 +1731,37 @@ section {
 }
 #yuhan_body .footer {
   background-color: #865828;
+  position: relative;
+  width: 100%; height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 #yuhan_body .footer #btntop {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 #yuhan_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_yuhan.png) no-repeat;
-  background-size: 100px;
+  background-size: 80px;
 }
 #yuhan_body #media .contentswrap .go {
-  top: 180px;
+  top: 230px;
 }
+#yuhan_body #media .contentswrap .go .gosite a {
+  padding: 0 15px;
+}
+#yuhan_body .footer .copyright {
+  font-size: 13px;
+  color: #fff;
+  padding-top: 35px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1190px) {
   #yuhan_body #media .contentswrap .go {
@@ -1781,18 +1808,35 @@ section {
 }
 #twosome_body .footer {
   background-color: #a9202a;
+  position: relative;
+  width: 100%; height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 #twosome_body .footer #btntop {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 #twosome_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_twosome.png) no-repeat;
-  background-size: 100px;
+  background-size: 80px;
+}
+#twosome_body #media .contentswrap .go {
+  top: 230px;
+}
+#twosome_body #media .contentswrap .go .gosite a {
+  padding: 0 15px;
+}
+#twosome_body .footer .copyright {
+  font-size: 13px;
+  color: #fff;
+  padding-top: 35px;
+  margin-top: 0;
+  letter-spacing: 0;
 }
 #twosome_body #media .contentswrap img {
   width: 40%;
@@ -1803,13 +1847,9 @@ section {
   padding-bottom: 0;
 }
 #twosome_body #detail .contentswrap img {
-  padding: 100px 0;
-  width: 55%;
+  padding: 50px 0;
+  width: 80%;
   margin: 0 auto;
-}
-
-#twosome_body #media .contentswrap .go {
-  top: 180px;
 }
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1190px) {
@@ -1875,18 +1915,22 @@ section {
 }
 #donga_body .footer {
   background-color: #00a0c9;
+  position: relative;
+  width: 100%; height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 #donga_body .footer #btntop {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 #donga_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_donga.png) no-repeat;
-  background-size: 100px;
+  background-size: 80px;
 }
 #donga_body #media .contentswrap .go {
   top: 230px;
@@ -1894,6 +1938,14 @@ section {
 #donga_body #media .contentswrap .go .gosite a {
   padding: 0 15px;
 }
+#donga_body .footer .copyright {
+  font-size: 13px;
+  color: #fff;
+  padding-top: 35px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1190px) {
   #donga_body #media .contentswrap .go {
@@ -1943,22 +1995,37 @@ section {
 }
 #dongbu_body .footer {
   background-color: #00a88e;
+  position: relative;
+  width: 100%; height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 #dongbu_body .footer #btntop {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 #dongbu_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_dongbu.png) no-repeat;
-  background-size: 100px;
+  background-size: 80px;
 }
 #dongbu_body #media .contentswrap .go {
-  top: 180px;
+  top: 230px;
 }
+#dongbu_body #media .contentswrap .go .gosite a {
+  padding: 0 15px;
+}
+#dongbu_body .footer .copyright {
+  font-size: 13px;
+  color: #fff;
+  padding-top: 35px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1190px) {
   #dongbu_body #media .contentswrap .go {
@@ -2006,20 +2073,26 @@ section {
 #overwatch_body #media {
   padding-bottom: 100px;
 }
+
+
 #overwatch_body .footer {
   background-color: #e48f03;
+  position: relative;
+  width: 100%; height: 80px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 #overwatch_body .footer #btntop {
   position: absolute;
-  top: -50px;
+  top: -40px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40px;
 }
 #overwatch_body .footer #btntop a {
-  width: 100px;
+  width: 80px;
   height: 70px;
   background: url(../images/btn_top_overwatch.png) no-repeat;
-  background-size: 100px;
+  background-size: 80px;
 }
 #overwatch_body #media .contentswrap .go {
   top: 230px;
@@ -2027,6 +2100,14 @@ section {
 #overwatch_body #media .contentswrap .go .gosite a {
   padding: 0 15px;
 }
+#overwatch_body .footer .copyright {
+  font-size: 13px;
+  color: #fff;
+  padding-top: 35px;
+  margin-top: 0;
+  letter-spacing: 0;
+}
+
 /* TABLET 가로 MIN */
 @media screen and (min-width:871px) and (max-width:1190px) {
   #overwatch_body #media .contentswrap .go {
